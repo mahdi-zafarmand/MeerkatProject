@@ -5,5 +5,5 @@ Predominantly, the development of the application MeerkatFX is done using Netbea
 
 The project from the developer’s perspective is divided into 3 projects:
 * MeerkatUI
-         * MeerkatAPI
-         * MeerkatLogic
+* MeerkatAPI
+* MeerkatLogic
