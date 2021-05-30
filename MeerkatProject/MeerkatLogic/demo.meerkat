@@ -1,0 +1,1032 @@
+*Timeframe
+Year One
+
+*Vertices
+1 {Class=Sector; Type=Education; Default=1.0;}
+2 {Class=Sector; Type=Infrastructure; Default=1.0;}
+3 {Class=Sector; Type=Culture; Default=1.0;}
+4 {Class=Sector; Type=Health; Default=1.0;}
+5 {Class=Sector; Type=Agriculture; Default=1.0;}
+6 {Class=Program; Budget=1.01; Default=1.0;}
+7 {Class=Program; Budget=21.41; Default=1.0;}
+8 {Class=Program; Budget=0.91; Default=1.0;}
+9 {Class=Program; Budget=10.7; Default=1.0;}
+10 {Class=Program; Budget=4.3; Default=1.0;}
+11 {Class=Program; Budget=2.22; Default=1.0;}
+12 {Class=Program; Budget=7.0; Default=1.0;}
+13 {Class=Program; Budget=4.11; Default=1.0;}
+14 {Class=Program; Budget=8.08; Default=1.0;}
+15 {Class=Program; Budget=11.2; Default=1.0;}
+16 {Class=Program; Budget=13.44; Default=1.0;}
+17 {Class=Program; Budget=17.9; Default=1.0;}
+18 {Class=Program; Budget=2.05; Default=1.0;}
+19 {Class=Program; Budget=0.41; Default=1.0;}
+20 {Class=Program; Budget=6.6; Default=1.0;}
+21 {Class=Program; Budget=0.98; Default=1.0;}
+22 {Class=Program; Budget=0.77; Default=1.0;}
+23 {Class=Program; Budget=5.01; Default=1.0;}
+24 {Class=Program; Budget=0.81; Default=1.0;}
+25 {Class=Program; Budget=3.41; Default=1.0;}
+26 {Class=Company; Size=400; Default=1.0;}
+27 {Class=Company; Size=400; Default=1.0;}
+28 {Class=Company; Size=400; Default=1.0;}
+29 {Class=Company; Size=400; Default=1.0;}
+30 {Class=Company; Size=400; Default=1.0;}
+31 {Class=Company; Size=400; Default=1.0;}
+32 {Class=Company; Size=400; Default=1.0;}
+33 {Class=Company; Size=400; Default=1.0;}
+34 {Class=Company; Size=400; Default=1.0;}
+35 {Class=Company; Size=400; Default=1.0;}
+36 {Class=Company; Size=400; Default=1.0;}
+37 {Class=Company; Size=400; Default=1.0;}
+38 {Class=Company; Size=400; Default=1.0;}
+39 {Class=Company; Size=400; Default=1.0;}
+40 {Class=Company; Size=400; Default=1.0;}
+41 {Class=Company; Size=400; Default=1.0;}
+42 {Class=Company; Size=400; Default=1.0;}
+43 {Class=Company; Size=400; Default=1.0;}
+44 {Class=Company; Size=400; Default=1.0;}
+45 {Class=Company; Size=400; Default=1.0;}
+46 {Class=Company; Size=400; Default=1.0;}
+47 {Class=Company; Size=400; Default=1.0;}
+48 {Class=Company; Size=400; Default=1.0;}
+49 {Class=Company; Size=400; Default=1.0;}
+50 {Class=Company; Size=400; Default=1.0;}
+51 {Class=Company; Size=400; Default=1.0;}
+52 {Class=Company; Size=400; Default=1.0;}
+53 {Class=Company; Size=400; Default=1.0;}
+54 {Class=Company; Size=400; Default=1.0;}
+55 {Class=Company; Size=400; Default=1.0;}
+56 {Class=Company; Size=400; Default=1.0;}
+57 {Class=Company; Size=400; Default=1.0;}
+58 {Class=Company; Size=400; Default=1.0;}
+59 {Class=Company; Size=400; Default=1.0;}
+60 {Class=Company; Size=400; Default=1.0;}
+61 {Class=Company; Size=400; Default=1.0;}
+62 {Class=Company; Size=400; Default=1.0;}
+63 {Class=Company; Size=400; Default=1.0;}
+64 {Class=Company; Size=400; Default=1.0;}
+65 {Class=Company; Size=400; Default=1.0;}
+66 {Class=Company; Size=400; Default=1.0;}
+67 {Class=Company; Size=400; Default=1.0;}
+68 {Class=Company; Size=400; Default=1.0;}
+69 {Class=Company; Size=400; Default=1.0;}
+70 {Class=Company; Size=400; Default=1.0;}
+71 {Class=Company; Size=400; Default=1.0;}
+72 {Class=Company; Size=400; Default=1.0;}
+73 {Class=Company; Size=400; Default=1.0;}
+74 {Class=Company; Size=400; Default=1.0;}
+75 {Class=Company; Size=400; Default=1.0;}
+76 {Class=Company; Size=400; Default=1.0;}
+77 {Class=Company; Size=400; Default=1.0;}
+78 {Class=Company; Size=400; Default=1.0;}
+79 {Class=Company; Size=400; Default=1.0;}
+80 {Class=Company; Size=400; Default=1.0;}
+76 {Class=Company; Size=400; Default=1.0;}
+77 {Class=Company; Size=400; Default=1.0;}
+78 {Class=Company; Size=400; Default=1.0;}
+79 {Class=Company; Size=400; Default=1.0;}
+80 {Class=Company; Size=400; Default=1.0;}
+81 {Class=Company; Size=400; Default=1.0;}
+82 {Class=Company; Size=400; Default=1.0;}
+83 {Class=Company; Size=400; Default=1.0;}
+84 {Class=Company; Size=400; Default=1.0;}
+85 {Class=Company; Size=400; Default=1.0;}
+86 {Class=Company; Size=400; Default=1.0;}
+87 {Class=Company; Size=400; Default=1.0;}
+88 {Class=Company; Size=400; Default=1.0;}
+89 {Class=Company; Size=400; Default=1.0;}
+90 {Class=Company; Size=400; Default=1.0;}
+91 {Class=Company; Size=400; Default=1.0;}
+92 {Class=Company; Size=400; Default=1.0;}
+93 {Class=Company; Size=400; Default=1.0;}
+94 {Class=Company; Size=400; Default=1.0;}
+95 {Class=Company; Size=400; Default=1.0;}
+96 {Class=Company; Size=400; Default=1.0;}
+97 {Class=Company; Size=400; Default=1.0;}
+98 {Class=Company; Size=400; Default=1.0;}
+99 {Class=Company; Size=400; Default=1.0;}
+100 {Class=Company; Size=400; Default=1.0;}
+101 {Class=Company; Size=400; Default=1.0;}
+102 {Class=Company; Size=400; Default=1.0;}
+103 {Class=Company; Size=400; Default=1.0;}
+104 {Class=Company; Size=400; Default=1.0;}
+105 {Class=Company; Size=400; Default=1.0;}
+106 {Class=Company; Size=400; Default=1.0;}
+107 {Class=Company; Size=400; Default=1.0;}
+108 {Class=Company; Size=400; Default=1.0;}
+109 {Class=Company; Size=400; Default=1.0;}
+110 {Class=Company; Size=400; Default=1.0;}
+
+*Arcs
+
+*Edges
+1	2
+2	3
+3	4
+4	5
+5	1
+1	6
+1	7
+1	8
+1	9
+1	10
+2	11
+2	12
+2	13
+3	14
+3	15
+3	16
+3	17
+3	18
+4	19
+4	20
+4	21
+4	22
+5	23
+5	24
+5	25
+6	26
+6	27
+6	28
+6	29
+6	30
+6	31
+6	32
+6	33
+6	34
+6	35
+6	36
+6	37
+7	38
+7	39
+7	40
+7	41
+7	42
+7	43
+7	44
+7	45
+7	46
+7	47
+7	48
+7	49
+8	50
+8	51
+8	52
+9	53
+9	54
+9	55
+9	56
+9	57
+10	58
+10	59
+11	60
+12	61
+12	62
+12	63
+12	64
+12	65
+12	66
+12	67
+12	68
+13	69
+13	70
+14	71
+14	72
+14	73
+14	74
+15	75
+15	76
+15	77
+15	78
+16	79
+16	80
+17	81
+17	82
+17	83
+18	84
+18	85
+18	86
+18	87
+18	88
+19	89
+20	90
+21	91
+22	92
+22	93
+22	94
+22	95
+23	96
+24	97
+25	98
+25	99
+25	100
+25	101
+25	102
+25	103
+25	104
+25	105
+25	106
+25	107
+25	108
+25	109
+25	110
+93	92
+22	19
+90	89
+73	72
+88	14
+14	18
+18	16
+80	76
+62	13
+70	3
+3	5
+96	97
+101	96
+109	106
+58	7
+32	33
+33	31
+31	28
+55	8
+54	92
+95	9
+53	73
+
+*End
+
+*Timeframe
+Year Two
+
+*Vertices
+1 {Class=Sector; Type=Education; Default=1.0;}
+2 {Class=Sector; Type=Infrastructure; Default=1.0;}
+3 {Class=Sector; Type=Culture; Default=1.0;}
+4 {Class=Sector; Type=Health; Default=1.0;}
+5 {Class=Sector; Type=Agriculture; Default=1.0;}
+6 {Class=Program; Budget=1.01; Default=1.0;}
+7 {Class=Program; Budget=21.41; Default=1.0;}
+8 {Class=Program; Budget=0.91; Default=1.0;}
+9 {Class=Program; Budget=10.7; Default=1.0;}
+10 {Class=Program; Budget=4.3; Default=1.0;}
+11 {Class=Program; Budget=2.22; Default=1.0;}
+12 {Class=Program; Budget=7.0; Default=1.0;}
+13 {Class=Program; Budget=4.11; Default=1.0;}
+14 {Class=Program; Budget=8.08; Default=1.0;}
+15 {Class=Program; Budget=11.2; Default=1.0;}
+16 {Class=Program; Budget=13.44; Default=1.0;}
+17 {Class=Program; Budget=17.9; Default=1.0;}
+18 {Class=Program; Budget=2.05; Default=1.0;}
+19 {Class=Program; Budget=0.41; Default=1.0;}
+20 {Class=Program; Budget=6.6; Default=1.0;}
+21 {Class=Program; Budget=0.98; Default=1.0;}
+22 {Class=Program; Budget=0.77; Default=1.0;}
+23 {Class=Program; Budget=5.01; Default=1.0;}
+24 {Class=Program; Budget=0.81; Default=1.0;}
+25 {Class=Program; Budget=3.41; Default=1.0;}
+26 {Class=Company; Size=400; Default=1.0;}
+27 {Class=Company; Size=400; Default=1.0;}
+28 {Class=Company; Size=400; Default=1.0;}
+29 {Class=Company; Size=400; Default=1.0;}
+30 {Class=Company; Size=400; Default=1.0;}
+31 {Class=Company; Size=400; Default=1.0;}
+32 {Class=Company; Size=400; Default=1.0;}
+33 {Class=Company; Size=400; Default=1.0;}
+34 {Class=Company; Size=400; Default=1.0;}
+35 {Class=Company; Size=400; Default=1.0;}
+36 {Class=Company; Size=400; Default=1.0;}
+37 {Class=Company; Size=400; Default=1.0;}
+38 {Class=Company; Size=400; Default=1.0;}
+39 {Class=Company; Size=400; Default=1.0;}
+40 {Class=Company; Size=400; Default=1.0;}
+41 {Class=Company; Size=400; Default=1.0;}
+42 {Class=Company; Size=400; Default=1.0;}
+43 {Class=Company; Size=400; Default=1.0;}
+44 {Class=Company; Size=400; Default=1.0;}
+45 {Class=Company; Size=400; Default=1.0;}
+46 {Class=Company; Size=400; Default=1.0;}
+47 {Class=Company; Size=400; Default=1.0;}
+48 {Class=Company; Size=400; Default=1.0;}
+49 {Class=Company; Size=400; Default=1.0;}
+50 {Class=Company; Size=400; Default=1.0;}
+51 {Class=Company; Size=400; Default=1.0;}
+52 {Class=Company; Size=400; Default=1.0;}
+53 {Class=Company; Size=400; Default=1.0;}
+54 {Class=Company; Size=400; Default=1.0;}
+55 {Class=Company; Size=400; Default=1.0;}
+56 {Class=Company; Size=400; Default=1.0;}
+57 {Class=Company; Size=400; Default=1.0;}
+58 {Class=Company; Size=400; Default=1.0;}
+59 {Class=Company; Size=400; Default=1.0;}
+60 {Class=Company; Size=400; Default=1.0;}
+61 {Class=Company; Size=400; Default=1.0;}
+62 {Class=Company; Size=400; Default=1.0;}
+63 {Class=Company; Size=400; Default=1.0;}
+64 {Class=Company; Size=400; Default=1.0;}
+65 {Class=Company; Size=400; Default=1.0;}
+66 {Class=Company; Size=400; Default=1.0;}
+67 {Class=Company; Size=400; Default=1.0;}
+68 {Class=Company; Size=400; Default=1.0;}
+69 {Class=Company; Size=400; Default=1.0;}
+70 {Class=Company; Size=400; Default=1.0;}
+71 {Class=Company; Size=400; Default=1.0;}
+72 {Class=Company; Size=400; Default=1.0;}
+73 {Class=Company; Size=400; Default=1.0;}
+74 {Class=Company; Size=400; Default=1.0;}
+75 {Class=Company; Size=400; Default=1.0;}
+76 {Class=Company; Size=400; Default=1.0;}
+77 {Class=Company; Size=400; Default=1.0;}
+78 {Class=Company; Size=400; Default=1.0;}
+79 {Class=Company; Size=400; Default=1.0;}
+80 {Class=Company; Size=400; Default=1.0;}
+76 {Class=Company; Size=400; Default=1.0;}
+77 {Class=Company; Size=400; Default=1.0;}
+78 {Class=Company; Size=400; Default=1.0;}
+79 {Class=Company; Size=400; Default=1.0;}
+80 {Class=Company; Size=400; Default=1.0;}
+81 {Class=Company; Size=400; Default=1.0;}
+82 {Class=Company; Size=400; Default=1.0;}
+83 {Class=Company; Size=400; Default=1.0;}
+84 {Class=Company; Size=400; Default=1.0;}
+85 {Class=Company; Size=400; Default=1.0;}
+86 {Class=Company; Size=400; Default=1.0;}
+87 {Class=Company; Size=400; Default=1.0;}
+88 {Class=Company; Size=400; Default=1.0;}
+89 {Class=Company; Size=400; Default=1.0;}
+90 {Class=Company; Size=400; Default=1.0;}
+91 {Class=Company; Size=400; Default=1.0;}
+92 {Class=Company; Size=400; Default=1.0;}
+93 {Class=Company; Size=400; Default=1.0;}
+94 {Class=Company; Size=400; Default=1.0;}
+95 {Class=Company; Size=400; Default=1.0;}
+96 {Class=Company; Size=400; Default=1.0;}
+97 {Class=Company; Size=400; Default=1.0;}
+98 {Class=Company; Size=400; Default=1.0;}
+99 {Class=Company; Size=400; Default=1.0;}
+100 {Class=Company; Size=400; Default=1.0;}
+101 {Class=Company; Size=400; Default=1.0;}
+102 {Class=Company; Size=400; Default=1.0;}
+103 {Class=Company; Size=400; Default=1.0;}
+104 {Class=Company; Size=400; Default=1.0;}
+105 {Class=Company; Size=400; Default=1.0;}
+106 {Class=Company; Size=400; Default=1.0;}
+107 {Class=Company; Size=400; Default=1.0;}
+108 {Class=Company; Size=400; Default=1.0;}
+109 {Class=Company; Size=400; Default=1.0;}
+110 {Class=Company; Size=400; Default=1.0;}
+
+*Arcs
+
+*Edges
+1	2
+2	3
+3	4
+4	5
+5	1
+1	6
+1	7
+1	8
+1	9
+1	10
+2	11
+2	12
+2	13
+3	14
+3	15
+3	16
+3	17
+3	18
+4	19
+4	20
+4	21
+4	22
+5	23
+5	24
+5	25
+6	26
+6	27
+6	28
+6	29
+6	30
+6	31
+6	32
+6	33
+6	34
+6	35
+6	36
+6	37
+7	38
+7	39
+7	40
+7	41
+7	42
+7	43
+7	44
+7	45
+7	46
+7	47
+7	48
+7	49
+8	50
+8	51
+8	52
+9	53
+9	54
+9	55
+9	56
+9	57
+10	58
+10	59
+11	60
+12	61
+12	62
+12	63
+12	64
+12	65
+12	66
+12	67
+12	68
+13	69
+13	70
+14	71
+14	72
+14	73
+14	74
+15	75
+15	76
+15	77
+15	78
+16	79
+16	80
+17	81
+17	82
+17	83
+18	84
+18	85
+18	86
+18	87
+18	88
+19	89
+20	90
+21	91
+22	92
+22	93
+22	94
+22	95
+23	96
+24	97
+25	98
+25	99
+25	100
+25	101
+25	102
+25	103
+25	104
+25	105
+25	106
+25	107
+25	108
+25	109
+25	110
+93	92
+22	19
+90	89
+73	72
+88	14
+14	18
+1	16
+8	76
+62	13
+70	3
+3	5
+96	97
+101	96
+19	106
+58	7
+2	33
+33	31
+31	28
+55	8
+54	92
+95	9
+53	73
+
+*End
+
+*Timeframe
+Year Three
+
+*Vertices
+1 {Class=Sector; Type=Education; Default=1.0;}
+2 {Class=Sector; Type=Infrastructure; Default=1.0;}
+3 {Class=Sector; Type=Culture; Default=1.0;}
+4 {Class=Sector; Type=Health; Default=1.0;}
+5 {Class=Sector; Type=Agriculture; Default=1.0;}
+6 {Class=Program; Budget=1.01; Default=1.0;}
+7 {Class=Program; Budget=21.41; Default=1.0;}
+8 {Class=Program; Budget=0.91; Default=1.0;}
+9 {Class=Program; Budget=10.7; Default=1.0;}
+10 {Class=Program; Budget=4.3; Default=1.0;}
+11 {Class=Program; Budget=2.22; Default=1.0;}
+12 {Class=Program; Budget=7.0; Default=1.0;}
+13 {Class=Program; Budget=4.11; Default=1.0;}
+14 {Class=Program; Budget=8.08; Default=1.0;}
+15 {Class=Program; Budget=11.2; Default=1.0;}
+16 {Class=Program; Budget=13.44; Default=1.0;}
+17 {Class=Program; Budget=17.9; Default=1.0;}
+18 {Class=Program; Budget=2.05; Default=1.0;}
+19 {Class=Program; Budget=0.41; Default=1.0;}
+20 {Class=Program; Budget=6.6; Default=1.0;}
+21 {Class=Program; Budget=0.98; Default=1.0;}
+22 {Class=Program; Budget=0.77; Default=1.0;}
+23 {Class=Program; Budget=5.01; Default=1.0;}
+24 {Class=Program; Budget=0.81; Default=1.0;}
+25 {Class=Program; Budget=3.41; Default=1.0;}
+26 {Class=Company; Size=400; Default=1.0;}
+27 {Class=Company; Size=400; Default=1.0;}
+28 {Class=Company; Size=400; Default=1.0;}
+29 {Class=Company; Size=400; Default=1.0;}
+30 {Class=Company; Size=400; Default=1.0;}
+31 {Class=Company; Size=400; Default=1.0;}
+32 {Class=Company; Size=400; Default=1.0;}
+33 {Class=Company; Size=400; Default=1.0;}
+34 {Class=Company; Size=400; Default=1.0;}
+35 {Class=Company; Size=400; Default=1.0;}
+36 {Class=Company; Size=400; Default=1.0;}
+37 {Class=Company; Size=400; Default=1.0;}
+38 {Class=Company; Size=400; Default=1.0;}
+39 {Class=Company; Size=400; Default=1.0;}
+40 {Class=Company; Size=400; Default=1.0;}
+41 {Class=Company; Size=400; Default=1.0;}
+42 {Class=Company; Size=400; Default=1.0;}
+43 {Class=Company; Size=400; Default=1.0;}
+44 {Class=Company; Size=400; Default=1.0;}
+45 {Class=Company; Size=400; Default=1.0;}
+46 {Class=Company; Size=400; Default=1.0;}
+47 {Class=Company; Size=400; Default=1.0;}
+48 {Class=Company; Size=400; Default=1.0;}
+49 {Class=Company; Size=400; Default=1.0;}
+50 {Class=Company; Size=400; Default=1.0;}
+51 {Class=Company; Size=400; Default=1.0;}
+52 {Class=Company; Size=400; Default=1.0;}
+53 {Class=Company; Size=400; Default=1.0;}
+54 {Class=Company; Size=400; Default=1.0;}
+55 {Class=Company; Size=400; Default=1.0;}
+56 {Class=Company; Size=400; Default=1.0;}
+57 {Class=Company; Size=400; Default=1.0;}
+58 {Class=Company; Size=400; Default=1.0;}
+59 {Class=Company; Size=400; Default=1.0;}
+60 {Class=Company; Size=400; Default=1.0;}
+61 {Class=Company; Size=400; Default=1.0;}
+62 {Class=Company; Size=400; Default=1.0;}
+63 {Class=Company; Size=400; Default=1.0;}
+64 {Class=Company; Size=400; Default=1.0;}
+65 {Class=Company; Size=400; Default=1.0;}
+66 {Class=Company; Size=400; Default=1.0;}
+67 {Class=Company; Size=400; Default=1.0;}
+68 {Class=Company; Size=400; Default=1.0;}
+69 {Class=Company; Size=400; Default=1.0;}
+70 {Class=Company; Size=400; Default=1.0;}
+71 {Class=Company; Size=400; Default=1.0;}
+72 {Class=Company; Size=400; Default=1.0;}
+73 {Class=Company; Size=400; Default=1.0;}
+74 {Class=Company; Size=400; Default=1.0;}
+75 {Class=Company; Size=400; Default=1.0;}
+76 {Class=Company; Size=400; Default=1.0;}
+77 {Class=Company; Size=400; Default=1.0;}
+78 {Class=Company; Size=400; Default=1.0;}
+79 {Class=Company; Size=400; Default=1.0;}
+80 {Class=Company; Size=400; Default=1.0;}
+76 {Class=Company; Size=400; Default=1.0;}
+77 {Class=Company; Size=400; Default=1.0;}
+78 {Class=Company; Size=400; Default=1.0;}
+79 {Class=Company; Size=400; Default=1.0;}
+80 {Class=Company; Size=400; Default=1.0;}
+81 {Class=Company; Size=400; Default=1.0;}
+82 {Class=Company; Size=400; Default=1.0;}
+83 {Class=Company; Size=400; Default=1.0;}
+84 {Class=Company; Size=400; Default=1.0;}
+85 {Class=Company; Size=400; Default=1.0;}
+86 {Class=Company; Size=400; Default=1.0;}
+87 {Class=Company; Size=400; Default=1.0;}
+88 {Class=Company; Size=400; Default=1.0;}
+89 {Class=Company; Size=400; Default=1.0;}
+90 {Class=Company; Size=400; Default=1.0;}
+91 {Class=Company; Size=400; Default=1.0;}
+92 {Class=Company; Size=400; Default=1.0;}
+93 {Class=Company; Size=400; Default=1.0;}
+94 {Class=Company; Size=400; Default=1.0;}
+95 {Class=Company; Size=400; Default=1.0;}
+96 {Class=Company; Size=400; Default=1.0;}
+97 {Class=Company; Size=400; Default=1.0;}
+98 {Class=Company; Size=400; Default=1.0;}
+99 {Class=Company; Size=400; Default=1.0;}
+100 {Class=Company; Size=400; Default=1.0;}
+101 {Class=Company; Size=400; Default=1.0;}
+102 {Class=Company; Size=400; Default=1.0;}
+103 {Class=Company; Size=400; Default=1.0;}
+104 {Class=Company; Size=400; Default=1.0;}
+105 {Class=Company; Size=400; Default=1.0;}
+106 {Class=Company; Size=400; Default=1.0;}
+107 {Class=Company; Size=400; Default=1.0;}
+108 {Class=Company; Size=400; Default=1.0;}
+109 {Class=Company; Size=400; Default=1.0;}
+110 {Class=Company; Size=400; Default=1.0;}
+
+*Arcs
+
+*Edges
+1	2
+2	3
+3	4
+4	5
+5	1
+1	6
+1	7
+1	8
+1	9
+1	10
+2	11
+2	12
+2	13
+3	14
+3	15
+3	16
+3	17
+3	18
+4	19
+4	20
+4	21
+4	22
+5	23
+5	24
+5	25
+6	26
+6	27
+6	28
+6	29
+6	30
+6	31
+6	32
+6	33
+6	34
+6	35
+6	36
+6	37
+7	38
+7	39
+7	40
+7	41
+7	42
+7	43
+7	44
+7	45
+7	46
+7	47
+7	48
+7	49
+8	50
+8	51
+8	52
+9	53
+9	54
+9	55
+9	56
+9	57
+10	58
+10	59
+11	60
+12	61
+12	62
+12	63
+12	64
+12	65
+12	66
+12	67
+12	68
+13	69
+13	70
+14	71
+14	72
+14	73
+14	74
+15	75
+15	76
+15	77
+15	78
+16	79
+16	80
+17	81
+17	82
+17	83
+18	84
+18	85
+18	86
+18	87
+18	88
+19	89
+20	90
+21	91
+22	92
+22	93
+22	94
+22	95
+23	96
+24	97
+25	98
+25	99
+25	100
+25	101
+25	102
+25	103
+25	104
+25	105
+25	106
+25	107
+25	108
+25	109
+25	110
+93	92
+22	19
+90	89
+73	2
+88	14
+14	18
+18	16
+80	76
+62	13
+70	3
+3	5
+96	97
+101	6
+109	106
+58	7
+32	33
+33	30
+31	28
+55	8
+54	92
+95	9
+53	7
+
+*End
+
+*Timeframe
+Year Four
+
+*Vertices
+1 {Class=Sector; Type=Education; Default=1.0;}
+2 {Class=Sector; Type=Infrastructure; Default=1.0;}
+3 {Class=Sector; Type=Culture; Default=1.0;}
+4 {Class=Sector; Type=Health; Default=1.0;}
+5 {Class=Sector; Type=Agriculture; Default=1.0;}
+6 {Class=Program; Budget=1.01; Default=1.0;}
+7 {Class=Program; Budget=21.41; Default=1.0;}
+8 {Class=Program; Budget=0.91; Default=1.0;}
+9 {Class=Program; Budget=10.7; Default=1.0;}
+10 {Class=Program; Budget=4.3; Default=1.0;}
+11 {Class=Program; Budget=2.22; Default=1.0;}
+12 {Class=Program; Budget=7.0; Default=1.0;}
+13 {Class=Program; Budget=4.11; Default=1.0;}
+14 {Class=Program; Budget=8.08; Default=1.0;}
+15 {Class=Program; Budget=11.2; Default=1.0;}
+16 {Class=Program; Budget=13.44; Default=1.0;}
+17 {Class=Program; Budget=17.9; Default=1.0;}
+18 {Class=Program; Budget=2.05; Default=1.0;}
+19 {Class=Program; Budget=0.41; Default=1.0;}
+20 {Class=Program; Budget=6.6; Default=1.0;}
+21 {Class=Program; Budget=0.98; Default=1.0;}
+22 {Class=Program; Budget=0.77; Default=1.0;}
+23 {Class=Program; Budget=5.01; Default=1.0;}
+24 {Class=Program; Budget=0.81; Default=1.0;}
+25 {Class=Program; Budget=3.41; Default=1.0;}
+26 {Class=Company; Size=400; Default=1.0;}
+27 {Class=Company; Size=400; Default=1.0;}
+28 {Class=Company; Size=400; Default=1.0;}
+29 {Class=Company; Size=400; Default=1.0;}
+30 {Class=Company; Size=400; Default=1.0;}
+31 {Class=Company; Size=400; Default=1.0;}
+32 {Class=Company; Size=400; Default=1.0;}
+33 {Class=Company; Size=400; Default=1.0;}
+34 {Class=Company; Size=400; Default=1.0;}
+35 {Class=Company; Size=400; Default=1.0;}
+36 {Class=Company; Size=400; Default=1.0;}
+37 {Class=Company; Size=400; Default=1.0;}
+38 {Class=Company; Size=400; Default=1.0;}
+39 {Class=Company; Size=400; Default=1.0;}
+40 {Class=Company; Size=400; Default=1.0;}
+41 {Class=Company; Size=400; Default=1.0;}
+42 {Class=Company; Size=400; Default=1.0;}
+43 {Class=Company; Size=400; Default=1.0;}
+44 {Class=Company; Size=400; Default=1.0;}
+45 {Class=Company; Size=400; Default=1.0;}
+46 {Class=Company; Size=400; Default=1.0;}
+47 {Class=Company; Size=400; Default=1.0;}
+48 {Class=Company; Size=400; Default=1.0;}
+49 {Class=Company; Size=400; Default=1.0;}
+50 {Class=Company; Size=400; Default=1.0;}
+51 {Class=Company; Size=400; Default=1.0;}
+52 {Class=Company; Size=400; Default=1.0;}
+53 {Class=Company; Size=400; Default=1.0;}
+54 {Class=Company; Size=400; Default=1.0;}
+55 {Class=Company; Size=400; Default=1.0;}
+56 {Class=Company; Size=400; Default=1.0;}
+57 {Class=Company; Size=400; Default=1.0;}
+58 {Class=Company; Size=400; Default=1.0;}
+59 {Class=Company; Size=400; Default=1.0;}
+60 {Class=Company; Size=400; Default=1.0;}
+61 {Class=Company; Size=400; Default=1.0;}
+62 {Class=Company; Size=400; Default=1.0;}
+63 {Class=Company; Size=400; Default=1.0;}
+64 {Class=Company; Size=400; Default=1.0;}
+65 {Class=Company; Size=400; Default=1.0;}
+66 {Class=Company; Size=400; Default=1.0;}
+67 {Class=Company; Size=400; Default=1.0;}
+68 {Class=Company; Size=400; Default=1.0;}
+69 {Class=Company; Size=400; Default=1.0;}
+70 {Class=Company; Size=400; Default=1.0;}
+71 {Class=Company; Size=400; Default=1.0;}
+72 {Class=Company; Size=400; Default=1.0;}
+73 {Class=Company; Size=400; Default=1.0;}
+74 {Class=Company; Size=400; Default=1.0;}
+75 {Class=Company; Size=400; Default=1.0;}
+76 {Class=Company; Size=400; Default=1.0;}
+77 {Class=Company; Size=400; Default=1.0;}
+78 {Class=Company; Size=400; Default=1.0;}
+79 {Class=Company; Size=400; Default=1.0;}
+80 {Class=Company; Size=400; Default=1.0;}
+76 {Class=Company; Size=400; Default=1.0;}
+77 {Class=Company; Size=400; Default=1.0;}
+78 {Class=Company; Size=400; Default=1.0;}
+79 {Class=Company; Size=400; Default=1.0;}
+80 {Class=Company; Size=400; Default=1.0;}
+81 {Class=Company; Size=400; Default=1.0;}
+82 {Class=Company; Size=400; Default=1.0;}
+83 {Class=Company; Size=400; Default=1.0;}
+84 {Class=Company; Size=400; Default=1.0;}
+85 {Class=Company; Size=400; Default=1.0;}
+86 {Class=Company; Size=400; Default=1.0;}
+87 {Class=Company; Size=400; Default=1.0;}
+88 {Class=Company; Size=400; Default=1.0;}
+89 {Class=Company; Size=400; Default=1.0;}
+90 {Class=Company; Size=400; Default=1.0;}
+91 {Class=Company; Size=400; Default=1.0;}
+92 {Class=Company; Size=400; Default=1.0;}
+93 {Class=Company; Size=400; Default=1.0;}
+94 {Class=Company; Size=400; Default=1.0;}
+95 {Class=Company; Size=400; Default=1.0;}
+96 {Class=Company; Size=400; Default=1.0;}
+97 {Class=Company; Size=400; Default=1.0;}
+98 {Class=Company; Size=400; Default=1.0;}
+99 {Class=Company; Size=400; Default=1.0;}
+100 {Class=Company; Size=400; Default=1.0;}
+101 {Class=Company; Size=400; Default=1.0;}
+102 {Class=Company; Size=400; Default=1.0;}
+103 {Class=Company; Size=400; Default=1.0;}
+104 {Class=Company; Size=400; Default=1.0;}
+105 {Class=Company; Size=400; Default=1.0;}
+106 {Class=Company; Size=400; Default=1.0;}
+107 {Class=Company; Size=400; Default=1.0;}
+108 {Class=Company; Size=400; Default=1.0;}
+109 {Class=Company; Size=400; Default=1.0;}
+110 {Class=Company; Size=400; Default=1.0;}
+
+*Arcs
+
+*Edges
+1	2
+2	3
+3	4
+4	5
+5	1
+1	6
+1	7
+1	8
+1	9
+1	10
+2	11
+2	12
+2	13
+3	14
+3	15
+3	16
+3	17
+3	18
+4	19
+4	20
+4	21
+4	22
+5	23
+5	24
+5	25
+6	26
+6	27
+6	28
+6	29
+6	30
+6	31
+6	32
+6	33
+6	34
+6	35
+6	36
+6	37
+7	38
+7	39
+7	40
+7	41
+7	42
+7	43
+7	44
+7	45
+7	46
+7	47
+7	48
+7	49
+8	50
+8	51
+8	52
+9	53
+9	54
+9	55
+9	56
+9	57
+10	58
+10	59
+11	60
+12	61
+12	62
+12	63
+12	64
+12	65
+12	66
+12	67
+12	68
+13	69
+13	70
+14	71
+14	72
+14	73
+14	74
+15	75
+15	76
+15	77
+15	78
+16	79
+16	80
+17	81
+17	82
+17	83
+18	84
+18	85
+18	86
+18	87
+18	88
+19	89
+20	90
+21	91
+22	92
+22	93
+22	94
+22	95
+23	96
+24	97
+25	98
+25	99
+25	100
+25	101
+25	102
+25	103
+25	104
+25	105
+25	106
+25	107
+25	108
+25	109
+25	110
+93	92
+22	19
+90	89
+73	72
+88	14
+14	18
+18	17
+80	76
+62	13
+70	3
+3	51
+96	93
+101	96
+109	101
+58	72
+32	33
+33	31
+31	28
+55	8
+54	92
+95	91
+53	73
+
+*End
+

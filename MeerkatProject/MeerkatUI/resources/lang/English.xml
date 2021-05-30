@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Lang>
+    <WelcomeScreenTitle>Meerkat 2.0 - Welcome</WelcomeScreenTitle>
+    <WelcomeScreenMessage>Welcome to Meerkat 2.0 Miner</WelcomeScreenMessage>
+    <WelcomeScreenLogo>file:resources/logo/logo.png</WelcomeScreenLogo>
+
+    <ExitTitle>Close Meerkat ?</ExitTitle>
+    <ExitMessage>Are you sure you want to close ?</ExitMessage>
+    <ExitIconPath>file:resources/logo/logo.png</ExitIconPath>
+
+
+    <FeedbackSelectionTitle>Select your feedback</FeedbackSelectionTitle>
+    <FeedbackSelectionMessage>Select the feedbacks to be applied</FeedbackSelectionMessage>
+    <FeedbackSelectionIconPath>file:resources/logo/logo.png</FeedbackSelectionIconPath>
+        
+    <AnalysisScreenTitle>Meerkat 2.0 - Mining Tool</AnalysisScreenTitle>
+    <AnalysisScreenLogo>file:resources/logo/logo.png</AnalysisScreenLogo>
+
+    <NewProjectWizard>New Project Wizard</NewProjectWizard>
+    <CreateProject>Create Project</CreateProject>    
+    <NewProjectPrompt>Enter Project Name here..</NewProjectPrompt>
+    <NewProjectLabel>Please provide a name for the Project</NewProjectLabel>
+    <NewProjectErrorFileFound>Project with same name already exists</NewProjectErrorFileFound>
+
+    <NeighborhoodDegreeTitle>Neighborhood Degree</NeighborhoodDegreeTitle>
+    <NeighborhoodDegreeError>Neighborhood Degree (at most)</NeighborhoodDegreeError>
+    <NeighborhoodDegreePrompt>The values should range between </NeighborhoodDegreePrompt>
+    
+    <!-- List of General Controls -->
+    <Ok>OK</Ok>
+    <Cancel>Cancel</Cancel>
+    <Close>Close</Close>     
+    <Error>Error</Error>
+    <Export>Export</Export>
+    <Save>Save</Save>
+    <SaveAll>Save All</SaveAll>
+    <DontSave>Don't Save All</DontSave>
+    <Apply>Apply</Apply>
+    <VertexSingular>Vertex</VertexSingular>
+    <VertexPlural>Vertices</VertexPlural>
+    <VertexID>Vertex IDs</VertexID>
+    <EdgeSingular>Edge</EdgeSingular>
+    <EdgePlural>Edges</EdgePlural>
+    <EdgeID>Edge IDs</EdgeID>
+    <CommunitySingular>Community</CommunitySingular>
+    <CommunityPlural>Communities</CommunityPlural>
+    <CommunityID>Community IDs</CommunityID>
+    <SubCommunity>Sub-communities</SubCommunity>
+    <Filter>Search</Filter>
+    <EnableVisualization>Enable Visualization</EnableVisualization>
+    <DisbleVisualization>Disable Visualization</DisbleVisualization>
+    <AreYouSureVertex>Are you sure you want to remove vertex?</AreYouSureVertex>
+    <AreYouSureEdge>Are you sure you want to remove edge?</AreYouSureEdge>
+    <True>True</True>
+    <False>False</False>
+    <Start>Start</Start>
+    <Stop>Stop</Stop>
+    <Run>Run</Run>
+    <Yes>Yes</Yes>
+    <No>No</No>
+    <And>And</And>
+    <Compute>Compute</Compute>
+    <Information>Information</Information>
+    <OrphanSingular>Orphan</OrphanSingular>
+    <OrphanPlural>Orphans</OrphanPlural>
+
+    <!-- List of Info Messages -->    
+    <ProjectSaved>Project Saved</ProjectSaved>
+    <GraphExported>Graph Exported</GraphExported>
+    <SnapshotSaved>Snapshot(s) Saved</SnapshotSaved>
+    <MiningResultsCleared>Mining Results Cleared</MiningResultsCleared>
+    <LinkPredictionResultsCleared>Link Prediction Results Cleared</LinkPredictionResultsCleared>
+    <SelectVertex>Please select one or more vertex for this action!</SelectVertex>
+    <SelectEdge>Please select one or more edges for this action!</SelectEdge>
+    <Settings>Settings applied, restart your application!</Settings>
+    <MiningResultsComputed>Mining Results Computed</MiningResultsComputed>
+    <InfoVisualAlreadyEnabled>Visualization is already enabled</InfoVisualAlreadyEnabled>
+    <InfoVisualAlreadyDisabled>Visualization is already disabled</InfoVisualAlreadyDisabled>
+    
+    <SelectAtLeastOneVertex>Please select at least one vertex</SelectAtLeastOneVertex>
+
+    <ProjectClose>
+        <ProjectCloseMessage>Do you want to save before closing?</ProjectCloseMessage>
+        <ProjectCloseAndNotSaveMessage>Do you want to close the project?</ProjectCloseAndNotSaveMessage>
+        <ProjectCloseTitle>Save and Close Project</ProjectCloseTitle>
+        
+        <ProjectCloseIconPath>x.png</ProjectCloseIconPath>
+    </ProjectClose>
+    
+
+
+    <!-- List of Error Messages -->
+    <ErrorMessages>
+        <ErrorProjectAlreadyOpen>Project is already open</ErrorProjectAlreadyOpen>
+        <ErrorGraphAlreadyOpen>Graph is already open</ErrorGraphAlreadyOpen>
+        <ErrorAtLeastOneProject>Please create a project to add the file</ErrorAtLeastOneProject>
+        <ErrorCorruptedProjectFile>The project file is corrupted</ErrorCorruptedProjectFile>
+        <ErrorUnableToWriteGraphFile>Unable to write Graph File </ErrorUnableToWriteGraphFile>
+        <ErrorNoProjectsToSave>There are no active projects to save</ErrorNoProjectsToSave>
+        <ErrorNumericValueOnly>Numeric Values Only</ErrorNumericValueOnly>
+        <SmallerLeftValue>Value on left box should be smaller</SmallerLeftValue>
+        <ErrorSnapshotFailed>Failed to take a Snapshot</ErrorSnapshotFailed>
+        <ErrorSameLattitudeLongitudeAttr>Latitude and Longitude cannot be same</ErrorSameLattitudeLongitudeAttr>
+        <ErrorSelectBothInput>Select both inputs</ErrorSelectBothInput>
+        <ErrorGraphLoad>Load error in graph files: </ErrorGraphLoad>
+        <ErrorSaveCommunity>Save Error : One or more communities could not be saved</ErrorSaveCommunity>
+    </ErrorMessages>
+        
+    
+        
+
+    <MenuBar>
+        <MenuBarOption mnemonicParsing="true" value="_File">
+            <MenuItem class="MenuItemNewProject" icon="file:resources/icons/new.png" mnemonicParsing="true" text="_New Project" check="false" shortcut="n,ctrl,shift" disabled="0" SeparatorCount="0" />
+            <MenuItem class="MenuItemOpenProject" icon="file:resources/icons/open.png" mnemonicParsing="true" text="_Open Project" check="false" shortcut="ctrl,o,a" disabled="0" SeparatorCount="0" />
+            <MenuItem class="MenuItemLoadGraphData" icon="file:resources/icons/loadgraph.png" mnemonicParsing="true" text="_Load Graph File" check="false" shortcut="l,ctrl,shift" disabled="1" SeparatorCount="0" />
+            <MenuItem class="MenuItemSaveProject" icon="file:resources/icons/save.png" mnemonicParsing="true" text="_Save Project" check="false" shortcut="ctrl,s" disabled="1" SeparatorCount="0" />
+            <MenuItem class="MenuItemSaveCommunities" icon="file:resources/icons/savecommunities.png" mnemonicParsing="true" text="_Save Communities" check="false" shortcut="shift,ctrl,c" disabled="1" SeparatorCount="0" />
+            <MenuItem class="MenuItemExportMetrics" icon="file:resources/icons/exportmetrics.png" mnemonicParsing="true" text="_Export Metrics" check="false" shortcut="shift,ctrl,m" disabled="1" SeparatorCount="0" />
+          
+            <MenuItem class="MenuItemExit" icon="file:resources/icons/exit.png" mnemonicParsing="false" text="Exit" check="false" disabled="0" SeparatorCount="0" />
+        </MenuBarOption>
+        
+        <MenuBarOption mnemonicParsing="true" value="_Edit">              
+            <MenuItem class="MenuItemShowHideToolsRibbon" icon="" mnemonicParsing="false" text="Show/Hide Tools Ribbon" check="false" disabled="1" SeparatorCount="0" />
+            <MenuItem class="MenuItemShowHideMinimap" icon="" mnemonicParsing="false" text="Show/Hide Minimap" check="false" shortcut="shift,ctrl,h" disabled="2" SeparatorCount="1" />
+            <!--
+            <MenuItem class="MenuItemAddEdgesAttributes" icon="" mnemonicParsing="false" text="Add edges based on same Attribute Value" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemNew" icon="" mnemonicParsing="false" text="Add edges based on attribute value document similarity" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemNew" icon="" mnemonicParsing="false" text="Add edges based on similarityof selected attributes" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemNew" icon="file:resources/icons/undo.png" mnemonicParsing="false" text="Undo" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemNew" icon="file:resources/icons/redo.png" mnemonicParsing="false" text="Redo" check="false" disabled="2" SeparatorCount="1" />
+            -->
+            <MenuItem class="MenuItemAppSettings" icon="file:resources/icons/settings.png" mnemonicParsing="false" text="Meerkat Settings" check="false" disabled="0" SeparatorCount="0" />
+        </MenuBarOption>
+        
+    <!--    <MenuBarOption mnemonicParsing="true" value="_Analysis">
+                   
+        </MenuBarOption>
+
+        <MenuBarOption mnemonicParsing="true" value="_Projects">    
+        </MenuBarOption> -->
+
+        <MenuBarOption mnemonicParsing="true" value="_Graphs">
+            <MenuItem class="MenuItemModeSelect" icon="" mnemonicParsing="false" text="Select / Drag Mode" check="false" shortcut="shift,ctrl,1" disabled="2" SeparatorCount="1" />
+            <MenuItem class="MenuItemExportGraph" icon="file:resources/icons/exportgraph.png" mnemonicParsing="true" text="_Export Graph" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemGenerateGraph" icon="file:resources/icons/exportgraph.png" mnemonicParsing="true" text="Generate Graph" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemExportData" icon="file:resources/icons/exportgraph.png" mnemonicParsing="true" text="E_xport Data" check="false" disabled="2" SeparatorCount="1" />
+            <MenuItem class="MenuItemExtractSelectedVertices" icon="file:resources/icons/selectvertices.png" mnemonicParsing="false" text="Extract Sub-graph" check="false" disabled="2" SeparatorCount="2" />
+            <MenuItem class="MenuItemShortestPath" icon="" mnemonicParsing="true" text="Shortest _Path" check="false" shortcut="shift,ctrl,7" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemClearShortestPath" icon="" mnemonicParsing="true" text="_Clear Shortest Path Mode" check="false" disabled="2" SeparatorCount="0" />
+        </MenuBarOption>
+        
+        <MenuBarOption mnemonicParsing="true" value="_Vertices">
+            <MenuItem class="MenuItemModeAddVertices" icon="" mnemonicParsing="false" text="Add Vertices Mode" check="false" shortcut="shift,ctrl,2" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemModeAddVerticesTimeFrames" icon="" mnemonicParsing="false" text="Add Vertices in Multiple Timeframes" check="false" shortcut="shift,ctrl,3" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemModeDeleteVertices" icon="" mnemonicParsing="false" text="Delete Vertices Mode" check="false" shortcut="shift,ctrl,4" disabled="2" SeparatorCount="1" />
+            <MenuItem class="MenuItemPinVertices" icon="file:resources/icons/pinvertices.png" mnemonicParsing="false" text="Pin Vertices" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemUnpinVertices" icon="file:resources/icons/unpinvertices.png" mnemonicParsing="false" text="Unpin Vertices" check="false" disabled="2" SeparatorCount="1" />
+            <MenuItem class="MenuItemDeleteSelectedVertices" icon="" mnemonicParsing="false" text="Delete Selected Vertices" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemDeleteAllVertices" icon="" mnemonicParsing="false" text="Delete All Vertices" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemSelectedVertexThrob" icon="" mnemonicParsing="false" text="Throb Vertices" check="false" disabled="2" SeparatorCount="1" shortcut="t,ctrl,shift"/>  
+            <MenuItem class="MenuItemViewVertexNeighbourhood" icon="" mnemonicParsing="false" text="View Vertex Neighbourhood" check="false" disabled="2" SeparatorCount="1"/>  
+            <MenuItem class="MenuItemVertexLabel" icon="file:resources/icons/showhidevertexlabels.png" mnemonicParsing="false" text="Show Vertex Label" check="true" disabled="2" SeparatorCount="0" /> 
+            <MenuItem class="MenuItemChangeVertexLabel" icon="file:resources/icons/new.png" mnemonicParsing="false" text="Change Vertex Label" check="false" disabled="2" SeparatorCount="1" /> 
+            <MenuItem class="MenuItemTooltip" icon="" mnemonicParsing="false" text="Show/Hide Tool Tip" check="true" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemChangeVertexTooltip" icon="" mnemonicParsing="false" text="Change Vertex Tooltip" check="false" disabled="2" SeparatorCount="0" /> 
+            <!--<MenuItem class="MenuItemIncreaseVertexLabelSize" icon="" mnemonicParsing="false" text="Increase Vertex Label Size" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemDecreaseVertexLabelSize" icon="" mnemonicParsing="false" text="Decrease Vertex Label Size" check="false" disabled="2" SeparatorCount="0" /> -->
+        </MenuBarOption>
+        
+        <MenuBarOption mnemonicParsing="true" value="E_dges">
+            <MenuItem class="MenuItemModeAddEdges" icon="" mnemonicParsing="false" text="Add Edges Mode" check="false" shortcut="shift,ctrl,5" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemModeDeleteEdges" icon="" mnemonicParsing="false" text="Delete Edges Mode" check="false" shortcut="shift,ctrl,6" disabled="2" SeparatorCount="1" />
+            <MenuItem class="MenuItemExtractSelectedEdges" icon="file:resources/icons/selectedges.png" mnemonicParsing="false" text="Extract Selected Edges" check="false" disabled="2" SeparatorCount="1" />
+            <MenuItem class="MenuItemDeleteSelectedEdges" icon="" mnemonicParsing="false" text="Delete Selected Edges" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemDeleteAllEdges" icon="" mnemonicParsing="false" text="Delete All Edges" check="false" disabled="2" SeparatorCount="1" />
+            <MenuItem class="MenuItemShowHideEdges" icon="file:resources/icons/showhideedges.png" mnemonicParsing="false" text="Hide Edges" check="true" disabled="2" SeparatorCount="0" /> 
+        </MenuBarOption>
+
+        <MenuBarOption mnemonicParsing="true" value="_Community Mining">
+            <MenuItem class="MenuItemKMeansClustering" icon="" mnemonicParsing="false" text="K-Means Clustering" check="false" disabled="2" idmappingparameter="kmeans" SeparatorCount="0" />
+            <MenuItem class="MenuItemSameAttributeValue" icon="" mnemonicParsing="false" text="Same Attribute Value" check="false" disabled="2" idmappingparameter="sameattribute" SeparatorCount="1" />
+            <MenuItem class="MenuItemFastModularity" icon="" mnemonicParsing="false" text="Fast-Modularity" check="false" disabled="2" idmappingparameter="fastmodularity" SeparatorCount="0" />
+            <MenuItem class="MenuItemLouvain" icon="" mnemonicParsing="false" text="Louvain" check="false" disabled="2" idmappingparameter="louvain" SeparatorCount="0" />            
+            <MenuItem class="MenuItemLocalT" icon="" mnemonicParsing="false" text="Local T" check="false" disabled="2" idmappingparameter="localt" SeparatorCount="0" />
+            <MenuItem class="MenuItemLocalTopLeaders" icon="" mnemonicParsing="false" text="Local Top Leaders" check="false" disabled="2" idmappingparameter="localtopleaders" SeparatorCount="0" />
+            <MenuItem class="MenuItemLocalCommunity" icon="" mnemonicParsing="false" text="Local Community" check="false" disabled="2" idmappingparameter="localcommunity" SeparatorCount="1" />
+            <MenuItem class="MenuItemRosvallInfomap" icon="" mnemonicParsing="false" text="Rosvall Infomap" check="false" disabled="2" idmappingparameter="rosvallinfomap" SeparatorCount="0" />
+            <MenuItem class="MenuItemRosvallInfomod" icon="" mnemonicParsing="false" text="Rosvall Infomod" check="false" disabled="2" idmappingparameter="rosvallinfomod" SeparatorCount="1" />            
+            <MenuItem class="MenuItemDynamicCommunityMining" icon="" mnemonicParsing="false" text="Dynamic Community Mining" check="false" disabled="2" idmappingparameter="dcmining" SeparatorCount="2" />            
+            <MenuItem class="MenuItemClearMiningResults" icon="" mnemonicParsing="false" text="Clear Mining Results" check="false" disabled="2" idmappingparameter="" SeparatorCount="0" />
+        </MenuBarOption>
+        
+        <MenuBarOption mnemonicParsing="true" value="_Link Prediction">
+            <MenuItem class="MenuItemLinkPrediction" icon="file:resources/icons/exportgraph.png" mnemonicParsing="true" text="Predict _Link" check="false" disabled="2" SeparatorCount="1" />
+            <MenuItem class="MenuItemShowHidePredictedEdges" icon="file:resources/icons/exportgraph.png" mnemonicParsing="true" text="Show/Hide Only Predicted Links" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemClearLinkPrediction" icon="file:resources/icons/exportgraph.png" mnemonicParsing="true" text="Clear Link Prediction" check="false" disabled="2" SeparatorCount="0" />
+        </MenuBarOption>
+
+        <MenuBarOption mnemonicParsing="true" value="_Snapshots">
+            <MenuItem class="MenuItemSnapshotApplication" icon="" mnemonicParsing="false" text="Entire Application" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemSnapshotAllProjects" icon="" mnemonicParsing="false" text="All Graphs in All Projects" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemSnapshotCurrentProject" icon="" mnemonicParsing="false" text="All Graphs in Current Project" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemSnapshotCurrentGraph" icon="" mnemonicParsing="false" text="Current Graph" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemSnapshotCurrentViewArea" icon="" mnemonicParsing="false" text="Current View Area" check="false" disabled="2" SeparatorCount="0" />
+        </MenuBarOption>
+        
+    <!--    <MenuBarOption mnemonicParsing="true" value="_Layout">
+            <MenuItem class="MenuItemNew" icon="" mnemonicParsing="false" text="Standard" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemNew" icon="" mnemonicParsing="false" text="Metric" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemNew" icon="" mnemonicParsing="false" text="Community" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemNew" icon="" mnemonicParsing="false" text="Community Metric" check="false" disabled="2" SeparatorCount="0" />
+        </MenuBarOption> -->
+        
+        <MenuBarOption mnemonicParsing="true" value="_View">                  
+            <!--<MenuItem class="MenuItemFishEyeLens" icon="file:resources/icons/fisheyelens.png" mnemonicParsing="false" text="Fisheye Lens" check="true" disabled="2" SeparatorCount="0" />
+            --><MenuItem class="MenuItemDisableVisualization" icon="file:resources/icons/disablevisualization.png" mnemonicParsing="false" text="Disable Visualization" check="false"  disabled="2" SeparatorCount="0" />
+            <!--<MenuItem class="MenuItemEnableVisualization" icon="file:resources/icons/enablevisualization.png" mnemonicParsing="false" text="Enable Visualization" check="false"  disabled="2" SeparatorCount="1" />
+            --><MenuItem class="MenuItemEnableVisualization" icon="file:resources/icons/disablevisualization.png" mnemonicParsing="false" text="Enable Visualization" check="false"  disabled="2" SeparatorCount="1" />
+            <!--<MenuItem class="MenuItemNew" icon="file:resources/icons/New.png" mnemonicParsing="false" text="Render Qualiy" check="false" disabled="2" SeparatorCount="0" />
+            --><MenuItem class="MenuItemChangeBGColor" icon="file:resources/icons/changebackground.png" mnemonicParsing="false" text="Change Background Color" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemChangeBGImage" icon="file:resources/icons/changebackgroundimage.png" mnemonicParsing="false" text="Change Background Image" check="false" disabled="2" SeparatorCount="1" />
+            <MenuItem class="MenuItemZoomIn" icon="file:resources/icons/zoomin.png" mnemonicParsing="false" text="Zoom In" check="false" disabled="2" SeparatorCount="0" />
+            <MenuItem class="MenuItemZoomOut" icon="file:resources/icons/zoomout.png" mnemonicParsing="false" text="Zoom Out" check="false" disabled="2" SeparatorCount="0" />
+            
+        </MenuBarOption>
+        
+        <MenuBarOption mnemonicParsing="true" value="_Help">                  
+            <MenuItem class="MenuItemDocumentation" icon="file:resources/icons/documentation.png" mnemonicParsing="false" text="Documentation" check="false" disabled="0" SeparatorCount="0" />
+            <MenuItem class="MenuItemAbout" icon="" mnemonicParsing="false" text="About Meerkat" check="false" disabled="0" SeparatorCount="0" />
+            <MenuItem class="MenuItemAppParameters" icon="file:resources/icons/systemparameters.png" mnemonicParsing="false" text="System Parameters" check="false" disabled="0" SeparatorCount="0" />
+        </MenuBarOption>
+    </MenuBar>
+    
+    <AccordionTabs>
+        <LayoutTab title="Layouts">
+            <LayoutGroup title="Standard Layouts" type="Standard">
+                <LayoutItem text="Circle" id="LayoutCircle"/>
+            <!--    <LayoutItem text="Harel-Koren Fast Multiscale" id="LayoutHarel"/>
+                <LayoutItem text="ISOM" id="LayoutISOM"/> -->
+                <LayoutItem text="Kamada-Kawai" id="LayoutKamada"/>
+                <LayoutItem text="Fruchterman-Reingold" id="LayoutFR"/>
+                <LayoutItem text="ForceAtlas 2" id="LayoutForceAtlas"/>
+                <LayoutItem text="Modified Fruchterman-Reingold" id="LayoutMFR"/>
+                <LayoutItem text="Random" id="LayoutRandom"/>
+            <!--    <LayoutItem text="Spring" id="LayoutSpring"/>
+                <LayoutItem text="Spatial" id="LayoutSpatial" class="LayoutSpatial"/> -->
+            </LayoutGroup>
+            
+            <LayoutGroup title="Metric Layouts" type="Metric">
+                <LayoutItem text="Authority" id="LayoutBullseye" parameter="Authority"/>
+                <LayoutItem text="Betweenness Centrality" id="LayoutBullseye" parameter="Betweenness"/>
+                <LayoutItem text="Closeness Centrality" id="LayoutBullseye" parameter="Closeness"/>
+                <LayoutItem text="Hub" id="LayoutBullseye" parameter="Hub"/>
+                <LayoutItem text="In-Degree" id="LayoutBullseye" parameter="InDegree"/>
+                <LayoutItem text="Out-Degree" id="LayoutBullseye" parameter="OutDegree"/>
+                <LayoutItem text="Page Rank" id="LayoutBullseye" parameter="PageRank"/>
+            </LayoutGroup>
+            
+            <LayoutGroup title="Community Layouts" type="Community">
+                <LayoutItem text="COMB" id="LayoutCOMB"/>
+                <LayoutItem text="COMC" id="LayoutCOMC"/>
+            </LayoutGroup>
+        </LayoutTab>
+        
+        <DetailsTab 
+            title="Details" 
+            edgeText="Edges" 
+            vertexText="Vertices" 
+            density="Density" 
+            connections="Average Number of Connections"
+            coefficient="Average Clustering Coefficient" 
+            assortavity="Average Assortativity Co-efficient" 
+            shortestpath="Average Shortest Path Distance"
+        />
+        
+        <FilterTab 
+            title="Filters"
+            ButtonAddEdgeAttribute="+"
+            ButtonRemoveEdgeAttribute="-"
+            LabelVertexAttribute="Vertex Attributes Filter"
+            ButtonAddVertexAttribute="+"
+            ButtonRemoveVertexAttribute="-"
+            LabelEdgeAttribute="Edge Attributes Filter"
+            ButtonRemoveFilter="-"
+            ButtonApplyFilter="Filter"
+        />
+        
+        <StatisticsTab title="Vertex Statistics">
+            <Metric text="Authority" id="Authority" parameter="Authority"/>
+            <Metric text="Betweenness" id="Betweenness" parameter=""/>
+            <Metric text="Closeness" id="Closeness" parameter=""/>
+            <Metric text="Hub" id="Hub" parameter="Hub"/>
+            <Metric text="InDegree" id="InDegree" parameter=""/>
+            <Metric text="OutDegree" id="OutDegree" parameter=""/>
+            <Metric text="PageRank" id="PageRank" parameter=""/>
+        </StatisticsTab>
+        
+        <CommunityTab title="Communities">
+        </CommunityTab>
+    </AccordionTabs>
+    
+    <ThreadTreeParameters>
+        <Project>Project</Project>
+        <FileName>Filename</FileName>
+        <Vertex>Node(s)</Vertex>
+        <Edge>Edge(s)</Edge>
+        <TwitterUser>Twitter User</TwitterUser>
+        <Topic>Topic of Discussion</Topic>
+        <HashTag>Hashtag</HashTag>
+        <Author>Forum Author</Author>
+        <Term>Term Used</Term>
+        <TermCloud>Term Cloud</TermCloud>
+    </ThreadTreeParameters>
+
+    <Options>
+        <AddNode>Add Vertex</AddNode>
+        <NewNode>New Node</NewNode>
+        <RemoveNode>Remove Vertex</RemoveNode>
+        
+        <AddEdge>Add Edge</AddEdge>
+        <NewEdge>New Node</NewEdge>        
+        <RemoveEdge>Remove Edge</RemoveEdge>
+        
+        <GenerateGraph>Generate Graph</GenerateGraph>
+        <EmotionAnalysis>Emotion Analysis</EmotionAnalysis>
+        <PolarityAnalysis>Polarity Analysis</PolarityAnalysis>
+        <WordCloud>Word Cloud</WordCloud>
+        <TopicModelling>Topic Modelling</TopicModelling>
+        
+        <LoadGraph>Load Graph</LoadGraph>
+        <NewGraph>New Graph</NewGraph>
+        <RemoveGraph>Delete Graph</RemoveGraph>
+        <RenameGraph>Rename Graph</RenameGraph>
+        
+        <LoadTextualGraph>Load Textual Graph</LoadTextualGraph>
+        <NewTextualGraph>New Textual Graph</NewTextualGraph>
+        <RemoveTextualGraph>Delete Textual Graph</RemoveTextualGraph>        
+        <RenameTextualGraph>Rename Textual Graph</RenameTextualGraph>
+
+        <LoadProject>Load a Project</LoadProject>
+        <NewProject>Create New Project</NewProject>
+        <RemoveProject>Delete Project</RemoveProject>
+        <RenameProject>Rename Project</RenameProject>
+        
+        <AddContent>Add Content</AddContent>
+        <AddSubThread>Add Sub-Thread</AddSubThread>
+    </Options>
+
+    <PolarityContent>
+        <Title>Polarity Analysis and Feedback</Title>
+        <Feedback>Feedback</Feedback>
+        <SentencePolarity>Change Sentence Polarity</SentencePolarity>
+        <WordPolarity>Change Word Polarity</WordPolarity>
+        <StronglyPositive>Strongly Positive</StronglyPositive>
+        <Positive>Positive</Positive>
+        <Neutral>Neutral</Neutral>
+        <Negative>Negative</Negative>
+        <StronglyNegative>Strongly Negative</StronglyNegative>
+        <TotalPolarity>Total Polarity of the Document</TotalPolarity>
+    </PolarityContent>
+
+    <EmotionContent>
+        <Title>Emotion Analysis</Title>
+        <Surprise>Surprise</Surprise>
+        <Anger>Anger</Anger>
+        <Sadness>Sadness</Sadness>
+        <Thank>Thankfulness</Thank>
+        <Fear>Fear</Fear>
+        <Joy>Joy</Joy>
+        <Love>Love</Love>
+        <Disgust>Disgust</Disgust>
+        <Guilt>Guilt</Guilt>
+    </EmotionContent>
+
+    <NodeContextMenu>
+        <NodeInfo>Vertex Information</NodeInfo>
+        <NodeNeighbor>Vertex Neighborhood</NodeNeighbor>
+        <Style>Styling</Style>
+        <Shape>Shape</Shape>
+        <Size>Size</Size>
+        <LabelSize>Label Size</LabelSize>
+        <Color>Color</Color>
+        <NodeDelete>Remove Vertex</NodeDelete>
+        <NodePin>Pin Vertex</NodePin>
+        <NodeUnpin>Unpin Vertex</NodeUnpin>
+        <NodeExtract>Extract Selected Vertices</NodeExtract>
+    </NodeContextMenu>
+
+    <EdgeContextMenu>
+        <EdgeInfo>Edge Information</EdgeInfo>
+        <Style>Styling</Style>
+        <LineStyle>Line Style</LineStyle>
+        <Width>Width</Width>
+        <Color>Color</Color>
+        <Delete>Remove Edge</Delete>
+    </EdgeContextMenu>
+
+    <CanvasContextMenu>
+        <PinVertices>Pin Vertices</PinVertices>
+        <UnpinVertices>Unpin Vertices</UnpinVertices>
+        <ShowHideMinimap>Show/Hide Minimap</ShowHideMinimap>
+        <ChangeBGColor>Change Background Color</ChangeBGColor>
+        <ChangeBGImage>Change Background Image</ChangeBGImage>
+        <ClearBGImage>Clear Background</ClearBGImage>
+        <ExtractSubGraph>Extract SubGraph</ExtractSubGraph>
+        <LinkPredictionMenu>Link Prediction</LinkPredictionMenu>
+        <RemoveNode>Remove Vertices</RemoveNode>
+        <RemoveEdge>Remove Edges</RemoveEdge>
+        <VertexInfo>Vertex Information</VertexInfo>
+    </CanvasContextMenu>
+
+
+    <CommunityContextMenu>
+        <PinVertices>Pin Vertices</PinVertices>
+        <UnpinVertice>Unpin Vertices</UnpinVertice>
+        <ExtractGraph>Extract as New Graph</ExtractGraph>
+        <SaveCommunity>Save Community</SaveCommunity>
+    </CommunityContextMenu>
+
+    <CommunitiesContextMenu>
+        <SaveCommunities>Save all Communities</SaveCommunities>
+        <ExtractGraph>Extract as a New Graph</ExtractGraph>
+        <MiningAlgorithms>Mining Algorithms</MiningAlgorithms>
+        <ClearMiningResults>Clear Mining Results</ClearMiningResults>
+        <KMeansAlgorithm>K-Means</KMeansAlgorithm>
+        <FastModularityAlgorithm>Fast Modularity</FastModularityAlgorithm>
+        <LouvainAlgorithm>Fast Modularity</LouvainAlgorithm>
+        <SameAttributeValueAlgorithm>Same Attribute Value</SameAttributeValueAlgorithm>
+        <LocalTAlgorithm>Local T</LocalTAlgorithm>
+        <LocalTopAlgorithm>Local Top</LocalTopAlgorithm>
+        <LocalCommunityAlgorithm>Local Community</LocalCommunityAlgorithm>
+        <RosvallInfomapAlgorithm>Rosvall Infomap</RosvallInfomapAlgorithm>
+        <RosvallInfomodAlgorithm>Rosvall Infomod</RosvallInfomodAlgorithm>
+        <DynamicCommunityAlgorithm>Dynamic Community</DynamicCommunityAlgorithm>
+    </CommunitiesContextMenu>
+
+
+    <ToolsRibbon>
+        <HideTools>Hide this ribbon</HideTools>
+        <ShowTools>Show tools ribbon</ShowTools>
+    </ToolsRibbon>
+
+    <GraphEditingTools>
+        <Header>Editing Tools</Header>
+        
+        <AddEdgeToolTip>adds an edge between two vertices [Ctrl + Shift + 5]</AddEdgeToolTip>
+        <AddEdgeImageURL>file:resources/icons/addedge.png</AddEdgeImageURL>
+        
+        <AddVertexToolTip>adds a vertex [Ctrl + Shift + 2]</AddVertexToolTip>
+        <AddVertexImageURL>file:resources/icons/addvertex.png</AddVertexImageURL>
+        
+        <AddVertexMultipleTimeFramesToolTip>adds a vertex in multiple timeFrames [Ctrl + Shift + 3]</AddVertexMultipleTimeFramesToolTip>
+        <AddVertexMultipleTimeFramesImageURL>file:resources/icons/addVertexMultipleTimeFrames.png</AddVertexMultipleTimeFramesImageURL>
+        
+        <DeleteVertexToolTip>deletes a vertex [Ctrl + Shift + 4]</DeleteVertexToolTip>
+        <DeleteVertexImageURL>file:resources/icons/removevertex.png</DeleteVertexImageURL>
+        
+        <DeleteEdgeToolTip>deletes an edge [Ctrl + Shift + 6]</DeleteEdgeToolTip>
+        <DeleteEdgeImageURL>file:resources/icons/removeedge.png</DeleteEdgeImageURL>
+        
+        <SelectToolTip>selects an edge or a vertex</SelectToolTip>
+        <SelectImageURL>file:resources/icons/select.png</SelectImageURL>
+        
+        <ShortestPathToolTip>finds the shortest path between two vertices [Ctrl + Shift + 7]</ShortestPathToolTip>
+        <ShortestPathImageURL>file:resources/icons/shortest_path_16x16.png</ShortestPathImageURL>
+        
+        <SelectMultiToolTip>select, scroll and drag mode [Ctrl + Shift + 1]</SelectMultiToolTip>
+        <SelectMultiImageURL>file:resources/icons/cursor.png</SelectMultiImageURL>
+        
+        <EdgeImageURL>file:resources/icons/edge.png</EdgeImageURL>
+        <EdgeTooltipURL>controls edge size</EdgeTooltipURL>
+        
+        <VertexImageURL>file:resources/icons/vertex.png</VertexImageURL>
+        <VertexTooltipURL>controls vertex size</VertexTooltipURL>
+        
+        <VertexColorImageURL>file:resources/icons/vertex.png</VertexColorImageURL>
+        <VertexColorTooltipURL>change vertex color</VertexColorTooltipURL>
+        
+        <EdgeColorImageURL>file:resources/icons/edge.png</EdgeColorImageURL>
+        <EdgeColorTooltipURL>change edge color</EdgeColorTooltipURL>
+        
+    </GraphEditingTools>
+
+
+    <SnapshotTools>
+        <Header>Editing Tools</Header>
+        <AllProjectsLabel>All Projects</AllProjectsLabel>
+
+        <AppSnapshotToolTip>Snapshot of the Application</AppSnapshotToolTip>
+        <AppSnapshotImageURL>file:resources/icons/appsnapshot.png</AppSnapshotImageURL>
+
+        <AllOpenGraphsActiveProjectToolTip>Snapshot of Current Project</AllOpenGraphsActiveProjectToolTip>
+        <AllOpenGraphActiveProjectImageURL>file:resources/icons/currentproject.png</AllOpenGraphActiveProjectImageURL>
+        
+        <AllOpenGraphsAllProjectsToolTip>Snapshot of All Projects</AllOpenGraphsAllProjectsToolTip>
+        <AllOpenGraphsAllProjectsImageURL>file:resources/icons/allprojects.png</AllOpenGraphsAllProjectsImageURL>
+        
+        <CurrentGraphCompleteToolTip>Complete Snapshot of the current graph</CurrentGraphCompleteToolTip>
+        <CurrentGraphCompleteImageURL>file:resources/icons/entiregraph.png</CurrentGraphCompleteImageURL>
+        
+        <CurrentGraphViewOnlyToolTip>Snapshot of the visible part of graph</CurrentGraphViewOnlyToolTip>
+        <CurrentGraphViewOnlyImageURL>file:resources/icons/visiblegraph.png</CurrentGraphViewOnlyImageURL>
+    </SnapshotTools>
+
+    <BackgroundColorChange>
+        <Title>Change Background Color</Title>
+        <Information>Select a color for the background</Information>
+        <Error>There is no project/graph to change color</Error>
+    </BackgroundColorChange>
+
+    <AddEdgeAttribute>
+        <ImageURL>file:resources/icons/appsnapshot.png</ImageURL>
+        <Header>Add Edges</Header>
+        <Information>Adds the Edge based on an Attribute Value</Information>
+        <Attribute>Select Attribute</Attribute>
+        <EdgeType>Edge Type</EdgeType>
+        <AttributeName>Attribute Name</AttributeName>
+        <AttributeValue>Attribute Value</AttributeValue>
+        <MultipleValues>Multiple Values</MultipleValues>
+        <Separator>Seprator</Separator>
+    </AddEdgeAttribute>
+
+
+    <AddEdgeAttributeSimilairty>
+        <Header>Add Edges</Header>
+        <ImageURL>file:resources/icons/appsnapshot.png</ImageURL>        
+        <Information>Adds the Edge based on an Attribute Value</Information>
+        <Attribute>Select Attribute</Attribute>
+        <Similarity>Similairty Measure</Similarity>
+        <Threshold>Threshold</Threshold>
+        <ThresholdError>Can only be a number</ThresholdError>
+
+        <SimilarityMeasure title="Standard Layouts">
+            <LayoutItem text="Circle" id="LayoutCircle"/>
+            <LayoutItem text="Spring" id="LayoutSpring"/>
+        </SimilarityMeasure>
+    </AddEdgeAttributeSimilairty>
+
+    <ToolsRibbonContextMenu>
+        <HideRibbon>Hide Ribbon</HideRibbon>
+    </ToolsRibbonContextMenu>
+
+    <VertexLabelSelectAttribute>
+        <Title>Vertex Label</Title>
+        <Message>Select Attribute</Message>
+    </VertexLabelSelectAttribute>
+
+    <VertexTooltipSelectAttribute>
+        <Title>Vertex Tooltip</Title>
+        <Message>Select Attribute</Message>
+    </VertexTooltipSelectAttribute>
+
+    <FilterOperators>
+        <Operator text="= (equal to)" value="=" type="numeric" />
+        <Operator text="!= (not equal to)" value="!=" type="numeric" />
+        <Operator text="&lt; (lesser than)" value="&lt;" type="numeric" />
+        <Operator text="&gt; (greater than)" value="&gt;" type="numeric" />
+        <Operator text="&lt;= (less than or equal to)" value="&lt;=" type="numeric" />
+        <Operator text="&gt;= (greater than or equal to)" value="&gt;=" type="numeric" />
+        <Operator text="between" value="between" type="numeric" />
+
+
+        <Operator text="matches exactly" value="=" type="nonnumeric" />
+        <Operator text="contains" value="contains" type="nonnumeric" />
+        <Operator text="starts with" value="startswith" type="nonnumeric" />
+        <Operator text="ends with" value="endswith" type="nonnumeric" />
+        <Operator text="empty" value="empty" type="nonnumeric" />
+        <Operator text="not empty" value="notempty" type="nonnumeric" />
+    <!--    <Operator text="similar" value="similar" type="nonnumeric" /> -->
+    </FilterOperators>
+
+
+    <SettingsWindow>
+        <Title>Meerkat Settings</Title>
+        <UITabTitle>User Interface</UITabTitle>
+        <AlgorithmParametersTabTitle>Algorithm Parameters</AlgorithmParametersTabTitle>
+        <VertexColorDefault>Vertex Color(Default)</VertexColorDefault>
+        <VertexColorSelected>Vertex Color (Selected)</VertexColorSelected>
+        <VertexShapeDefault>Vertex Shape (Default)</VertexShapeDefault>
+        <VertexSizeDefault>Vertex Size (Default)</VertexSizeDefault>
+        <VertexOpacityDefault>Vertex Opacity</VertexOpacityDefault>
+        <VertexLabelFontSizeDefault>Vertex Label Size</VertexLabelFontSizeDefault>
+        <EdgeColorPrimary>Edge Color (Primary)</EdgeColorPrimary>
+        <EdgeColorSecondary>Edge Color (Secondary)</EdgeColorSecondary>
+        <EdgeColorTertiary>Edge Color (Tertiary)</EdgeColorTertiary>
+        <EdgeOpacity>Edge Opacity</EdgeOpacity>
+        <EdgeStrokeWidth>Edge Stroke Width</EdgeStrokeWidth>
+        <CanvasBackgroundColorDefault>Canvas Background Color</CanvasBackgroundColorDefault>
+        <CanvasDragRectColor>Drag Rectangle Color</CanvasDragRectColor>
+        <CanvasDragRectOpacity>Drag Rectangle Opacity</CanvasDragRectOpacity>
+        <CanvasZoomFactor>Zoom Scale</CanvasZoomFactor>
+        <KMeansDefaultClusters>K-Means - Cluster Count</KMeansDefaultClusters>
+        <SameAttributeMultipleValues>Same Attribute Values - Multiple Values</SameAttributeMultipleValues>
+        <FastModularityAlgorithm>Fast Modularity - Algorithm Type</FastModularityAlgorithm>
+        <FastModularityWeighted>Fast Modularity - Weighted?</FastModularityWeighted>
+        <LocalTopLeadersDefaultClusters>Local Top Leaders - Cluster Count</LocalTopLeadersDefaultClusters>
+        <LocalTopLeadersDefaultOutlierPercentage>Local Top Leaders - OutLier Percentage</LocalTopLeadersDefaultOutlierPercentage>
+        <LocalTopLeadersDefaultHubPercentage>Local Top Leaders - Hub Percentage</LocalTopLeadersDefaultHubPercentage>
+        <LocalTopLeadersDefaultCenterDistance>Local Top Leaders - Center Distance</LocalTopLeadersDefaultCenterDistance>
+        <LocalCommunityAlgorithm>Local Community - Algorithm Type</LocalCommunityAlgorithm>
+        <LocalCommunityOverlap>Local Community - Overlap?</LocalCommunityOverlap>
+        <RosvallInfoMapNoOfAttempts>Rosvall InfoMap - Number of Attempts</RosvallInfoMapNoOfAttempts>
+        <RosvallInfoMapIsDirected>Rosvall InfoMap - Is Directed?</RosvallInfoMapIsDirected>
+        <RosvallInfoModNoOfAttempts>Rosvall InfoMod - Number of Attempts</RosvallInfoModNoOfAttempts>
+        <DCMiningSimilarityThreshold>DCMining - Similarity Threshold</DCMiningSimilarityThreshold>
+        <DCMiningMetric>DCMining - Metric</DCMiningMetric>
+        <DCMiningMethod>DCMining - Method</DCMiningMethod>
+        <DCMiningInstability>DCMining - Instability</DCMiningInstability>
+        <DCMiningHistory>DCMining - History</DCMiningHistory>
+        <DCMiningOverlap>DCMining - Overlap?</DCMiningOverlap>
+        <DCMiningHubs>DCMining - Hubs?</DCMiningHubs>
+    </SettingsWindow>
+
+    <ApplicationParameters>
+        <OS>Operating System</OS>
+        <Processors>Number of Cores</Processors>
+        <TotalMemory>Total Physical Memory</TotalMemory>
+        <JVMVersion>Java Version</JVMVersion>
+        <TotalJVMMemory>Total JVM Memory</TotalJVMMemory>
+        <UsedJVMMemory>Total JVM Memory Used</UsedJVMMemory>
+        <FreeJVMMemory>Free JVM Memory</FreeJVMMemory>
+    </ApplicationParameters>
+
+    <AboutMeerkat>
+        Meerkat is a social network analysis tool developed at AMII, Department of Computing Science, University of Alberta, under the leadership of Dr. Osmar Zaïane.  
+
+        For more details please visit us online at: https://www.amii.ca/meerkat or email us at meerkat@cs.ualberta.ca  
+
+        Version Release Date: 2017 September 31  
+
+        Current Developers : Sankalp Prabhakar, Talat Iqbal Syed
+
+        Past and Present Team Members (alphabetically): Abhimanyu Panwar, Ali Yadollahi, Afra Abnar, Amin Travelsi, Eric Verbeek, Farzad Sangi, Justin Fagnan, 
+        Jiyang Chen, Matt Gallivan, Mansoureh Takaffoli, Reihaneh Rabbany, Sankalp Prabhakar, Shiva Zamani Gharaghooshi, Talat Iqbal Syed, Xiaoxiao Li.
+    </AboutMeerkat>
+
+    <DocumentationMeerkat>
+        Coming soon - check webpage - https://www.amii.ca/meerkat for latest version of documentation.
+    </DocumentationMeerkat>
+
+
+    <StatusMessages>
+
+        <OperationCancelled>Operation Cancelled by the User</OperationCancelled>
+        <OperationFailed>Failed to complete the requested operation</OperationFailed>
+
+        <WindowOpened>Window Opened</WindowOpened>
+        <WindowOpening>Opening Window</WindowOpening>
+        <WindowClosed>Window Closed</WindowClosed>
+        <WindowClosing>Closing Window</WindowClosing>
+
+        <ChangesSaving>Saving Change(s)</ChangesSaving>
+        <ChangesSaved>Change(s) Saved</ChangesSaved>
+        <ChangesDiscarding>Discarding Change(s)</ChangesDiscarding>
+        <ChangesDiscard>Change(s) Discarded</ChangesDiscard>
+
+        <ApplicationOpen>Application has started</ApplicationOpen>
+        <ApplicationOpening>Opening the application</ApplicationOpening>
+        <ApplicationClosing>Closing the application</ApplicationClosing>
+
+        <WaitingUserInput>Waiting for the user input</WaitingUserInput>
+
+        <ProjectOpened>Project Opened</ProjectOpened>
+        <ProjectOpening>Opening the Project</ProjectOpening>
+        <ProjectClosed>Project Closed</ProjectClosed>
+        <ProjectClosing>Closing the Project</ProjectClosing>
+        <ProjectAdded>Project Added</ProjectAdded>
+        <ProjectAdding>Adding the Project</ProjectAdding>
+        <ProjectSaved>Project Saved</ProjectSaved>
+        <ProjectSaving>Saving the Project</ProjectSaving>
+
+        <GraphOpened>Graph Opened</GraphOpened>
+        <GraphOpening>Opening the Graph</GraphOpening>
+        <GraphClosed>Graph Closed</GraphClosed>
+        <GraphClosing>Closing the Graph</GraphClosing>
+        <GraphAdded>Graph Added</GraphAdded>
+        <GraphAdding>Adding the Graph</GraphAdding>
+        <GraphSaved>Graph Saved</GraphSaved>
+        <GraphSaving>Saving the Graph</GraphSaving>
+        <GraphExported>Graph Exported</GraphExported>
+        <GraphExporting>Exporting the Graph</GraphExporting>
+
+        <LayoutRunning>Layout Running</LayoutRunning>
+        <LayoutCompleted>Layout Completed</LayoutCompleted>
+        <LayoutStopped>Layout Stopped</LayoutStopped>
+        <LayoutCancelled>Layout processing cancelled</LayoutCancelled>
+
+        <EditingVertexAdded>Vertex has been added</EditingVertexAdded>
+        <EditingVerticesAdded>Vertices have been added</EditingVerticesAdded>
+        <EditingVertexDeleted>Vertex has been deleted</EditingVertexDeleted>
+        <EditingVerticesDeleted>Vertices have been deleted</EditingVerticesDeleted>
+        <EditingVertexSelected>Vertex has been selected</EditingVertexSelected>
+        <EditingVerticesSelected>Vertices have been selected</EditingVerticesSelected>
+
+        <EditingEdgeAdded>Edge has been added</EditingEdgeAdded>
+        <EditingEdgesAdded>Edges have been added</EditingEdgesAdded>
+        <EditingEdgeDeleted>Edge has been deleted</EditingEdgeDeleted>
+        <EditingEdgesDeleted>Edges have been deleted</EditingEdgesDeleted>
+        <EditingEdgeSelected>Edge has been selected</EditingEdgeSelected>
+        <EditingEdgesSelected>Edges have been selected</EditingEdgesSelected>
+        <EditingSelectionToolSelected>The Selected has been selected</EditingSelectionToolSelected>
+
+        <SnapshotApplication>Snapshot of the application is saved</SnapshotApplication>
+        <SnapshotAllProjects>Snapshots of all the graphs in all the projects have been saved</SnapshotAllProjects>
+        <SnapshotAllGraphs>Snapshots of all the graphs in the current projects have been saved</SnapshotAllGraphs>
+        <SnapshotCurrentGraph>Snapshot of the complete graph is saved</SnapshotCurrentGraph>
+        <SanpshotCurrentView>Snapshot of the current view of the graph has been saved</SanpshotCurrentView>
+
+        <ShowToolsRibbon>Tools Ribbon is shown</ShowToolsRibbon>
+        <HideToolsRibbon>Tools Ribbon is hidden</HideToolsRibbon>
+        <WantToHideToolsRibbon>Do yo want to hide Tools Ribbon ?</WantToHideToolsRibbon> 
+
+
+        <ShowApplicationParameters>Showing Application Parameters</ShowApplicationParameters>
+        <ClosedApplicationParameters>Application Parameters Dialog Closed</ClosedApplicationParameters>
+
+        <ShowDocumentation>Documentation is Open</ShowDocumentation>
+        <ClosedDocumentation>Documentation Closed</ClosedDocumentation>
+
+        <ShowAbout>About Meerkat is shown</ShowAbout>
+        <ClosedAbout>About Meerkat is closed</ClosedAbout>
+
+        <ShowSettings>Meerkat Settings Window is shown</ShowSettings>
+        <ClosedSettings>Meerkat Settings Window is closed</ClosedSettings>
+        <AppliedSettings>Setting have been applied</AppliedSettings>
+        <AppliedClosedSettings>Applied the Settings and Closed the Window</AppliedClosedSettings>
+        <CancelledSettings>Settings has been cancelled</CancelledSettings>
+
+        <VertexLabelEnabled>Vertex Label are enabled</VertexLabelEnabled>
+        <VertexLabelEnabling>Enabling Vertex Label</VertexLabelEnabling>
+        <VertexLabelDisabled>Vertex Label are disabled</VertexLabelDisabled>
+        <VertexLabelDisabling>Disabling Vertex Label</VertexLabelDisabling>
+
+        <VertexTooltipEnabled>Tooltip for the vertices are enabled</VertexTooltipEnabled>
+        <VertexTooltipEnabling>Enabling Vertex Tooltip</VertexTooltipEnabling>
+        <VertexTooltipDisabled>Tooltip for the vertices are disabled</VertexTooltipDisabled>
+        <VertexTooltipDisabling>Disabling Vertex Tooltip</VertexTooltipDisabling>
+
+        <VertexPinningEnabled>Pinning for the vertices are enabled</VertexPinningEnabled>
+        <VertexPinningEnabling>Enabling Vertex Pinning</VertexPinningEnabling>
+        <VertexPinningDisabled>Pinning for the vertices are disabled</VertexPinningDisabled>
+        <VertexPinningDisabling>Disabling Vertex Pinning</VertexPinningDisabling>
+
+        <VertexDeleted>Vertex Deleted</VertexDeleted>
+        <VertexDeleting>Vertex Deleting</VertexDeleting>
+        <VertexInformation>Showing Vertex Information</VertexInformation>
+        <VertexNeighborhood>Showing Vertex Neighbourhood</VertexNeighborhood>
+        <EdgeInformation>Showing Edge Information</EdgeInformation>
+        <EdgeDelete>Edge Deleted</EdgeDelete>
+
+        <WindowOpened>Opened the Window</WindowOpened>
+        <WindowClosed>Closed the Window</WindowClosed>
+
+        <MiningResultsCleared>Mining Results Cleared</MiningResultsCleared>
+        <MiningResultsClearing>Clearing Mining Results</MiningResultsClearing>
+
+        <MiningResultsComputed>Mining Results Computed</MiningResultsComputed>
+        <MiningResultsComputing>Computing Mining Results</MiningResultsComputing>
+        
+        <LinkPredictionResultsCleared>Link Prediction Results Cleared</LinkPredictionResultsCleared>
+        <LinkPredictionResultsClearing>Clearing Link Prediction Resutls</LinkPredictionResultsClearing>        
+        <LinkPredictionResultsComputed>Link Prediction Computed</LinkPredictionResultsComputed>
+        <LinkPredictionResultsComputing>Computing Link Prediction</LinkPredictionResultsComputing>
+        
+        <ShortestPathResultsCleared>Link Prediction Results Cleared</ShortestPathResultsCleared>
+        <ShortestPathResultsClearing>Clearing Link Prediction Resutls</ShortestPathResultsClearing>        
+        <ShortestPathComputed>Link Prediction Computed</ShortestPathComputed>
+        <ShortestPathComputing>Computing Link Prediction</ShortestPathComputing>
+        
+        <FiltersApplying>Applying Selected Filter(s)</FiltersApplying>
+        <FiltersApplied>Filter(s) Applied</FiltersApplied>
+        <FiltersAdding>Adding Selected Filter(s)</FiltersAdding>
+        <FiltersAdded>Filter(s) Added</FiltersAdded>
+        <FiltersRemoving>Removing Selected Filter(s)</FiltersRemoving>
+        <FilterRemoved>Filter(s) Removed</FilterRemoved>
+
+        <BGColorChanging>Changing Background Color</BGColorChanging>
+        <BGColorChanged>Background Color Changed</BGColorChanged>
+
+        <BGImageChanging>Changing Background Image</BGImageChanging>
+        <BGImageChanged>Background Image Changed</BGImageChanged>
+
+        <HideMiniMap>Minimap Hidden</HideMiniMap>
+        <ShowMinimap>Minimap Shown</ShowMinimap>
+        
+        <ShowEdges>Edges Shown</ShowEdges>
+        <HideEdges>Edges Hidden</HideEdges>
+        
+        <ShowPredictedEdges>Predicted Links Shown</ShowPredictedEdges>
+        <HidePredictedEdges>Predicted Links Hidden</HidePredictedEdges>
+
+        <EnableVisualization>Visualization Enabled</EnableVisualization>
+        <DisableVisualization>Visualization Disabled</DisableVisualization>
+        
+        <WindowCleared>Window Cleared</WindowCleared>
+        <ExportCancelled>Export Cancelled</ExportCancelled>
+        <ExportingGraph> Exporting Graph</ExportingGraph>
+
+    </StatusMessages>
+    
+    <Modes>
+        <SelectMode>Select Mode</SelectMode>
+        <VertexAddMode>Vertex Add Mode</VertexAddMode>
+        <VertexMultiFrameAddMode>Vertex Multiframe Add Mode</VertexMultiFrameAddMode>
+        <VertexDeleteMode>Vertex Delete Mode</VertexDeleteMode>
+        <EdgeAddMode>Edge Add Mode</EdgeAddMode>
+        <EdgeDeleteMode>Edge Delete Mode</EdgeDeleteMode>
+        <ShortestPathMode>Shortest Path Mode</ShortestPathMode>
+    </Modes>
+    
+    <ModeInformation>
+        <SelectMode>Select Node(s) and Edge(s)</SelectMode>
+        <SelectFirstVertex>Select the First Node</SelectFirstVertex>
+        <SelectSecondVertex>Select the Second Node</SelectSecondVertex>
+        <SelectEdgeDelete>Select an Edge to Delete</SelectEdgeDelete>
+        <SelectVertexDelete>Select a Node to delete</SelectVertexDelete>
+        <SelectVertexAdd>Select an area on canvas to add new Node</SelectVertexAdd>
+    </ModeInformation>
+
+    <LinkPrediction>
+        <Title>Link Prediction</Title>
+        <TopN>Top N links</TopN>
+        <Metric>Metric Score</Metric>
+        <TopNError>Number of Links should be between</TopNError>
+        <MetricError>Metric Score should be between</MetricError>
+        <TopNEditorTooltip>Increase or Decrease the number of required predicted links</TopNEditorTooltip>
+        <MetricEditorTooltip>Increase or Decrease the score of the metric to compute predicted links</MetricEditorTooltip>
+    </LinkPrediction>
+
+    <VertexShapes>
+        <Square>Square</Square>
+        <Rectangle>Rectangle</Rectangle>
+        <Ellipse>Ellipse</Ellipse>
+        <Circle>Circle</Circle>
+        <Sphere>Sphere</Sphere>
+        <Cuboid>Cuboid</Cuboid>
+        <Cube>Cube</Cube>
+    </VertexShapes>
+
+    <CommunityMining>
+        <DynamicCommunityMining>
+            <Title>Dynamic Community Mining - Parameters</Title>
+            <SimilarityThreshold>Similarity Threshold</SimilarityThreshold>
+            <Metric>Select Metric</Metric>
+            <Method>Select Method</Method>
+            <Overlap>Overlap ?</Overlap>
+            <Hubs>Hubs ?</Hubs>
+            <Instability>Instability</Instability>
+            <History>History</History>
+        </DynamicCommunityMining>
+
+        <FastModularity>
+            <Title>Fast-Modularity - Parameters</Title>
+            <Note>Note: Fast-Modularity will not run on graphs with self-loops or multiple edges</Note>
+            <AlgorithmType>Algorithm Type</AlgorithmType>
+            <Weighted>Weighted ?</Weighted>
+        </FastModularity>
+        
+        <Louvain>
+            <Title>Louvain - Parameters</Title>
+        </Louvain>
+        
+        <LocalT>
+            <Title>Local T - Parameters</Title>
+        </LocalT>
+
+        <KMeansClustering>
+            <Title>K-Means Clustering - Parameters</Title>
+            <NumberOfClusters>Number of Clusters</NumberOfClusters>
+            <AttributeID>Attribute</AttributeID>
+        </KMeansClustering>
+
+        <LocalCommunity>
+            <Title>Local Community - Parameters</Title>
+            <AlgorithmType>Algorithm Type</AlgorithmType>
+            <Overlap>Overlap ?</Overlap>
+        </LocalCommunity>
+
+        <LocalTopLeaders>
+            <Title>Local Top Leaders - Parameters</Title>
+            <NumberOfClusters>Number of Clusters</NumberOfClusters>
+            <OutlierPercentage>Outlier Percentage</OutlierPercentage>
+            <HubPercentage>Hub Percentage</HubPercentage>
+            <CenterDistance>Center Distance</CenterDistance>
+        </LocalTopLeaders>
+
+        <RosvallInfomap>
+            <Title>Rosvall Infomap - Parameters</Title>
+            <NumberOfAttempts>Number of Attempts</NumberOfAttempts>
+            <Directed>Is Directed ?</Directed>
+        </RosvallInfomap>
+
+        <RosvallInfomod>
+            <Title>Rosvall Infomod - Parameters</Title>
+            <NumberOfAttempts>Number of Attempts</NumberOfAttempts>
+        </RosvallInfomod>
+
+        <SameAttributeValue>
+            <Title>Same Attribute Values - Parameters</Title>
+            <Message>Choose an attribute, if the value field contains multiple values, check multiple values and choose a separator</Message>
+            <AttributeID>Attribute</AttributeID>
+            <MultipleValules>Multiple Values</MultipleValules>
+            <Separator>Seperated By</Separator>
+        </SameAttributeValue>
+    </CommunityMining>
+</Lang>

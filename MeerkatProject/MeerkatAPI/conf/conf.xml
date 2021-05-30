@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app>
+<defaultlang>English</defaultlang>
+    <debug>false</debug>        
+    <screenzerotitle>Meeeeeeeeerkat</screenzerotitle>        
+    <screenzerologopath>file:resources/logo/logo.png</screenzerologopath>                
+    <!-- Language Selection Dialog Box-->        
+    <LangSelectWindowIcon>file:resources/logo/logo.png</LangSelectWindowIcon>        
+    <LangSelectWindowTitle>Languages</LangSelectWindowTitle>        
+    <LangSelectWindowLabel>Available Languages</LangSelectWindowLabel>        
+    <LangSelectWindowCheckBox>Default</LangSelectWindowCheckBox>        
+    <LangSelectWindowSubmit>Select</LangSelectWindowSubmit>                 
+    <!-- Files supported by Meerkat Project-->        
+    <supportedfiles>            
+        <filetype extension=".meerkat" id="MeerkatReader" type="0">Meerkat Files</filetype>            
+        <filetype extension=".json" id="JSONReader" type="0">JSON Files</filetype>            
+        <filetype extension=".csv" id="CSVReader" type="0">Comma Separated Value</filetype>            
+        <filetype extension=".twitter" id="TwitterReader" type="0">Twitter Format</filetype>
+        <filetype extension=".textual" id="TextualReader" type="1">Textual Network</filetype>
+    </supportedfiles>
+</app>

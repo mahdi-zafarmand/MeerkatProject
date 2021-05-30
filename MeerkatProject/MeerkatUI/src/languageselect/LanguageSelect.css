@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1-Jun-2015, 11:15:39 AM
+    Author     : Talat
+*/
+
+.langselect-radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-border-radius: 10px;
+    -fx-padding: 2px;
+}
+.langselect-radio-button .radio:selected {
+    -fx-background-color: black;
+    -fx-background-image: null;
+}
+.langselect-radio-button -radio:armed {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.langselect-radio-button -radio:determinate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.langselect-radio-button -radio:indeterminate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.langselect-radio-button .dot {
+    -fx-background-radius: 10px;
+    -fx-padding: 7px;
+}
+
+.langselect-ToggleGroup {
+    -fx-background-color: 
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}

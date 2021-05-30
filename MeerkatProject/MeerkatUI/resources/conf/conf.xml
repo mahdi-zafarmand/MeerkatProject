@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app>
+<defaultlang>English</defaultlang>
+    <debug>false</debug>        
+    <screenzerotitle>Meeeeeeeeerkat</screenzerotitle>        
+    <screenzerologopath>file:resources/logo/logo.png</screenzerologopath>                
+    <!-- Language Selection Dialog Box-->        
+    <LangSelectWindowIcon>file:resources/logo/logo.png</LangSelectWindowIcon>        
+    <LangSelectWindowTitle>Languages</LangSelectWindowTitle>        
+    <LangSelectWindowLabel>Available Languages</LangSelectWindowLabel>        
+    <LangSelectWindowCheckBox>Default</LangSelectWindowCheckBox>        
+    <LangSelectWindowSubmit>Select</LangSelectWindowSubmit>
+    <defaultproject>projects/SampleProject2.mprj</defaultproject>        
+    <!-- Files supported by Meerkat Project-->        
+    <supportedfiles>            
+        <filetype extension=".meerkat" id=".meerkat" type="0">Meerkat Files</filetype>            
+        <filetype extension=".json" id=".json" type="0">JSON Files</filetype>            
+        <filetype extension=".csv" id=".csv" type="0">Comma Separated Value</filetype>
+        <filetype extension=".pairs" id=".pairs" type="0">Pairs</filetype>
+        <filetype extension=".gml" id=".gml" type="0">GML Files</filetype>
+        <filetype extension=".graphml" id=".graphml" type="0">GraphML Files</filetype>
+        
+        <filetype extension=".db" id=".db" type="0">Sqlite Files</filetype>
+        
+    </supportedfiles>
+
+    <exportformats>            
+        <filetype extension=".meerkat" id=".meerkat" type="0">Meerkat Files</filetype>            
+        <filetype extension=".json" id=".json" type="0">JSON Files</filetype>            
+        <filetype extension=".csv" id=".csv" type="0">Comma Separated Value</filetype>
+        <filetype extension=".pairs" id=".pairs" type="0">Pairs</filetype>
+        
+        <!--<filetype extension=".db" id=".db" type="0">Sqlite Files</filetype>-->
+        
+    </exportformats>
+</app>

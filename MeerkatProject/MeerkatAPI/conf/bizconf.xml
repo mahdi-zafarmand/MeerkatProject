@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app>
+    <meerkat>
+        <class id="dummy">Dummy</class>
+    </meerkat>
+
+    <layouts>
+
+        <class id="LayoutCircle">CircleLayout</class>
+<!--        <class id="LayoutHarel"></class>
+        <class id="LayoutISOM"></class>
+        <class id="LayoutKamada"></class>
+        <class id="LayoutReingold"></class>
+        <class id="LayoutMFR"></class>
+-->
+        <class id="LayoutRandom">RandomLayout</class>
+<!--        <class id="LayoutSpring"></class>
+-->
+        <class id="LayoutBullseye">Bullseye</class>
+<!--
+        <class id="LayoutCOMB"></class>
+        <class id="LayoutCOMC"></class>
+-->
+    </layouts>
+
+    <communityminings>
+        <class id="dummy">Dummy</class>
+    </communityminings>
+
+    <metrics>
+        <class id="Authority">Authority</class>
+        <class id="Hub">Hub</class>
+        <class id="Betweenness">Betweenness</class>
+        <class id="Closeness">Closeness</class>
+        <class id="InDegree">InDegree</class>
+        <class id="OutDegree">OutDegree</class>
+        <class id="PageRank">PageRank</class>
+    </metrics>
+
+    <graphs>
+        <class id="dummy">Dummy</class>
+    </graphs>
+
+    <readers>
+        <class id="MeerkatReader">MeerkatReader</class>
+        <class id="JSONReader">JSONReader</class>
+        <class id="CSVReader">CSVReader</class>
+	<class id="PairsReader">PairsReader</class>
+        <class id="TwitterReader">TwitterReader</class>
+        <class id="TextualReader">TextualXMLReader</class>
+	<class id="PairParallelReader">PairParallelReader</class>
+    </readers>
+
+    <writers>
+        <class id="dummy">Dummy</class>
+    </writers>
+</app>

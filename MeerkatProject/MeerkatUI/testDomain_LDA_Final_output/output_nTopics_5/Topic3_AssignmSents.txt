@@ -1,0 +1,17 @@
+<wordAssignments word=baby count=7 >
+<assignment document=0 sentence=2 > it has not yet lived to experience things that would make it innocent or guilty which are both conscious thought processes that a baby does not possess especially as a fetus</assignment>
+<assignment document=0 sentence=4 > living off of the host until the pregnancy has been full filled and the baby has been birthed</assignment>
+<assignment document=0 sentence=8 > Why is it not okay to murder a kid at lets say 12 but its okay to kill a baby before it is even born</assignment>
+<assignment document=0 sentence=9 > killing a baby is killing an innocent life</assignment>
+<assignment document=0 sentence=10 > you don't give the baby a chance to live.</assignment>
+<assignment document=0 sentence=12 > baby</assignment>
+<assignment document=0 sentence=14 > are you serious it doesn't matter if the baby doesn't have an age or if he / she is 15 you should never be able to kill a life</assignment>
+</wordAssignments>
+<wordAssignments word=pro-life count=6 >
+<assignment document=0 sentence=15 > Pretending pro-life people care about scientific fact is bullshit</assignment>
+<assignment document=0 sentence=16 > Not that it's impossible to be scientifically honest and still be pro-life</assignment>
+<assignment document=0 sentence=17 > but so many outspoken pro-life people and groups who have no problem using misinformation</assignment>
+<assignment document=0 sentence=18 > emotional blackmail, intimidation and deceit to manipulate people into doing what pro-life thinks is right</assignment>
+<assignment document=0 sentence=24 > Why are Dilation and Evacuation illustrations so commonly used for pro-life propaganda when Dilation and Evacuation accounts for less than 5% of all procedures</assignment>
+<assignment document=0 sentence=46 > Well then call me pro-life</assignment>
+</wordAssignments>

@@ -1,0 +1,21 @@
+
+Fast Community Inference.
+Copyright (c) 2004 by Aaron Clauset (aaron@cs.unm.edu)
+
+importing: temp.pairs
+WEIGHTS: 1
+ scanning input file for basic information.
+  edgecount: [0]
+  edgecount: [232] total (first pass)
+ allocating space for network.
+ reparsing the input file to build network data structure.
+  edgecount: [0]
+  edgecount: [116] total (second pass)
+Sum Weights: 116000 Num Links: 116
+Record Degree. 
+Record Similar Degree. 
+now building initial dQ[]
+starting algorithm now.
+Q[108] = 0.48261
+It took you 0.00 seconds for the fast version.
+exited safely

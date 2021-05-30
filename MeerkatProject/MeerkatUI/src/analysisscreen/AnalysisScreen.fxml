@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vboxApplication" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="789.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="analysisscreen.AnalysisController">
+   <children>
+      <MenuBar fx:id="menuAnalysis" prefHeight="33.0" prefWidth="600.0" />
+      <HBox id="hboxToolRibbon" fx:id="hboxToolRibbon" />
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="626.0" prefWidth="1200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <SplitPane id="splitParent" fx:id="splitParent" orientation="VERTICAL" prefHeight="717.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                     <children>
+                        <SplitPane id="splitTreeCanvasAccordion" fx:id="splitTreeCanvasAccordion" dividerPositions="0.15" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <items>
+                            <AnchorPane id="anchThreadView" fx:id="anchThreadView" minHeight="0.0" minWidth="0.0" prefHeight="282.0" prefWidth="127.0" SplitPane.resizableWithParent="false">
+                                 <children>
+                                    <TreeView fx:id="treeThread" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <SplitPane id="splitCanvasAccordion" fx:id="splitCanvasAccordion" dividerPositions="0.7" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <items>
+                                        <AnchorPane fx:id="anchCanvas" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                             <children>
+                                                <TabPane fx:id="tabpaneProject" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" tabClosingPolicy="UNAVAILABLE" />
+                                             </children>
+                                        </AnchorPane>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" SplitPane.resizableWithParent="false">
+                                             <children>
+                                                <Accordion fx:id="accOptionsPane" layoutX="-20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                  <panes>
+                                                    <TitledPane fx:id="accDetails" animated="false" />
+                                                    <TitledPane fx:id="accLayouts" animated="false" />
+                                                    <TitledPane fx:id="accFilters" animated="false" />
+                                                    <TitledPane fx:id="accStatistics" animated="false" />
+                                                    <TitledPane fx:id="accCommunities" animated="false" />
+                                                  </panes>
+                                                </Accordion>
+                                             </children>
+                                          </AnchorPane>
+                                      </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </AnchorPane>
+    <AnchorPane fx:id="anchDCMining" maxHeight="100.0" minHeight="100.0" minWidth="0.0" prefHeight="100.0" prefWidth="1198.0">
+         <children>
+            <VBox id="vboxDCMining" fx:id="vboxDCMining" maxHeight="100.0" minHeight="100.0" prefHeight="100.0" prefWidth="1198.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <AnchorPane id="anchSlider" fx:id="anchDCSliderButton" maxHeight="60.0" minHeight="60.0" prefHeight="60.0" prefWidth="1198.0">
+                     <children>
+                        <HBox maxHeight="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="1198.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <HBox id="hboxDCSlider" fx:id="hboxDCSlider" maxHeight="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="973.0" />
+                              <AnchorPane id="anchEvents" fx:id="anchEvents" maxHeight="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="226.0">
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchEventsButtons" maxHeight="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="1198.0">
+                     <children>
+                        <Button id="btnEvents" fx:id="btnEvents" layoutX="26.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Events" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <Button id="btnFormed" fx:id="btnFormed" layoutX="220.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Formed" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <Button id="btnDissolved" fx:id="btnDissolved" layoutX="318.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Dissolved" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <Button id="btnSplit" fx:id="btnSplit" layoutX="514.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Split" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <Button id="btnSurvived" fx:id="btnSurvived" layoutX="416.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Survived" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <Button id="btnDisappeared" fx:id="btnDisappeared" layoutX="855.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Disappeared" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <Button id="btnJoined" fx:id="btnJoined" layoutX="966.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Joined" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <Button id="btnAppeared" fx:id="btnAppeared" layoutX="744.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Appeared" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <Button id="btnMerged" fx:id="btnMerged" layoutX="612.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Merged" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <Button id="btnLeft" fx:id="btnLeft" layoutX="1077.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Left" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+    <AnchorPane fx:id="anchStatusBar" maxHeight="20.0" minHeight="20.0" minWidth="0.0" prefHeight="20.0" prefWidth="1198.0">
+         <children>
+            <GridPane id="gridStatus" fx:id="gridStatus" layoutY="-20.0" maxHeight="20.0" minHeight="20.0" prefHeight="20.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

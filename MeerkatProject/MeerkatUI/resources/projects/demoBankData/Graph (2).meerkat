@@ -1,0 +1,56 @@
+*Timeframe
+year one
+*Vertices
+1 {default=1.0;type=education;class=sector;SYS:X=0.5211591831460207;SYS:Y=0.14536034657557137;SYS:COMMUNITY=4;}
+2 {default=1.0;type=infrastructure;class=sector;SYS:X=0.7606113149343682;SYS:Y=0.8032794323528841;SYS:COMMUNITY=3;}
+3 {default=1.0;type=culture;class=sector;SYS:X=0.6913876106576355;SYS:Y=0.5917381818158743;SYS:COMMUNITY=1;}
+4 {default=1.0;type=health;class=sector;SYS:X=0.0;SYS:Y=0.0;SYS:COMMUNITY=2;}
+5 {default=1.0;type=agriculture;class=sector;SYS:X=0.20222645534824474;SYS:Y=0.9238423511254311;SYS:COMMUNITY=7;}
+6 {default=1.0;class=program;budget=1.01;SYS:X=0.2835451768247869;SYS:Y=0.5574603499365102;SYS:COMMUNITY=0;}
+7 {default=1.0;class=program;budget=21.41;SYS:X=0.3852992625744632;SYS:Y=0.8978327562086426;SYS:COMMUNITY=4;}
+8 {default=1.0;class=program;budget=0.91;SYS:X=0.24869176900792453;SYS:Y=0.22912239861871153;SYS:COMMUNITY=6;}
+9 {default=1.0;class=program;budget=10.7;SYS:X=0.5961972203314979;SYS:Y=0.741017069892322;SYS:COMMUNITY=2;}
+10 {default=1.0;class=program;budget=4.3;SYS:X=1.0;SYS:Y=1.0;SYS:COMMUNITY=4;}
+*Edges
+1	2 {number=21;weight=500;type=transfer;}
+2	3 {weight=500;type=transfer;}
+3	4 {weight=500;type=transfer;}
+4	5 {weight=500;type=transfer;}
+5	1 {weight=500;type=transfer;}
+1	6 {weight=1050000;type=transfer;}
+1	7 {weight=500;type=transfer;}
+1	8 {weight=500;type=transfer;}
+1	9 {weight=1000;type=transfer;}
+1	10 {weight=500;type=transfer;}
+5	8 {weight=500;type=transfer;}
+5	9 {weight=1000;type=transfer;}
+5	10 {weight=500;type=transfer;}
+*Arcs
+*End
+*Timeframe
+year two
+*Vertices
+1 {default=1.0;type=education;class=sector;SYS:X=0.5211591831460207;SYS:Y=0.14536034657557137;SYS:COMMUNITY=4;}
+2 {default=1.0;type=infrastructure;class=sector;SYS:X=0.7606113149343682;SYS:Y=0.8032794323528841;SYS:COMMUNITY=3;}
+3 {default=1.0;type=culture;class=sector;SYS:X=0.6913876106576355;SYS:Y=0.5917381818158743;SYS:COMMUNITY=1;}
+4 {default=1.0;type=health;class=sector;SYS:X=0.0;SYS:Y=0.0;SYS:COMMUNITY=2;}
+5 {default=1.0;type=agriculture;class=sector;SYS:X=0.20222645534824474;SYS:Y=0.9238423511254311;SYS:COMMUNITY=7;}
+6 {default=1.0;class=program;budget=1.01;SYS:X=0.2835451768247869;SYS:Y=0.5574603499365102;SYS:COMMUNITY=0;}
+7 {default=1.0;class=program;budget=21.41;SYS:X=0.3852992625744632;SYS:Y=0.8978327562086426;SYS:COMMUNITY=4;}
+8 {default=1.0;class=program;budget=0.91;SYS:X=0.24869176900792453;SYS:Y=0.22912239861871153;SYS:COMMUNITY=6;}
+9 {default=1.0;class=program;budget=10.7;SYS:X=0.5961972203314979;SYS:Y=0.741017069892322;SYS:COMMUNITY=2;}
+10 {default=1.0;class=program;budget=4.3;SYS:X=1.0;SYS:Y=1.0;SYS:COMMUNITY=4;}
+*Edges
+3	10
+1	2
+2	3
+3	4
+4	5
+5	1
+1	6
+1	7
+1	8
+1	9
+1	10
+*Arcs
+*End

@@ -1,0 +1,27 @@
+*Timeframe
+year one
+*Vertices
+1 default=1.0;type=education;class=sector;SYS:X=0.4590519605825846;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.299154303662247;SYS:COLOR=#334db3;}
+2 default=1.0;type=infrastructure;class=sector;SYS:X=0.7174105274982837;SYS:TYPE=gear;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/gear16.png;SYS:Y=0.8280593568518875;SYS:COLOR=#334db3;}
+3 default=1.0;type=culture;class=sector;SYS:X=0.6529947915224468;SYS:TYPE=Halo;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/halo16.png;SYS:Y=0.6539197515953591;SYS:COLOR=#cc3333;
+4 default=1.0;type=health;class=sector;SYS:X=0.009627866125816967;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.16680410329959505;SYS:COLOR=#334db3;
+5 {default=1.0;type=agriculture;class=sector;SYS:X=0.19780857808203026;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.9273060949246261;SYS:COLOR=#334db3;
+6 {default=1.0;class=program;budget=1.01;SYS:X=0.273479265561929;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.6257024270907097;SYS:COLOR=#334db3;}
+7 {default=1.0;class=program;budget=21.41;SYS:X=0.36816596848540895;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.9058951380535957;SYS:COLOR=#334db3;}
+8 {default=1.0;class=program;budget=0.91;SYS:X=0.24104661927050827;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.3554164138990867;SYS:COLOR=#334db3;}
+9 {default=1.0;class=program;budget=10.7;SYS:X=0.5644158991509454;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.7768053191939968;SYS:COLOR=#334db3;
+10 {default=1.0;class=program;budget=4.3;SYS:X=0.9401723472232881;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.9899986566761343;SYS:COLOR=#334db3
+11 {default=1.0;class=program;budget=2.22;SYS:X=0.025810901244621973;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.46240966447143383;SYS:COLOR=#334db3
+12 {default=1.0;class=program;budget=7.0;SYS:X=0.5110424319811546;SYS:TYPE=car;SYS:TYPEICONURL=file:projects/SampleProject2/resources/icons/car16.png;SYS:Y=0.9179975678464434;SYS:COLOR=#334db3;
+*Edges
+1	2 {weight=1000;type=transfer;}
+2	3 {weight=1000;type=transfer;}
+3	4 {weight=1000;type=transfer;}
+4	5 {weight=1000;type=transfer;}
+5	1 {weight=1000;type=transfer;}
+1	6 {weight=1000;type=transfer;}
+1	7 {weight=1000;type=transfer;}
+1	8 {weight=1000;type=transfer;}
+1	9 {weight=1000;type=transfer;}
+*Arcs
+*End

@@ -1,0 +1,6 @@
+ProjectName:shiva-louvain
+ProjectDirectory:projects/shiva-louvain/
+SavedTime:1502236839909
+RawDataFile:
+Graph:karate,karate.meerkat,C:\Users\AICML Administrator\Downloads\karate.gml
+Graph:10ktest,10ktest.meerkat,C:\Users\AICML Administrator\Downloads\10ktest.gml

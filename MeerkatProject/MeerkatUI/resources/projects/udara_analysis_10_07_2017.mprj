@@ -1,0 +1,10 @@
+ProjectName:udara_analysis_10_07_2017
+ProjectDirectory:projects/udara_analysis_10_07_2017/
+SavedTime:1499806303583
+RawDataFile:
+Graph:filtered_hetro_graph,filtered_hetro_graph.meerkat,projects/udara_analysis_10_07_2017/filtered_hetro_graph.meerkat
+Graph:campain_graph,campain_graph.meerkat,projects/udara_analysis_10_07_2017/campain_graph.meerkat
+Graph:task_type_graph,task_type_graph.meerkat,projects/udara_analysis_10_07_2017/task_type_graph.meerkat
+Graph:completed_task_graph,completed_task_graph.meerkat,projects/udara_analysis_10_07_2017/completed_task_graph.meerkat
+Graph:task_graph,task_graph.meerkat,projects/udara_analysis_10_07_2017/task_graph.meerkat
+Graph:tags_graph,tags_graph.meerkat,projects/udara_analysis_10_07_2017/tags_graph.meerkat

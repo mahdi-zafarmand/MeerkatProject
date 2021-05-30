@@ -1,0 +1,6 @@
+1) Image as background - maintain the dimensions of the background image
+2) Reihaneh - Code for generating the network (later)
+3) Connect to the Logic
+4) Slider for Dynamic Graph
+5) Overlap of communities using a circle as a node - using a pie chart
+6) Wordcloud - based on topic - not in the MVP

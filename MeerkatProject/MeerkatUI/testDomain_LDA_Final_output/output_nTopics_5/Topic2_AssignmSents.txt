@@ -1,0 +1,9 @@
+<wordAssignments word=don count=7 >
+<assignment document=0 sentence=10 > you don't give the baby a chance to live.</assignment>
+<assignment document=0 sentence=11 > If you don't give the</assignment>
+<assignment document=0 sentence=19 > Pro-choice people don't have to lie</assignment>
+<assignment document=0 sentence=20 > because they don't care if no one chooses an abortion as long as they aren't being lied to or bullied</assignment>
+<assignment document=0 sentence=39 > If it's in your body and you don't want it there, you have a right to try to find someone who will take it out</assignment>
+<assignment document=0 sentence=44 > That's so we don't get them confused</assignment>
+<assignment document=0 sentence=47 > Or don't</assignment>
+</wordAssignments>

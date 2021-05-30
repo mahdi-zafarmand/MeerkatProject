@@ -1,0 +1,17 @@
+<wordAssignments word=baby count=7 >
+<assignment document=0 sentence=2 > it has not yet lived to experience things that would make it innocent or guilty which are both conscious thought processes that a baby does not possess especially as a fetus</assignment>
+<assignment document=0 sentence=4 > living off of the host until the pregnancy has been full filled and the baby has been birthed</assignment>
+<assignment document=0 sentence=8 > Why is it not okay to murder a kid at lets say 12 but its okay to kill a baby before it is even born?"killing a baby is killing an innocent life</assignment>
+<assignment document=0 sentence=8 > Why is it not okay to murder a kid at lets say 12 but its okay to kill a baby before it is even born?"killing a baby is killing an innocent life</assignment>
+<assignment document=0 sentence=9 > you don't give the baby a chance to live.</assignment>
+<assignment document=0 sentence=11 > baby</assignment>
+<assignment document=0 sentence=12 > a chance to live, then how can there be a life to kill?are you serious it doesn't matter if the baby doesn't have an age or if he / she is 15 you should never be able to kill a life.Pretending pro-life people care about scientific fact is bullshit</assignment>
+</wordAssignments>
+<wordAssignments word=fetus count=6 >
+<assignment document=0 sentence=2 > it has not yet lived to experience things that would make it innocent or guilty which are both conscious thought processes that a baby does not possess especially as a fetus</assignment>
+<assignment document=0 sentence=3 > A fetus is a parasite</assignment>
+<assignment document=0 sentence=26 > Please show me where I denied that a fetus is a human</assignment>
+<assignment document=0 sentence=30 > Of course a fetus is a human- did you expect me to claim it's a different species</assignment>
+<assignment document=0 sentence=33 > But I think abortion would still be acceptable even if the government extended legal personhood to fetuses</assignment>
+<assignment document=0 sentence=37 > Abortion if it's a fetus</assignment>
+</wordAssignments>

@@ -1,0 +1,5 @@
+*Vertices
+1 -> {atA="V1", atB="G1"}
+2 -> {atA="V2", atB="G2"}
+*Edges
+1 -> 2-> {edgeV1=10; edgeV2=20; weight=1.5}

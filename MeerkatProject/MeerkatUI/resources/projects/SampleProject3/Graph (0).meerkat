@@ -1,0 +1,12 @@
+*Timeframe
+year one
+*Vertices
+4 {default=1.0;type=health;class=sector;SYS:X=0.0;SYS:Y=0.002994898001247664;SYS:COLOR=#334db3;}
+15 {default=1.0;class=program;budget=11.2;SYS:X=0.25645045445158815;SYS:Y=1.0;SYS:COLOR=#334db3;}
+20 {default=1.0;class=program;budget=6.6;SYS:X=1.0;SYS:Y=0.6761940614686901;SYS:COLOR=#334db3;}
+77 {default=1.0;size=400;class=company;SYS:X=0.48969025902786767;SYS:Y=0.0;SYS:COLOR=#334db3;}
+*Edges
+4	20 {weight=1000;type=transfer;}
+15	77 {weight=1000;type=transfer;}
+*Arcs
+*End

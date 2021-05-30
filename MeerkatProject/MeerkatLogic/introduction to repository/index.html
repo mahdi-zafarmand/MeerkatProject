@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Afra Abnar" >
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#introduction">
+                        Meerkat Logic Repository
+                    </a>
+                </li>
+                <li>
+                    <a href="#datastructure">Data Structure</a>
+                </li>
+                <li>
+                    <a href="#algorithms">Algorithms</a>
+                </li>
+                <li>
+                    <a href="#io">IO</a>
+                </li>
+                <li>
+                    <a href="#project">Project</a>
+                </li>
+                <li>
+                    <a href="#mainapplication">Main Application</a>
+                </li>
+                <li>
+                    <a href="#config">Config</a>
+                </li>
+                <li>
+                    <a href="#test">Test</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                    	<div id="Introduction">
+								<h1>Meerkat Application Back-End</h1>
+								<p>
+									This document is an introduction to design and use of the classes in the back-end division of the 
+									Meerkat application. None of the classes in this repository have any interaction with GUI and their are
+									all called through an appropriate method in the API.								
+								</p>                    	
+                    	</div>
+                    	<div id="datastructure"></div>
+                    		<h1>Data Structure</h1>
+                        <p>
+                        Meerkat has a core data structure that contains data structure for graphs 
+                        as well as messagelyft s in a thread.
+                        </p>
+                        <h2>Graph Data Structure</h2>
+                        <p>
+                        The graph data structure is split into interfaces and implementation.
+                        all around the repository we use the interface except for place 
+                        where we want to create an object such as <code>IVertex v = new Vertex(/*parameters*/)</code>
+                        all interfaces start with the capital letter <code>I</code>.
+                        </p>
+                        <p>
+                        Important interfaces are as follows:
+                        <ul>
+                        	<li><code>IGraph<V,E></code>: interface responsible for basic functionalities of graph - Generic: type of vertices and Edges</li>
+                        	<li><code>IGraphElement</code>: interface for common functionalities of edges and vertices</li>
+                        	<li><code>IVertex</code>: interface responsible for vertex specific functionalities</li>
+                        	<li><code>IEdge<V></code>: interface responsible for edge especific functionalities - Generic: type of vertices (source and destination)</li>
+                        </ul>
+                        </p>
+                        <p>
+								for each of the above interfaces we have a class implementing that interfance 
+								<code>(Graph, GraphElement, Vertex, and Edge)</code>
+								<br>
+								we also have <code>DynamicGraph</code> as a subclass of <code>Graph</code>.
+								Since we need to keep extra information such as <code>timestamps</code> for dynamic graphs,
+								we should have a different implementation for that.
+								<br>
+								<code>TODO: interface for DynamicGraph has to be added to datastructure/core/graph/classinterface</code>                      
+                        </p>
+                        <h2>Text Data Structure</h2>
+                        <p>
+								The other package in the <code>datastructure.core</code> package is <code>datastructure.core.text</code>.
+								Text package includes data structure for representing message threads.
+								In the text package we have three classes as follows:
+								<ul>
+									<li><code>HNode</code>: any kind of abstract or non-abstract message in the flow of the thread.</li>
+									<li><code>MsgNode<A,L,C></code>: a subclass of HNode that contains information about Author, Location, Content, and Date as well.</li>
+									<li><code>AnalyzedMsg</code>: a wrapper for a message to keep the results of sentiment analysis or emotion analysis there as well. 
+									This class will only be used by sentiment/emotion analysis algorithms/classes</li>								
+								</ul>
+                        </p>
+                        <h2>Common classes for all data structures</h2>
+                        <p>
+									<ul>
+										<li><code>Attributable</code>: Attribute manager for any class</li>
+										<li><code>Identifiable</code>: assigns ids to the instance of the class. the unique MeerkatId.</li>
+										<li><code>Weighable</code>: Weight managet for any class</li>
+										<li><code>Selectable</code>: <code>form old cold and related to selecting elements(vertices & edges) in the GUI</code></li>									
+									</ul>  
+									<code>Attributable.java</code> contains two different implementation of the interface <code>Attributer</code>:
+									<ul>
+										<li><code>GenericAttributer</code>: called as <code>userAttributer</code> in data structures, is used to save attributes of entities (vertex, edge, graph, ...) which are provided in the input file</li>
+										<li><code>SystemAttributer</code>: is used to save Meerkat generated values such as the results of algorithms for each entity.</li>									
+									</ul>
+									For all <code>System Attributes</code>, we use the date that the attribute was computed . This way each time user
+									request for that value, we need to check that date with the latest change in our data. If the value is 
+									update, we need not to run the algorithm again (because it takes a lot of time for some algorithms, it's better
+									to avoid running them when it is not necessary).                      
+                        </p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                        <h2>More Complicated Data Stucture(s)</h2>
+                        <p>
+									If for any kind of development purposes, developer needs to have a more complicated data structure,
+									dependable on the data (not the algorithms), s/he can define her/his required data structure as a wrapper
+									around core data structure.
+									<br>
+									For example if in future we want to have a data structure specific to twitter, we will add the package
+									<code>datastructure.twitter</code> for our required purpose. But in case of using these wrappers as
+									the main datastrucutre in the whole application and having specific connections with GUI, developer
+									needs to create an appropriate Project (such as TwitterProject) in the <code>project</code> package as well.                        
+                        </p>
+                    	<div id="algorithms">
+                    		<h1>Algorithms</h1>
+								<p>                
+								Algorithms in Meerkat are of one of the following kinds:    		
+                    		<ul>
+									<li>Community Mining Algorithms</li>
+									<li>Graph Algorithms</li>
+									<li>Layout Algorithms</li>
+									<li>Text Analysis Algorithm</li>                    		
+                    		</ul>
+                    		The class <code>Algorithm</code> is the superclass for any algorithm that we have. <code>Algorithm extends Thread</code>.
+                    		Thus, all our algorithms would be a thread. Therefore, for running the algorithm, we should call the method <code>run</code>.
+                    		In cases when user wants to stop an algorithm, we call the <code>terminate</code> method.
+                    		<br>
+                    		Two important point to remeber about all algorithms is that, when the algorithm is called by user (constructed in back-end),
+                    		we will set a <code>dtCallTime</code> field in the <code>algorithm.Algorithm</code>.
+                    		<br>
+                    		The next important fact is, when the algorithm is done, if we want to save the result of the algorithm to our
+                    		data structure, we need to call <code>updateDataStructure</code> method. This method (<code>updateDataStructre</code>),
+                    		should be implemented for all algorithms and should be a <code>synchronized</code> method. Because we do not want
+                    		to different threads to update the same attribute, which may cause by some of the algorithms.
+                    		</p>
+                    		<h2>Community Mining Algorithms</h2>
+                    		<p>
+                    		All community mining algorithms, should extends <code>Miner.java</code>. They all would be constructed by an 
+                    		instance of <code>IGraph</code> and the the <code>run</code> method is called on the instance.
+                    		Most of the community mining algorithms are migrated well to the latest version of our design. The status would
+                    		be as follows:
+                    		<ul>
+									<li><code>AttributeValueMiner : DONE</code></li>
+									<li><code>DynamicMine : TO BE DONE</code></li>
+									<li><code>FastModularityMiner : TO BE DONE</code></li>
+									<li><code>HierarchicalCommunityExtractor : TO BE DONE</code></li>
+									<li><code>Indexer : this is not a CM Alg. It is using by one of the non-migrated ones.</code></li>
+									<li><code>KMeansMine : TO BE DONE</code></li>
+									<li><code>LocalCommunityMiner : DONE</code></li>
+									<li><code>LocalT : DONE</code></li>
+									<li><code>LocalTopLeader : DONE</code></li>
+									<li><code>RosvallInfomapMiner : DONE</code></li>
+									<li><code>RosvallInfomodMiner : DONE</code></li>                  		
+                    		</ul>
+                    		
+                    		</p>
+                    		<h2>Graph Algorithms</h2>
+                    		<p>
+                    		All graph algorithms are reimplemented from the scratch since we were using jung implementation for
+                    		them in pervious versions of Meerkat Application.
+								Graph algorithms contain <code>ConnectedComponents</code> to compute connected components. <br>
+								Shortest path algorithms in the package <code>algorithm.graph.shortestpath</code>. Currently we have
+								only implemented Dijkstra shortest path algorithm, but we can add more algorithms depending on usage. <br>
+								And finally we have <code>algorithm.graph.metric</code> package that contains algorithms for computing 
+								scores for nodes in the graph as follows:
+								<ul>
+									<li><code>Betweenness</code>: computes vertex betweenness centrality.</li>
+									<li><code>Closemess</code>: computes closeness centrality.</li>
+									<li><code>HITS</code>: computes hub and authority score.</li>
+									<li><code>Hub</code>: gets hub score from HITS result.</li>
+									<li><code>Authority</code>: gets authority score from HITS result.</li>
+									<li><code>InDegree</code>: computes indegree centrality.</li>
+									<li><code>OutDegree</code>: computes outdegree centrality.</li>
+									<li><code>PageRank</code>: computes pagerank centrality.</li>
+									<li><code>NodePositionMetric</code>: TO BE DONE</li>
+									<li><code>NormalizedAlphaCentrality</code>: TO BE DONE</li>								
+								</ul>
+                    		</p>
+                    		
+                    		<h2>Layout Algorithms</h2>
+                    		<p>
+								All migrated layout algorithms can be find in <code>algorithm.layout.algorithms</code>. The classes within
+								<code>algorithm.layout</code> are those which are not migrated yet.
+								<br>
+								All migrated layout algorithms have been implemented from the scratch by developers in Meerkat team.
+								The list of migrated classes are as follows:
+								<ul>
+									<li><code>RandomLayout</code>: assigns random positions to vertices.</li>		
+									<li><code>CircleLayout</code>: sets vertices around a circle</li>	
+									<li><code>ModifiedFRLayout</code>: FR algorithm modified by Justin, one of previous developers.</li>	
+									<li><code>COMCLayout</code>: puts vertices in different areas based on their community.</li>	
+									<li><code>Bullseye</code>: puts nodes in a spiral circle based on their score computed by one of the metric algorithms</li>								
+								</ul>                     		
+								All layout algorithms extend <code>Layout.java</code>, Layout.java is also used to call the appropriate Layout Class
+								upon user's request (click). The reflection part, takes place in Layout.java as well.
+								<br>
+								An important point: All layout algorithms assume the size of the canvas is 1 * 1 (unit square) and scaling would
+								take place in GUI depending of the canvas size, window size, zooming level, and so forth.
+                    		</p>
+                    		
+                    		<h2>Text Analysis Algorithms</h2>
+                    		<p>
+								Text similarity classes as well as sentiment anallysis package reside in <code>algorithm.textanalysis</code>.                    		
+                    		</p>
+                    		
+                    		<h2>Algorithms Util</h2>
+                    		<p>
+								some utility algorithms including <code>Sort</code> and <code>PlainTextParser</code> are currently in this package.                    		
+                    		</p>
+							</div>
+                    	<div id="io">
+							<h1>Input/Ouput Interactions</h1>
+							<p>
+							IO classes are split into several packages:
+							<ul>
+								<li><code>io.lgorithmutility</code>: input ouput classes used by some of the algorithm.</li>
+								<li><code>io.graph</code>: readers and writers for different graph formats.</li>
+								<li><code>io.text</code>: readers and writers for different text (msg thread) formats.</li>
+								<li><code>io.utility</code>: application specific readers (and writers).</li>							
+							</ul>  
+							</p>                 	
+                    	</div>
+                    	<div id="project">
+                    	<h1>Project</h1>
+                    	<p>
+							When user want to work with Meerkat, load graphs, data files, manipulate them, first thing to do is to create
+							a project. All Meerkat functionulities are enable within a project.
+							<br>
+							A project can contain multiple graphs, or multiple thread tree message lists. Thus, each project can be linked to
+							multiple data files on disk as well Meerkat generated graphs from loaded data (either text or graph itself).
+							<br>
+							The project class can be find in <code>main.project.Project.java</code>                    	
+                    	</p>
+                    	</div>
+                    	<div id="mainapplication">
+							<h1>Main Application</h1>
+							<p>
+							<code>main.MeerkatApplication</code> is the starting point of the application. It initializes the software,
+							and keeps track of active projects and running algorithms.
+							<br>
+							An other class in the <code>main</code> package is <code>main.MeerkatServer</code> that connects the software to 
+							a copy on the server to run algorithms and do processing server-side (this class is not migrated to the new version yet.)							
+							</p>                    	
+                    	</div>
+                    	<div id="config">
+                    	<h1>Config</h1>
+                    	<p>
+							The package <code>config</code> currently has two classes: <br>
+							The class <code>config.MeerkatClassConfig</code> loads the mapping between function id to class name. The function id
+							is the same used in GUI. Thus, when GUI wants to send backend a task to do, it will send the id and the mapping
+							with the proper class in done with the help of <code>MeerkatClassConfig.java</code>.
+							<br>
+							The other class <code>config.MeerkatSystem.java</code>, contains all constant and configurational information,
+							such as directory for some outsource algorithms or system attributes to add to data structure in order to save
+							algorithms' results.                    	
+                    	</p>
+                    	</div>
+                    	<div id="test">
+                    	<h1>Tests</h1>
+                    	<p>
+							All tests for classes go with in <code>test</code> package. We currently have three test classes. In case,
+							we end up having many test classes, it is better to organize classes in <code>test</code> package, in appropriate
+							sub-packages.                   	
+                    	</p>
+                    	</div>
+                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>

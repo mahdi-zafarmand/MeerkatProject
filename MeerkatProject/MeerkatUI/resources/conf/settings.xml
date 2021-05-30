@@ -1,0 +1,41 @@
+<Settings>
+	<UI>
+		<VertexColorDefault>#CC3333</VertexColorDefault>
+		<VertexColorSelected>#0000FF</VertexColorSelected>
+		<VertexShapeDefault>-1</VertexShapeDefault>
+		<VertexSizeDefault>5.0</VertexSizeDefault>
+		<VertexOpacityDefault>1.0</VertexOpacityDefault>
+		<VertexLabelFontSizeDefault>12</VertexLabelFontSizeDefault>
+		<EdgeColorPrimary>#999999</EdgeColorPrimary>
+		<EdgeColorSecondary>#FF0000</EdgeColorSecondary>
+		<EdgeColorTertiary>#0000FF</EdgeColorTertiary>
+		<EdgeOpacity>0.5</EdgeOpacity>
+		<EdgeStrokeWidth>1</EdgeStrokeWidth>
+		<CanvasBackgroundColorDefault>#FFFFFF</CanvasBackgroundColorDefault>
+		<CanvasDragRectColor>#0000FF</CanvasDragRectColor>
+		<CanvasDragRectOpacity>0.5</CanvasDragRectOpacity>
+		<CanvasZoomFactor>2.0</CanvasZoomFactor>
+	</UI>
+	<AlgorithmParameters>
+		<KMeansDefaultClusters>3</KMeansDefaultClusters>
+		<SameAttributeMultipleValues>true</SameAttributeMultipleValues>
+		<FastModularityAlgorithm>Fast Modularity</FastModularityAlgorithm>
+		<FastModularityWeighted>true</FastModularityWeighted>
+		<LocalTopLeadersDefaultClusters>2</LocalTopLeadersDefaultClusters>
+		<LocalTopLeadersDefaultOutlierPercentage>1.0</LocalTopLeadersDefaultOutlierPercentage>
+		<LocalTopLeadersDefaultHubPercentage>0.0</LocalTopLeadersDefaultHubPercentage>
+		<LocalTopLeadersDefaultCenterDistance>0.0</LocalTopLeadersDefaultCenterDistance>
+		<LocalCommunityAlgorithm>M</LocalCommunityAlgorithm>
+		<LocalCommunityOverlap>true</LocalCommunityOverlap>
+		<RosvallInfoMapNoOfAttempts>2</RosvallInfoMapNoOfAttempts>
+		<RosvallInfoMapIsDirected>true</RosvallInfoMapIsDirected>
+		<RosvallInfoModNoOfAttempts>2</RosvallInfoModNoOfAttempts>
+		<DCMiningSimilarityThreshold>0.2</DCMiningSimilarityThreshold>
+		<DCMiningMetric>L</DCMiningMetric>
+		<DCMiningMethod>Direct</DCMiningMethod>
+		<DCMiningOverlap>true</DCMiningOverlap>
+		<DCMiningHubs>true</DCMiningHubs>
+		<DCMiningInstability>0.02</DCMiningInstability>
+		<DCMiningHistory>0.0</DCMiningHistory>
+	</AlgorithmParameters>
+</Settings>

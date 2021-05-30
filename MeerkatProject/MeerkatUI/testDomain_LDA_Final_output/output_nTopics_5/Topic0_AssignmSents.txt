@@ -1,0 +1,17 @@
+<wordAssignments word=people count=7 >
+<assignment document=0 sentence=6 > \n But it is going to be life most people regret having abortion</assignment>
+<assignment document=0 sentence=15 > Pretending pro-life people care about scientific fact is bullshit</assignment>
+<assignment document=0 sentence=17 > but so many outspoken pro-life people and groups who have no problem using misinformation</assignment>
+<assignment document=0 sentence=18 > emotional blackmail, intimidation and deceit to manipulate people into doing what pro-life thinks is right</assignment>
+<assignment document=0 sentence=19 > Pro-choice people don't have to lie</assignment>
+<assignment document=0 sentence=22 > I think you'd find most pro-choice people would agree that the fewer people need/want abortions</assignment>
+<assignment document=0 sentence=22 > I think you'd find most pro-choice people would agree that the fewer people need/want abortions</assignment>
+</wordAssignments>
+<wordAssignments word=fetus count=6 >
+<assignment document=0 sentence=2 > it has not yet lived to experience things that would make it innocent or guilty which are both conscious thought processes that a baby does not possess especially as a fetus</assignment>
+<assignment document=0 sentence=3 > A fetus is a parasite</assignment>
+<assignment document=0 sentence=29 > Please show me where I denied that a fetus is a human</assignment>
+<assignment document=0 sentence=33 > Of course a fetus is a human- did you expect me to claim it's a different species</assignment>
+<assignment document=0 sentence=36 > But I think abortion would still be acceptable even if the government extended legal personhood to fetuses</assignment>
+<assignment document=0 sentence=40 > Abortion if it's a fetus</assignment>
+</wordAssignments>

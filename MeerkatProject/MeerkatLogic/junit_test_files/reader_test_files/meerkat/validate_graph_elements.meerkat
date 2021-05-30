@@ -1,0 +1,24 @@
+*Timeframe
+year1
+*Vertices
+1 {default=1.0;type=education;class=sector;SYS:X=0.4590519605825846;SYS:Y=0.399154303662247;SYS:COMMUNITY=1}
+2 {default=1.0;type=education;class=sector;SYS:X=0.5590519605825846;SYS:Y=0.499154303662247;SYS:COMMUNITY=2}
+3 {default=1.0;type=education;class=sector;SYS:X=0.6590519605825846;SYS:Y=0.599154303662247;}
+4 {default=1.0;type=education;class=sector;SYS:X=0.7590519605825846;SYS:Y=0.799154303662247;SYS:COMMUNITY=3}
+5 {default=1.0;type=education;class=sector;SYS:X=0.8590519605825846;SYS:Y=0.199154303662247;SYS:COMMUNITY=3}
+*Edges
+1	2 {weight=1000;type=transfer;}
+2	4 {weight=1000;type=transfer;}
+1	5 {weight=1000;type=transfer;}
+*Timeframe
+year2
+*Vertices
+1 {default=1.0;type=education;class=sector;SYS:X=0.1590519605825846;SYS:Y=0.199154303662247;}
+2 {default=1.0;type=education;class=sector;SYS:X=0.2590519605825846;SYS:Y=0.599154303662247;}
+4 {default=1.0;type=education;class=sector;SYS:X=0.4590519605825846;SYS:Y=0.899154303662247;}
+6 {default=1.0;type=education;class=sector;SYS:X=0.7590519605825846;SYS:Y=0.399154303662247;}
+*Edges
+1	2 {weight=1000;type=transfer;}
+4	6 {weight=1000;type=transfer;}
+*Arcs
+*End

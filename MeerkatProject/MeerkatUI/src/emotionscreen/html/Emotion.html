@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+
+<body>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script language="javascript">
+      /**
+       * 
+       * @param String sentimentImageURL - the path in which emotion images are stored
+       * @param String [] emotions - list of names of emotions based on the selected language
+       * @param String [] percents - list of certainty of emotions
+       * @param String [] fileNames - list of filenames corresponding to each emotion
+       * @param String strContent - content of the analyzed message
+       * @returns {undefined}
+       */
+      function display(sentimentImageURL, emotions, percents, fileNames, strContent) {
+        //body reference 
+        var body = document.getElementsByTagName("body")[0];
+
+        // create elements <table> and a <tbody>
+        var tbl = document.createElement("table");
+        tbl.setAttribute("border", "1px solid black");
+        
+        var tblBody = document.createElement("tbody");
+        
+        
+        //Row 1
+        var rowSentimentTags = document.createElement("tr");
+        
+        for (var i=0 ; i < emotions.length ; i++){
+
+        var cellEmoticon1 = document.createElement("td");    
+        var txtContent = document.createTextNode(emotions[i]);
+        cellEmoticon1.setAttribute("align", "center");
+        cellEmoticon1.appendChild(txtContent);
+        rowSentimentTags.appendChild(cellEmoticon1);
+        }
+                
+        tblBody.appendChild(rowSentimentTags);
+
+        // Row 2
+        var rowSentimentImages = document.createElement("tr");
+        for (var i=0 ; i < fileNames.length ; i++){
+            var cellEmoticon1 = document.createElement("td");    
+            
+            cellEmoticon1.setAttribute("width", "51px");
+            cellEmoticon1.setAttribute("height", "51px");
+
+            var urlImage2 = "url('" + sentimentImageURL + fileNames[i] + ".jpg')";
+            cellEmoticon1.style.backgroundImage =  urlImage2;
+            cellEmoticon1.style.backgroundSize =  "51px 51px";
+            cellEmoticon1.style.backgroundRepeat = "no-repeat";
+            cellEmoticon1.style.backgroundPosition = "center";
+
+            cellEmoticon1.style.verticalAlign = "top";
+            cellEmoticon1.style.align = "center";
+//            cellEmoticon1.setAttribute("align", "center");
+            cellEmoticon1.style.horizontalAlign = "center";
+            
+            var transparent = document.createElement("div");
+            transparent.innerHTML = transparent.innerHTML + '&nbsp';
+            transparent.style.display = "block";
+            transparent.setAttribute("width", "53px");
+            var height = ((100-percents[i]) / 100) * 53;
+            transparent.style.height = height + "px";
+//            document.write(cellEmoticon1.offsetLeft.toString()+" " + cellEmoticon1.offsetTop.toString());
+            transparent.style.backgroundColor = "#ffffff";
+            transparent.style.opacity = "0.75";
+            cellEmoticon1.appendChild(transparent);
+            
+            rowSentimentImages.appendChild(cellEmoticon1);
+        }       
+        tblBody.appendChild(rowSentimentImages);
+
+        // Row 3
+        var rowFooters = document.createElement("tr");
+        for (var i=0 ; i < percents.length ; i++){
+            var cellEmoticon1Footer = document.createElement("td");    
+            var txtEmoticon1Footer = document.createTextNode(percents[i]+"%");
+            cellEmoticon1Footer.setAttribute("align", "center");
+            cellEmoticon1Footer.appendChild(txtEmoticon1Footer);
+            rowFooters.appendChild(cellEmoticon1Footer);
+        }
+        tblBody.appendChild(rowFooters);
+
+        // append the <tbody> inside the <table>
+        tbl.appendChild(tblBody);
+        tbl.setAttribute("border", "1");
+        tbl.setAttribute("rules", "none");
+        tbl.setAttribute("frame", "box");
+        tbl.setAttribute("style", "background-color: #FAFAFA;");
+        tbl.style.border = "1px solid black";
+        tbl.style.borderCollapse =  "separate";
+        tbl.style.borderSpacing =  "8px";
+//        tbl.setAttribute("style", "border-radius:15px;");
+        body.appendChild(tbl);
+ 
+        body.appendChild(document.createElement("BR"));
+        
+
+        //show message content
+        var cellContent = document.createElement("textarea");
+        cellContent.setAttribute("rows", "4");
+        cellContent.setAttribute("cols", "80");
+        cellContent.setAttribute("style", "background-color: #F2F2F2;");
+        var txtContent = document.createTextNode(strContent);         
+        cellContent.appendChild(txtContent);
+        body.appendChild(cellContent);
+
+        
+    } 
+  </script>
+</body>

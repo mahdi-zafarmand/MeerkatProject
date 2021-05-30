@@ -1,0 +1,12 @@
+Reading network temp.net...done! (found 110 nodes and 133 links, aggregated 1 link(s) defined more than once, ignoring 1 self link(s).
+Now partition the network:
+Attempt 1/2
+Iteration 1, moving 110 nodes, looping 1 1 1 1 times between mergings to code length 6.72824 in 14 modules.
+Iteration 2, moving 110 nodes, looping 1 1 times between mergings to code length 6.72709 in 14 modules.
+Iteration 3, moving 23 modules, looping 1 times between mergings to code length 6.72709 in 14 modules.
+Attempt 2/2
+Iteration 1, moving 110 nodes, looping 1 1 1 1 times between mergings to code length 6.72557 in 14 modules.
+Iteration 2, moving 110 nodes, looping 1 1 1 times between mergings to code length 6.72006 in 13 modules.
+Iteration 3, moving 25 modules, looping 1 1 times between mergings to code length 6.70657 in 14 modules.
+Iteration 4, moving 110 nodes, looping 1 times between mergings to code length 6.70657 in 14 modules.
+Done! Code length 6.70657 in 14 modules.

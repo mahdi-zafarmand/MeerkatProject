@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app>
+    <meerkat>
+        <class id="dummy">Dummy</class>
+    </meerkat>
+
+    <layouts>
+
+        <class id="LayoutCircle">CircleLayout</class>
+<!--        <class id="LayoutHarel"></class>
+        <class id="LayoutISOM"></class>
+        -->
+        <class id="LayoutKamada">KKLayout</class>
+        
+<!--        <class id="LayoutReingold"></class>
+-->
+        <class id="LayoutMFR">ModifiedFRLayout</class>
+        <class id="LayoutRandom">RandomLayout</class>
+<!--        <class id="LayoutSpring"></class>
+-->
+        <class id="LayoutForceAtlas">ForceAtlas2</class>
+        <class id="LayoutSpatial">SpatialLayout</class>
+        <class id="LayoutBullseye">Bullseye</class>
+
+<!--        <class id="LayoutCOMB"></class>
+-->
+        <class id="LayoutCOMC">COMCLayout</class>
+        <class id="LayoutCOMB">COMBLayout</class>
+        <class id="LayoutFR">FruchtermanReingold</class>
+
+    </layouts>
+
+    <communityminings>
+        <class id="sameattribute">AttributeValueMiner</class>
+        <class id="fastmodularity">FastModularity</class>
+        <class id="louvain">LouvainMiner</class>
+        <class id="kmeans">KMeansMiner</class>
+        <class id="localcommunity">LocalCommunityMiner</class>
+        <class id="localt">LocalT</class>
+        <class id="localtopleaders">LocalTopLeader</class>
+        <class id="rosvallinfomap">RosvallInfomapMiner</class>
+        <class id="rosvallinfomod">RosvallInfomodMiner</class>
+        <class id="dcmining">DynamicMiner</class>
+    </communityminings>
+    
+    
+    <linkpredictions>
+        <class id="localNaiveBayesPredictor">LocalNaiveBayesIndexLinkPredictor</class>
+    </linkpredictions>
+    
+    <shortestpaths>
+        <class id="Dijkstra">DijkstraShortestPath</class>
+    </shortestpaths>
+    
+
+    <metrics>
+        <class id="Authority">Authority</class>
+        <class id="Hub">Hub</class>
+        <class id="Betweenness">Betweenness</class>
+        <class id="Closeness">Closeness</class>
+        <class id="InDegree">InDegree</class>
+        <class id="OutDegree">OutDegree</class>
+        <class id="PageRank">PageRank</class>
+    </metrics>
+
+    <graphs>
+        <class id="dummy">Dummy</class>
+    </graphs>
+
+    <readers>
+        <class id=".meerkat">MeerkatReader</class>
+        <class id=".json">JSONReader</class>
+        <class id=".csv">CSVReader</class>
+        <class id=".pairs">PairsReader</class>
+        <class id=".twitter">TwitterReader</class>
+        <class id=".textual">TextualXMLReader</class>
+        <class id=".net">PajekReader</class>
+        <class id=".graphml">GraphMLReader</class>
+        <class id=".gml">GMLReader</class>
+         <class id=".db">SqliteReader</class>
+	<class id="PairParallelReader">PairParallelReader</class>
+    </readers>
+
+    <writers>
+        <class id=".meerkat">MeerkatWriter</class>
+        <class id=".json">D3JSONWriter</class>
+        <class id=".csv">CSVWriter</class>
+        <class id=".pairs">PairsWriter</class>
+        <class id=".net">PajekWriter</class>
+        <class id=".wpairs">WeightedPairsWriter</class>
+        <class id=".gml">GMLWriter</class>
+        <class id=".db">SqlWriter</class>
+        <class id=".graphml">GraphMLWriter</class>
+    </writers>
+</app>

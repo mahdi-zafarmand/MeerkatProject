@@ -1,0 +1,112 @@
+*Timeframe
+year one
+*Vertices
+21 {default=1.0;class=program;budget=17.9;SYS:X=0.8707183961770837;SYS:Y=0.3207665292138325;}
+59 {default=1.0;class=program;budget=0.81;SYS:X=0.4049160990348962;SYS:Y=0.19832560735358656;}
+6 {default=1.0;size=400;class=company;SYS:X=0.9806840394356763;SYS:Y=0.9276901558624907;}
+42 {default=1.0;size=400;class=company;SYS:X=0.4876548252524118;SYS:Y=0.6971929068534284;}
+12 {default=1.0;size=400;class=company;SYS:X=0.11339432407506962;SYS:Y=0.0;}
+14 {default=1.0;size=400;class=company;SYS:X=0.653688806448154;SYS:Y=0.3186827841783994;}
+20 {default=1.0;size=400;class=company;SYS:X=0.0;SYS:Y=0.05393954581898061;}
+61 {default=1.0;type=education;class=sector;SYS:X=0.5339837433448534;SYS:Y=0.4469515034528909;}
+33 {default=1.0;size=400;class=company;SYS:X=0.9999903061088826;SYS:Y=0.07540355079354126;}
+48 {default=1.0;size=400;class=company;SYS:X=0.14253648796890642;SYS:Y=0.6307763999613963;}
+46 {default=1.0;size=400;class=company;SYS:X=0.6840217398889884;SYS:Y=0.3907076235947089;}
+10 {default=1.0;class=program;budget=0.77;SYS:X=0.8206858322450229;SYS:Y=0.1556834962622409;}
+45 {default=1.0;size=400;class=company;SYS:X=0.24078567528447475;SYS:Y=0.5613707484779487;}
+30 {default=1.0;size=400;class=company;SYS:X=0.825269359893449;SYS:Y=0.5803838946582806;}
+16 {default=1.0;size=400;class=company;SYS:X=0.8640276846543595;SYS:Y=0.03417196842969215;}
+38 {default=1.0;size=400;class=company;SYS:X=0.8701116479126759;SYS:Y=0.7963225092294987;}
+32 {default=1.0;size=400;class=company;SYS:X=0.8304071319745876;SYS:Y=1.0;}
+28 {default=1.0;class=program;budget=6.6;SYS:X=0.09876944344078806;SYS:Y=0.37856486298117265;}
+35 {default=1.0;class=program;budget=3.41;SYS:X=1.0;SYS:Y=0.11724613227417632;}
+*Edges
+10	33
+35	46
+21	30
+*Arcs
+*End
+*Timeframe
+year two
+*Vertices
+21 {default=1.0;class=program;budget=17.9;SYS:X=0.5210147819014306;SYS:Y=0.2471310442480536;}
+59 {default=1.0;class=program;budget=0.81;SYS:X=1.0;SYS:Y=0.27324936111752735;}
+6 {default=1.0;size=400;class=company;SYS:X=0.22889839736349551;SYS:Y=0.5393036836108551;}
+42 {default=1.0;size=400;class=company;SYS:X=0.9227667490160896;SYS:Y=0.8720125992469794;}
+12 {default=1.0;size=400;class=company;SYS:X=0.4754958274806092;SYS:Y=0.5110836581151853;}
+14 {default=1.0;size=400;class=company;SYS:X=0.1480018647531446;SYS:Y=0.5895527929265071;}
+20 {default=1.0;size=400;class=company;SYS:X=0.28907780890004686;SYS:Y=0.14977419471439254;}
+61 {default=1.0;type=education;class=sector;SYS:X=0.23961636933405278;SYS:Y=0.7582003689090481;}
+33 {default=1.0;size=400;class=company;SYS:X=0.7483956187588954;SYS:Y=0.9704096492600823;}
+48 {default=1.0;size=400;class=company;SYS:X=0.7571324650691653;SYS:Y=0.9989086079236801;}
+46 {default=1.0;size=400;class=company;SYS:X=0.9385275052666948;SYS:Y=0.9953214753533104;}
+10 {default=1.0;class=program;budget=0.77;SYS:X=0.437721755005188;SYS:Y=1.0;}
+45 {default=1.0;size=400;class=company;SYS:X=0.43757803800177597;SYS:Y=0.27596379709204405;}
+30 {default=1.0;size=400;class=company;SYS:X=0.8028477792793818;SYS:Y=0.462035657386913;}
+16 {default=1.0;size=400;class=company;SYS:X=0.0655057801912053;SYS:Y=0.9981910561483982;}
+38 {default=1.0;size=400;class=company;SYS:X=0.0;SYS:Y=0.0035387649241746077;}
+32 {default=1.0;size=400;class=company;SYS:X=0.46092638049466156;SYS:Y=0.44431076781386714;}
+28 {default=1.0;class=program;budget=6.6;SYS:X=0.9632642057202894;SYS:Y=0.0;}
+35 {default=1.0;class=program;budget=3.41;SYS:X=0.5331497799840467;SYS:Y=0.9357249296767534;}
+*Edges
+10	33
+35	46
+21	30
+*Arcs
+*End
+*Timeframe
+year three
+*Vertices
+21 {default=1.0;class=program;budget=17.9;SYS:X=1.0;SYS:Y=0.0;}
+59 {default=1.0;class=program;budget=0.81;SYS:X=0.2944993355014371;SYS:Y=1.0;}
+6 {default=1.0;size=400;class=company;SYS:X=0.8726535942237704;SYS:Y=0.2888424193882765;}
+42 {default=1.0;size=400;class=company;SYS:X=0.061635871708776144;SYS:Y=0.09286067207725741;}
+12 {default=1.0;size=400;class=company;SYS:X=0.5286949768469785;SYS:Y=0.6502496987684769;}
+14 {default=1.0;size=400;class=company;SYS:X=0.7890537390748912;SYS:Y=0.9434676639183532;}
+20 {default=1.0;size=400;class=company;SYS:X=0.6670148626955228;SYS:Y=0.47520715381366835;}
+61 {default=1.0;type=education;class=sector;SYS:X=0.0;SYS:Y=0.22044174235640673;}
+33 {default=1.0;size=400;class=company;SYS:X=0.5909844046711978;SYS:Y=0.24742358349605323;}
+48 {default=1.0;size=400;class=company;SYS:X=0.4097644204032367;SYS:Y=0.7696156758402555;}
+46 {default=1.0;size=400;class=company;SYS:X=0.5452690823328555;SYS:Y=0.9193084495837106;}
+10 {default=1.0;class=program;budget=0.77;SYS:X=0.3644550123710316;SYS:Y=0.5363569692944548;}
+45 {default=1.0;size=400;class=company;SYS:X=0.48766702297888814;SYS:Y=0.2552260115693374;}
+30 {default=1.0;size=400;class=company;SYS:X=0.6714516048602993;SYS:Y=0.7669739092094527;}
+16 {default=1.0;size=400;class=company;SYS:X=0.7533972917343014;SYS:Y=0.3102011513855028;}
+38 {default=1.0;size=400;class=company;SYS:X=0.5515774334698955;SYS:Y=0.09856738919593369;}
+32 {default=1.0;size=400;class=company;SYS:X=0.5137142090653893;SYS:Y=0.01252017480079402;}
+28 {default=1.0;class=program;budget=6.6;SYS:X=0.7317143048509551;SYS:Y=0.05372671981219901;}
+35 {default=1.0;class=program;budget=3.41;SYS:X=0.4284731750245744;SYS:Y=0.931498697407721;}
+*Edges
+10	33
+35	46
+21	30
+*Arcs
+*End
+*Timeframe
+year four
+*Vertices
+21 {default=1.0;class=program;budget=17.9;SYS:X=0.3754658207386661;SYS:Y=0.6728732281391986;}
+59 {default=1.0;class=program;budget=0.81;SYS:X=1.0;SYS:Y=0.31174064645906807;}
+6 {default=1.0;size=400;class=company;SYS:X=0.7381886172750352;SYS:Y=0.0;}
+42 {default=1.0;size=400;class=company;SYS:X=0.028734724007665035;SYS:Y=0.2577040692504385;}
+12 {default=1.0;size=400;class=company;SYS:X=0.45451415130884903;SYS:Y=0.28519601860541677;}
+14 {default=1.0;size=400;class=company;SYS:X=0.5029400379370876;SYS:Y=0.9337838221630265;}
+20 {default=1.0;size=400;class=company;SYS:X=0.03775465682749703;SYS:Y=0.45016824993097027;}
+61 {default=1.0;type=education;class=sector;SYS:X=0.5972503340222126;SYS:Y=0.9784010808404799;}
+33 {default=1.0;size=400;class=company;SYS:X=0.571948948620432;SYS:Y=0.8922145461057716;}
+48 {default=1.0;size=400;class=company;SYS:X=0.18570875051387634;SYS:Y=0.7923902808008814;}
+46 {default=1.0;size=400;class=company;SYS:X=0.7256771517002483;SYS:Y=1.0;}
+10 {default=1.0;class=program;budget=0.77;SYS:X=0.6575655417477905;SYS:Y=0.6790602256352738;}
+45 {default=1.0;size=400;class=company;SYS:X=0.32047100267382395;SYS:Y=0.6738820005310573;}
+30 {default=1.0;size=400;class=company;SYS:X=0.12527804564609932;SYS:Y=0.063409115452773;}
+16 {default=1.0;size=400;class=company;SYS:X=0.26725175641797644;SYS:Y=0.881065170031293;}
+38 {default=1.0;size=400;class=company;SYS:X=0.09254379610447842;SYS:Y=0.5536500967554435;}
+32 {default=1.0;size=400;class=company;SYS:X=0.8588169630777496;SYS:Y=0.4829657586474393;}
+28 {default=1.0;class=program;budget=6.6;SYS:X=0.0;SYS:Y=0.6379467159353677;}
+35 {default=1.0;class=program;budget=3.41;SYS:X=0.7270649459685999;SYS:Y=0.3059470557802135;}
+*Edges
+10	33
+35	46
+21	30
+*Arcs
+*End

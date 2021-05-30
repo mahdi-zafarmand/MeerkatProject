@@ -1,0 +1,12 @@
+ProjectName:Alumni_V2
+ProjectDirectory:projects/Alumni_V2/
+SavedTime:1520966242591
+RawDataFile:
+Graph:Dataset_1,Dataset_1.meerkat,projects/Alumni_V2/Dataset_1.meerkat
+Graph:Dataset_2,Dataset_2.meerkat,projects/Alumni_V2/Dataset_2.meerkat
+Graph:Al_Auth,Al_Auth.meerkat,projects/Alumni_V2/Al_Auth.meerkat
+Graph:Al_Betweeness,Al_Betweeness.meerkat,projects/Alumni_V2/Al_Betweeness.meerkat
+Graph:Al_Indegree,Al_Indegree.meerkat,projects/Alumni_V2/Al_Indegree.meerkat
+Graph:AL_PageRank_Cl2,AL_PageRank_Cl2.meerkat,projects/Alumni_V2/AL_PageRank_Cl2.meerkat
+Graph:Al_Pagerank_Cl1,Al_Pagerank_Cl1.meerkat,projects/Alumni_V2/Al_Pagerank_Cl1.meerkat
+Graph:Dataset3,Dataset3.meerkat,projects/Alumni_V2/Dataset3.meerkat

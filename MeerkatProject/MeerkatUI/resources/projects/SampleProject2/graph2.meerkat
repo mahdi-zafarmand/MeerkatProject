@@ -1,0 +1,572 @@
+*Timeframe
+year one
+*Vertices
+103 {default=1.0;size=400;class=company;SYS:X=1.0;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.40484647251041705;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+25 {default=1.0;class=program;budget=3.41;SYS:X=0.9877485804815666;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.4420711801869643;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+7 {default=1.0;class=program;budget=21.41;SYS:X=0.8425436944625758;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.15685492176548319;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+54 {default=1.0;size=400;class=company;SYS:X=0.9701365200421048;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.5518636452421356;SYS:COMMUNITY=1;SYS:COLOR=#803E75;}
+94 {default=1.0;size=400;class=company;SYS:X=0.9566292506388736;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.5885008740562805;SYS:COMMUNITY=1;SYS:COLOR=#803E75;}
+51 {default=1.0;size=400;class=company;SYS:X=0.33151230516280406;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.1652739087210239;}
+74 {default=1.0;size=400;class=company;SYS:X=0.943014172150069;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.2543320038040665;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+17 {default=1.0;class=program;budget=17.9;SYS:X=0.6759371673188488;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.06895442689403948;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+70 {default=1.0;size=400;class=company;SYS:X=0.6647353511363662;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.10661735896018497;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+91 {default=1.0;size=400;class=company;SYS:X=0.21867263553335328;SYS:Y=0.12533510490387711;}
+27 {default=1.0;size=400;class=company;SYS:X=0.07654780714472634;SYS:Y=0.262390095853899;}
+11 {default=1.0;class=program;budget=2.22;SYS:X=0.6346864000786057;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.13232257620889082;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+46 {default=1.0;size=400;class=company;SYS:X=0.8347307791461259;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.19563174740890027;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+84 {default=1.0;size=400;class=company;SYS:X=0.9327009258315645;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.29233027701493447;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+83 {default=1.0;size=400;class=company;SYS:X=0.5953306437906635;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.137908853788079;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+5 {default=1.0;type=agriculture;class=sector;SYS:X=0.9556739477718733;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.46507731475234976;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+45 {default=1.0;size=400;class=company;SYS:X=0.812481478729452;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.22850515286090686;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+59 {default=1.0;size=400;class=company;SYS:X=0.7791830475105819;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.2504704601395976;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+20 {default=1.0;class=program;budget=6.6;SYS:X=0.01419395204889884;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/changebackgroundimage.png;SYS:Y=0.42363302202642367;}
+58 {default=1.0;size=400;class=company;SYS:X=0.7399048697915583;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.2581836503277979;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+96 {default=1.0;size=400;class=company;SYS:X=0.9160275213893545;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.46507731475234976;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+22 {default=1.0;class=program;budget=0.77;SYS:X=0.922427643899531;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.6079951363308439;SYS:COMMUNITY=1;SYS:COLOR=#803E75;}
+49 {default=1.0;size=400;class=company;SYS:X=0.7006266920725347;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.2504704601395976;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+48 {default=1.0;size=400;class=company;SYS:X=0.6673282608536648;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.22850515286090686;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+86 {default=1.0;size=400;class=company;SYS:X=0.9045246128984372;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.32014694360517326;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+100 {default=1.0;size=400;class=company;SYS:X=0.8839528886796615;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.4420711801869643;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+57 {default=1.0;size=400;class=company;SYS:X=0.8835350117259335;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.6012248500929657;SYS:COMMUNITY=1;SYS:COLOR=#803E75;}
+41 {default=1.0;size=400;class=company;SYS:X=0.6450789604369908;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.19563174740890032;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+53 {default=1.0;size=400;class=company;SYS:X=0.8660350536468061;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.33032855022580254;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+33 {default=1.0;size=400;class=company;SYS:X=0.233575796998182;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/changebackgroundimage.png;SYS:Y=0.7990726929382075;}
+105 {default=1.0;size=400;class=company;SYS:X=0.871701469161228;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.40484647251041705;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+39 {default=1.0;size=400;class=company;SYS:X=0.637266045120541;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.1568549217654832;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+73 {default=1.0;size=400;class=company;SYS:X=0.8275454943951747;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.32014694360517326;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+75 {default=1.0;size=400;class=company;SYS:X=0.9449412403229066;SYS:Y=0.701678282402914;SYS:COMMUNITY=3;SYS:COLOR=#A6BDD7;}
+67 {default=1.0;size=400;class=company;SYS:X=0.057670498093465944;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/changebackgroundimage.png;SYS:Y=0.760668376541507;}
+60 {default=1.0;size=400;class=company;SYS:X=0.5591632568194754;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.1216025880371084;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+64 {default=1.0;size=400;class=company;SYS:X=0.20252915091359405;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/changebackgroundimage.png;SYS:Y=0.9200820808110624;}
+43 {default=1.0;size=400;class=company;SYS:X=0.6450789604369908;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.11807809612206611;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+85 {default=1.0;size=400;class=company;SYS:X=0.7993691814620474;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.2923302770149345;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+42 {default=1.0;size=400;class=company;SYS:X=0.6673282608536648;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.08520469067005947;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+66 {default=1.0;size=400;class=company;SYS:X=0.5593158126506913;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/changebackgroundimage.png;SYS:Y=1.0;}
+28 {default=1.0;size=400;class=company;SYS:X=0.7074715979897083;SYS:Y=0.9297312961935682;}
+35 {default=1.0;size=400;class=company;SYS:X=0.4444686762450375;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.05004316972829977;}
+88 {default=1.0;size=400;class=company;SYS:X=0.7890559351435428;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.25433200380406656;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+13 {default=1.0;class=program;budget=4.11;SYS:X=0.5376671289818489;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.08858090311734407;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+95 {default=1.0;size=400;class=company;SYS:X=0.8581496489555669;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.5713579075166991;SYS:COMMUNITY=1;SYS:COLOR=#803E75;}
+81 {default=1.0;size=400;class=company;SYS:X=0.5376671289818489;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.04932795067073489;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+76 {default=1.0;size=400;class=company;SYS:X=0.9192815341551523;SYS:Y=0.7270104645434926;SYS:COMMUNITY=3;SYS:COLOR=#A6BDD7;}
+78 {default=1.0;size=400;class=company;SYS:X=0.8936218279873979;SYS:Y=0.701678282402914;SYS:COMMUNITY=3;SYS:COLOR=#A6BDD7;}
+14 {default=1.0;class=program;budget=8.08;SYS:X=0.7993691814620474;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.21633373059319852;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+23 {default=1.0;class=program;budget=5.01;SYS:X=0.8839528886796615;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.36762176483386977;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+93 {default=1.0;size=400;class=company;SYS:X=0.8581496489555669;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.5323693829675721;SYS:COMMUNITY=1;SYS:COLOR=#803E75;}
+99 {default=1.0;size=400;class=company;SYS:X=0.9160275213893545;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.34461563026848446;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+40 {default=1.0;size=400;class=company;SYS:X=0.7006266920725347;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.06323938339136885;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+62 {default=1.0;size=400;class=company;SYS:X=0.5591632568194754;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.016306265750970574;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+3 {default=1.0;type=culture;class=sector;SYS:X=0.5953306437906635;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.0;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+97 {default=1.0;size=400;class=company;SYS:X=0.9556739477718733;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.34461563026848446;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+34 {default=1.0;size=400;class=company;SYS:X=0.8448675546539148;SYS:Y=0.8433834967428996;}
+56 {default=1.0;size=400;class=company;SYS:X=0.8835350117259335;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.5025024403913054;SYS:COMMUNITY=1;SYS:COLOR=#803E75;}
+69 {default=1.0;size=400;class=company;SYS:X=0.6346864000786057;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.005586277579188111;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+2 {default=1.0;type=infrastructure;class=sector;SYS:X=0.6647353511363662;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.03129149482789395;SYS:COMMUNITY=2;SYS:COLOR=#FF6800;}
+18 {default=1.0;class=program;budget=2.05;SYS:X=0.8275454943951747;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.18851706400295973;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+72 {default=1.0;size=400;class=company;SYS:X=0.8660350536468061;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.17833545738233045;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+79 {default=1.0;size=400;class=company;SYS:X=0.384883622619228;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/changebackgroundimage.png;SYS:Y=0.9960515083772408;}
+10 {default=1.0;class=program;budget=4.3;SYS:X=0.7399048697915583;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.05552619320316851;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+9 {default=1.0;class=program;budget=10.7;SYS:X=0.922427643899531;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.49573215415342714;SYS:COMMUNITY=1;SYS:COLOR=#803E75;}
+19 {default=1.0;class=program;budget=0.41;SYS:X=0.9566292506388736;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.5152264164279906;SYS:COMMUNITY=1;SYS:COLOR=#803E75;}
+98 {default=1.0;size=400;class=company;SYS:X=0.9877485804815666;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.36762176483386977;SYS:COMMUNITY=0;SYS:COLOR=#FFB300;}
+87 {default=1.0;size=400;class=uofa;SYS:X=0.9045246128984372;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.18851706400295973;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+44 {default=1.0;size=400;class=company;SYS:X=0.7791830475105819;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.06323938339136884;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+36 {default=1.0;size=400;class=company;SYS:X=0.0;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/changebackgroundimage.png;SYS:Y=0.5935327445707438;}
+1 {default=1.0;type=education;SYS:X=0.812481478729452;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.08520469067005952;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+15 {default=1.0;class=program;budget=11.2;SYS:X=0.9192815341551523;SYS:Y=0.6763461002623354;SYS:COMMUNITY=3;SYS:COLOR=#A6BDD7;}
+71 {default=1.0;size=400;class=company;SYS:X=0.9327009258315645;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.2163337305931985;SYS:COMMUNITY=5;SYS:COLOR=#CEA262;}
+47 {default=1.0;size=400;class=company;SYS:X=0.8347307791461259;SYS:TYPEICONURL=file:projects\SampleProject2/resources/icons/allprojects.png;SYS:Y=0.11807809612206621;SYS:COMMUNITY=4;SYS:COLOR=#C10020;}
+*Edges
+53	73 {weight=1000;type1=notransfer;SYS:COLOR=0x000000ff;}
+23	96 {weight=1000;type=transfer;}
+7	44 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+25	103 {weight=1000;type=transfer;}
+15	78 {weight=1000;type=transfer;}
+96	97 {weight=1000;type1=notransfer;}
+95	9 {weight=1000;type1=notransfer;}
+14	72 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+14	74 {weight=1000;type=transfer;}
+10	58 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+58	7 {weight=1000;type1=notransfer;SYS:COLOR=0x000000ff;}
+5	23 {weight=1000;type=transfer;}
+2	11 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+18	85 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+18	86 {weight=1000;type=transfer;}
+18	88 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+7	45 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+14	71 {weight=1000;type=transfer;}
+22	19 {weight=1000;type1=notransfer;}
+88	14 {weight=1000;type1=notransfer;SYS:COLOR=0x000000ff;}
+9	57 {weight=1000;type=transfer;}
+13	70 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+3	18 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+1	9 {weight=1000;type=transfer;}
+7	46 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+2	3 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+73	72 {weight=1000;type1=notransfer;SYS:COLOR=0x000000ff;}
+18	84 {weight=1000;type=transfer;}
+2	13 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+1	10 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+17	81 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+5	25 {weight=1000;type=transfer;}
+7	49 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+62	13 {weight=1000;type1=notransfer;SYS:COLOR=0x000000ff;}
+25	98 {weight=1000;type=transfer;}
+3	15 {weight=1000;type=transfer;}
+7	48 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+14	73 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+5	1 {weight=1000;type=transfer;}
+3	14 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+3	5 {weight=1000;type1=notransfer;}
+1	7 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+25	100 {weight=1000;type=transfer;}
+9	56 {weight=1000;type=transfer;}
+17	83 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+1	2 {number=21;weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+14	18 {weight=1000;type1=notransfer;SYS:COLOR=0x000000ff;}
+9	53 {weight=1000;type=transfer;}
+11	60 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+13	69 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+7	41 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+7	39 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+7	47 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+18	87 {number=69;weight=1000;type=transfer;}
+70	3 {weight=1000;type1=notransfer;SYS:COLOR=0x000000ff;}
+7	42 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+22	93 {weight=1000;type=transfer;}
+3	17 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+10	59 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+22	95 {weight=1000;type=transfer;}
+25	99 {weight=1000;type=transfer;}
+7	43 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+9	54 {weight=1000;type=transfer;}
+15	75 {weight=1000;type=transfer;}
+25	105 {weight=1000;type=transfer;}
+22	94 {weight=1000;type=transfer;}
+7	40 {weight=1000;type=transfer;SYS:COLOR=0x000000ff;}
+15	76 {weight=1000;type=transfer;}
+*Arcs
+*End
+*Timeframe
+year two
+*Vertices
+103 {default=1.0;size=400;class=company;SYS:X=0.7875670590969344;SYS:Y=0.8005228786479044;}
+25 {default=1.0;class=program;budget=3.41;SYS:X=0.541339596987399;SYS:Y=0.7618034756761154;}
+7 {default=1.0;class=program;budget=21.41;SYS:X=0.42019681898613265;SYS:Y=0.40862363494487786;}
+54 {default=1.0;size=400;class=company;SYS:X=0.06968935880927626;SYS:Y=0.4941527090021828;}
+94 {default=1.0;size=400;class=company;SYS:X=0.1358455390648898;SYS:Y=0.3809845526773666;}
+51 {default=1.0;size=400;class=company;SYS:X=0.8012616402454298;SYS:Y=0.8993425557773918;}
+74 {default=1.0;size=400;class=company;SYS:X=0.47643589430542194;SYS:Y=0.5083171116643673;}
+17 {default=1.0;class=program;budget=17.9;SYS:X=0.5304344566427349;SYS:Y=0.4066058158521686;}
+70 {default=1.0;size=400;class=company;SYS:X=0.059839419938984735;SYS:Y=0.4375879487477664;}
+91 {default=1.0;size=400;class=company;SYS:X=0.8509519438510936;SYS:Y=0.8080981130921708;}
+27 {default=1.0;size=400;class=company;SYS:X=0.6220158380949373;SYS:Y=0.9696751528567911;}
+11 {default=1.0;class=program;budget=2.22;SYS:X=0.8889908746674098;SYS:Y=0.3160295089760609;}
+46 {default=1.0;size=400;class=company;SYS:X=0.6680356324296552;SYS:Y=0.8736576699790656;}
+84 {default=1.0;size=400;class=company;SYS:X=0.38456767378447165;SYS:Y=0.8660246898439742;}
+83 {default=1.0;size=400;class=company;SYS:X=0.7837042445108255;SYS:Y=0.517460148554775;}
+5 {default=1.0;type=agriculture;class=sector;SYS:X=0.21875253648517717;SYS:Y=0.03284490767570421;}
+45 {default=1.0;size=400;class=company;SYS:X=0.7762042727327214;SYS:Y=0.9035321818034185;}
+59 {default=1.0;size=400;class=company;SYS:X=0.7426220857853956;SYS:Y=0.7943955377424311;}
+20 {default=1.0;class=program;budget=6.6;SYS:X=0.9278627875956896;SYS:Y=0.2791281102781389;}
+58 {default=1.0;size=400;class=company;SYS:X=0.36272875188326337;SYS:Y=0.34915501291522444;}
+96 {default=1.0;size=400;class=company;SYS:X=0.2449430266626198;SYS:Y=0.2455481063902223;}
+22 {default=1.0;class=program;budget=0.77;SYS:X=0.4555830111087958;SYS:Y=0.7949585109544542;}
+49 {default=1.0;size=400;class=company;SYS:X=0.12109037944640041;SYS:Y=0.7940254027226815;}
+48 {default=1.0;size=400;class=company;SYS:X=0.8048421252422179;SYS:Y=0.9570473634737644;}
+86 {default=1.0;size=400;class=company;SYS:X=0.0;SYS:Y=0.8743895455875177;}
+100 {default=1.0;size=400;class=company;SYS:X=0.30298040882926996;SYS:Y=0.08787798465605985;}
+57 {default=1.0;size=400;class=company;SYS:X=0.7468564055566012;SYS:Y=0.0998230722753328;}
+41 {default=1.0;size=400;class=company;SYS:X=0.3038175808009209;SYS:Y=0.3602951336727619;}
+53 {default=1.0;size=400;class=company;SYS:X=0.07601099961670224;SYS:Y=0.34699796043926034;}
+33 {default=1.0;size=400;class=company;SYS:X=0.062223478808390666;SYS:Y=0.28095351280687514;}
+105 {default=1.0;size=400;class=company;SYS:X=0.05337292230236236;SYS:Y=0.19820894872954478;}
+39 {default=1.0;size=400;class=company;SYS:X=0.13789479600040874;SYS:Y=0.9084692854982201;}
+73 {default=1.0;size=400;class=company;SYS:X=0.322003831068928;SYS:Y=0.35638619314863645;}
+75 {default=1.0;size=400;class=company;SYS:X=0.6154356299235864;SYS:Y=0.41792520275269607;}
+67 {default=1.0;size=400;class=company;SYS:X=0.8914696669742774;SYS:Y=0.7289387187425034;}
+60 {default=1.0;size=400;class=company;SYS:X=0.9651789730896484;SYS:Y=0.14363661277983436;}
+64 {default=1.0;size=400;class=company;SYS:X=0.24801382973896985;SYS:Y=0.30200101256891787;}
+43 {default=1.0;size=400;class=company;SYS:X=0.8551435329143607;SYS:Y=0.983336349802266;}
+85 {default=1.0;size=400;class=company;SYS:X=0.48952875703553694;SYS:Y=0.542760598422812;}
+42 {default=1.0;size=400;class=company;SYS:X=0.24309700484737515;SYS:Y=0.3254984504793941;}
+66 {default=1.0;size=400;class=company;SYS:X=0.37046020644348315;SYS:Y=0.0;}
+28 {default=1.0;size=400;class=company;SYS:X=0.3368641050581512;SYS:Y=0.3116600869244565;}
+35 {default=1.0;size=400;class=company;SYS:X=1.0;SYS:Y=0.7930904935268304;}
+88 {default=1.0;size=400;class=company;SYS:X=0.7882339151392015;SYS:Y=0.705921348754986;}
+13 {default=1.0;class=program;budget=4.11;SYS:X=0.2699776116203014;SYS:Y=0.411208107605568;}
+95 {default=1.0;size=400;class=company;SYS:X=0.735329736245977;SYS:Y=0.49685787948367544;}
+81 {default=1.0;size=400;class=company;SYS:X=0.17131693131010622;SYS:Y=0.5790420246911068;}
+76 {default=1.0;size=400;class=company;SYS:X=0.11981873505524897;SYS:Y=0.10938321899922691;}
+78 {default=1.0;size=400;class=company;SYS:X=0.37200492235552307;SYS:Y=0.9580189583975293;}
+14 {default=1.0;class=program;budget=8.08;SYS:X=0.8783282306354063;SYS:Y=0.7593604297081157;}
+23 {default=1.0;class=program;budget=5.01;SYS:X=0.7002564087041946;SYS:Y=0.7512174016765423;}
+93 {default=1.0;size=400;class=company;SYS:X=0.7347707013406185;SYS:Y=0.7796949084761299;}
+99 {default=1.0;size=400;class=company;SYS:X=0.470747713797093;SYS:Y=0.8269043782158028;}
+40 {default=1.0;size=400;class=company;SYS:X=0.4554538595356803;SYS:Y=0.42147862630428534;}
+62 {default=1.0;size=400;class=company;SYS:X=0.08280451317398194;SYS:Y=0.24825052334306302;}
+3 {default=1.0;type=culture;class=sector;SYS:X=0.5088185948639141;SYS:Y=0.8524464370309695;}
+97 {default=1.0;size=400;class=company;SYS:X=0.2601950777960854;SYS:Y=0.438882482178187;}
+34 {default=1.0;size=400;class=company;SYS:X=0.053187353186132116;SYS:Y=0.07229129878156136;}
+56 {default=1.0;size=400;class=company;SYS:X=0.4028644533591479;SYS:Y=0.3521547785410732;}
+69 {default=1.0;size=400;class=company;SYS:X=0.4139658240607676;SYS:Y=0.5139933069862562;}
+2 {default=1.0;type=infrastructure;class=sector;SYS:X=0.11911486887577771;SYS:Y=0.4541367972153609;}
+18 {default=1.0;class=program;budget=2.05;SYS:X=0.8746202936155485;SYS:Y=0.6131820830936887;}
+72 {default=1.0;size=400;class=company;SYS:X=0.2783320751025737;SYS:Y=0.0648629189089151;}
+79 {default=1.0;size=400;class=company;SYS:X=0.9072295706312029;SYS:Y=0.8237436923317227;}
+10 {default=1.0;class=program;budget=4.3;SYS:X=6.429304181611804E-4;SYS:Y=0.5149027581055152;}
+9 {default=1.0;class=program;budget=10.7;SYS:X=0.3383137853211691;SYS:Y=0.27453872873286994;}
+19 {default=1.0;class=program;budget=0.41;SYS:X=0.8790608145279539;SYS:Y=0.5276347521671019;}
+98 {default=1.0;size=400;class=company;SYS:X=0.29545155023506686;SYS:Y=0.8988299933421555;}
+87 {default=1.0;size=400;class=company;SYS:X=0.0015052571985197185;SYS:Y=1.0;}
+44 {default=1.0;size=400;class=company;SYS:X=0.2679234822961079;SYS:Y=0.557317345481339;}
+36 {default=1.0;size=400;class=company;SYS:X=0.3876339430254213;SYS:Y=0.7222948515363794;}
+1 {default=1.0;type=education;class=sector;SYS:X=0.2775552092855451;SYS:Y=0.6702309103654231;}
+15 {default=1.0;class=program;budget=11.2;SYS:X=0.3461740843304337;SYS:Y=0.9542394394590409;}
+71 {default=1.0;size=400;class=company;SYS:X=0.006680203881490556;SYS:Y=0.8922844348434321;}
+47 {default=1.0;size=400;class=company;SYS:X=0.33071528304390013;SYS:Y=0.9469342431334375;}
+*Edges
+23	96
+7	44
+25	103
+15	78
+14	72
+14	74
+10	58
+5	23
+2	11
+18	85
+18	86
+18	88
+7	45
+14	71
+22	19
+88	14
+9	57
+13	70
+3	18
+1	9
+7	46
+2	3
+73	72
+18	84
+2	13
+1	10
+17	81
+5	25
+7	49
+25	98
+3	15
+7	48
+14	73
+5	1
+3	14
+1	7
+25	100
+9	56
+17	83
+1	2
+14	18
+9	53
+11	60
+13	69
+7	41
+7	39
+7	47
+18	87
+7	42
+22	93
+3	17
+10	59
+22	95
+25	99
+7	43
+9	54
+15	75
+25	105
+22	94
+7	40
+15	76
+*Arcs
+*End
+*Timeframe
+year three
+*Vertices
+103 {default=1.0;size=400;class=company;SYS:X=0.6223444277677634;SYS:Y=0.24053039903857779;}
+25 {default=1.0;class=program;budget=3.41;SYS:X=0.47032204411876066;SYS:Y=0.9848245082309846;}
+7 {default=1.0;class=program;budget=21.41;SYS:X=0.953165717138088;SYS:Y=0.5652425974508485;}
+54 {default=1.0;size=400;class=company;SYS:X=0.544963500671456;SYS:Y=0.28146768457871185;}
+94 {default=1.0;size=400;class=company;SYS:X=0.7100770278002166;SYS:Y=0.8060949801348278;}
+51 {default=1.0;size=400;class=company;SYS:X=0.8410445198915376;SYS:Y=0.8523559854607644;}
+74 {default=1.0;size=400;class=company;SYS:X=0.5493214798318321;SYS:Y=0.04862402804956054;}
+17 {default=1.0;class=program;budget=17.9;SYS:X=1.0;SYS:Y=0.03586922108496699;}
+70 {default=1.0;size=400;class=company;SYS:X=0.7565725782818044;SYS:Y=0.09085752601868935;}
+91 {default=1.0;size=400;class=company;SYS:X=0.35237208399212894;SYS:Y=0.28117840006845884;}
+27 {default=1.0;size=400;class=company;SYS:X=0.7127847982422589;SYS:Y=0.9172335541149369;}
+11 {default=1.0;class=program;budget=2.22;SYS:X=0.9684015924016828;SYS:Y=0.6189422142454921;}
+46 {default=1.0;size=400;class=company;SYS:X=0.6949221782665742;SYS:Y=0.2878880732540659;}
+84 {default=1.0;size=400;class=company;SYS:X=0.08624836609831629;SYS:Y=0.987832006459935;}
+83 {default=1.0;size=400;class=company;SYS:X=0.6955088812268068;SYS:Y=0.8172164717819673;}
+5 {default=1.0;type=agriculture;class=sector;SYS:X=0.319022083272304;SYS:Y=0.5991775002004767;}
+45 {default=1.0;size=400;class=company;SYS:X=0.8278879018451555;SYS:Y=0.4604481632261153;}
+59 {default=1.0;size=400;class=company;SYS:X=0.4529831993404077;SYS:Y=0.8199077459820093;}
+20 {default=1.0;class=program;budget=6.6;SYS:X=0.7513589697126927;SYS:Y=0.09060279716905992;}
+58 {default=1.0;size=400;class=company;SYS:X=0.021012580953562232;SYS:Y=0.6102636337168872;}
+96 {default=1.0;size=400;class=company;SYS:X=0.15228509797681103;SYS:Y=0.11092374622508441;}
+22 {default=1.0;class=program;budget=0.77;SYS:X=0.4109914789522712;SYS:Y=0.5822776951129288;}
+49 {default=1.0;size=400;class=company;SYS:X=0.7714542647502693;SYS:Y=0.3518836433329557;}
+48 {default=1.0;size=400;class=company;SYS:X=0.18433428628179002;SYS:Y=0.13892911341948314;}
+86 {default=1.0;size=400;class=company;SYS:X=0.46306479434146125;SYS:Y=0.13366799920131953;}
+100 {default=1.0;size=400;class=company;SYS:X=0.6000954790568124;SYS:Y=0.371079137329616;}
+57 {default=1.0;size=400;class=company;SYS:X=0.2779995388086971;SYS:Y=0.17668830684061876;}
+41 {default=1.0;size=400;class=company;SYS:X=0.31876555038348225;SYS:Y=0.26296802354047594;}
+53 {default=1.0;size=400;class=company;SYS:X=0.2177759995848626;SYS:Y=0.6282619708588182;}
+33 {default=1.0;size=400;class=company;SYS:X=0.5844122479799656;SYS:Y=0.1362837953382248;}
+105 {default=1.0;size=400;class=company;SYS:X=0.5141661018107795;SYS:Y=0.5343559199624293;}
+39 {default=1.0;size=400;class=company;SYS:X=0.7748122169717827;SYS:Y=0.6884669032891114;}
+73 {default=1.0;size=400;class=company;SYS:X=0.6913970103260629;SYS:Y=0.5199819121236625;}
+75 {default=1.0;size=400;class=company;SYS:X=0.4318226724675968;SYS:Y=0.8989958001006257;}
+67 {default=1.0;size=400;class=company;SYS:X=0.13034564323914674;SYS:Y=0.13047013247741224;}
+60 {default=1.0;size=400;class=company;SYS:X=0.44514359592481223;SYS:Y=0.2013804088593797;}
+64 {default=1.0;size=400;class=company;SYS:X=0.15083697340232857;SYS:Y=0.12575693905508956;}
+43 {default=1.0;size=400;class=company;SYS:X=0.3694951028053024;SYS:Y=0.27215867289199996;}
+85 {default=1.0;size=400;class=company;SYS:X=0.5632053118924267;SYS:Y=0.6983048115250493;}
+42 {default=1.0;size=400;class=company;SYS:X=0.7897808957859468;SYS:Y=0.11511751792667965;}
+66 {default=1.0;size=400;class=company;SYS:X=0.6467155177846136;SYS:Y=0.9614543552924213;}
+28 {default=1.0;size=400;class=company;SYS:X=0.45782532338005216;SYS:Y=0.3964368574078377;}
+35 {default=1.0;size=400;class=company;SYS:X=0.22380662480684513;SYS:Y=0.6392815186597042;}
+88 {default=1.0;size=400;class=company;SYS:X=0.364526663187301;SYS:Y=0.29800872622974767;}
+13 {default=1.0;class=program;budget=4.11;SYS:X=0.16512026861242282;SYS:Y=0.5007033262387923;}
+95 {default=1.0;size=400;class=company;SYS:X=0.9944891917216807;SYS:Y=0.7321807671239832;}
+81 {default=1.0;size=400;class=company;SYS:X=0.5567754279374938;SYS:Y=0.6020482719131826;}
+76 {default=1.0;size=400;class=company;SYS:X=0.36421507497910266;SYS:Y=0.5881534340542067;}
+78 {default=1.0;size=400;class=company;SYS:X=0.1921487538104122;SYS:Y=0.17794567604723066;}
+14 {default=1.0;class=program;budget=8.08;SYS:X=0.8230076657120419;SYS:Y=0.3902755201306365;}
+23 {default=1.0;class=program;budget=5.01;SYS:X=0.41706510277331027;SYS:Y=0.10145913097899464;}
+93 {default=1.0;size=400;class=company;SYS:X=0.6209337252601863;SYS:Y=0.2879296033234013;}
+99 {default=1.0;size=400;class=company;SYS:X=0.7720708837222247;SYS:Y=0.14527888263080316;}
+40 {default=1.0;size=400;class=company;SYS:X=0.5251815450468823;SYS:Y=0.29587825144639346;}
+62 {default=1.0;size=400;class=company;SYS:X=0.2849072307931958;SYS:Y=0.8026959071533836;}
+3 {default=1.0;type=culture;class=sector;SYS:X=0.43287889402071206;SYS:Y=0.3444993931817661;}
+97 {default=1.0;size=400;class=company;SYS:X=0.0;SYS:Y=0.5537418307862934;}
+34 {default=1.0;size=400;class=company;SYS:X=0.41361485291353833;SYS:Y=0.6369758128145945;}
+56 {default=1.0;size=400;class=company;SYS:X=0.07585679804332672;SYS:Y=1.0;}
+69 {default=1.0;size=400;class=company;SYS:X=0.9626215409324196;SYS:Y=0.08975283428845446;}
+2 {default=1.0;type=infrastructure;class=sector;SYS:X=0.46905883667554255;SYS:Y=0.6232236739573113;}
+18 {default=1.0;class=program;budget=2.05;SYS:X=0.9635212861166943;SYS:Y=0.0;}
+72 {default=1.0;size=400;class=company;SYS:X=0.11037454855888254;SYS:Y=0.5928636827335665;}
+79 {default=1.0;size=400;class=company;SYS:X=0.8335764970582964;SYS:Y=0.6657242366438285;}
+10 {default=1.0;class=program;budget=4.3;SYS:X=0.3572941006056942;SYS:Y=0.1418642158079873;}
+9 {default=1.0;class=program;budget=10.7;SYS:X=0.786481856276599;SYS:Y=0.2712895088704905;}
+19 {default=1.0;class=program;budget=0.41;SYS:X=0.9942436057601622;SYS:Y=0.09229280960121349;}
+98 {default=1.0;size=400;class=company;SYS:X=0.6604118764654552;SYS:Y=0.6538658652820164;}
+87 {default=1.0;size=400;class=company;SYS:X=0.4712411994678991;SYS:Y=0.9271842098755629;}
+44 {default=1.0;size=400;class=company;SYS:X=0.8819782712678864;SYS:Y=0.3301246417241417;}
+36 {default=1.0;size=400;class=company;SYS:X=0.2682896863134769;SYS:Y=0.6797414588577922;}
+1 {default=1.0;type=education;class=sector;SYS:X=0.07322293069268557;SYS:Y=0.2604421136708051;}
+15 {default=1.0;class=program;budget=11.2;SYS:X=0.0843875798660477;SYS:Y=0.7819108514997252;}
+71 {default=1.0;size=400;class=company;SYS:X=0.14371452762657383;SYS:Y=0.20487093609570686;}
+47 {default=1.0;size=400;class=company;SYS:X=0.8780677436836852;SYS:Y=0.5972478126985823;}
+*Edges
+23	96
+7	44
+25	103
+15	78
+14	72
+14	74
+10	58
+5	23
+2	11
+18	85
+18	86
+18	88
+7	45
+14	71
+22	19
+9	57
+13	70
+3	18
+1	9
+7	46
+2	3
+18	84
+2	13
+1	10
+17	81
+5	25
+7	49
+25	98
+3	15
+7	48
+14	73
+5	1
+3	14
+1	7
+25	100
+9	56
+17	83
+1	2
+9	53
+11	60
+13	69
+7	41
+7	39
+7	47
+18	87
+7	42
+22	93
+3	17
+10	59
+22	95
+25	99
+7	43
+9	54
+15	75
+25	105
+22	94
+7	40
+15	76
+*Arcs
+*End
+*Timeframe
+year four
+*Vertices
+103 {default=1.0;size=400;class=company;SYS:X=0.4418397632743616;SYS:Y=0.18480498026948738;}
+25 {default=1.0;class=program;budget=3.41;SYS:X=0.6778788489582971;SYS:Y=0.35979957628814957;}
+7 {default=1.0;class=program;budget=21.41;SYS:X=0.6925840715840623;SYS:Y=0.4856119983371333;}
+54 {default=1.0;size=400;class=company;SYS:X=0.35214260577856143;SYS:Y=0.5710113558381433;}
+94 {default=1.0;size=400;class=company;SYS:X=0.47718334294467324;SYS:Y=0.2985867658203486;}
+51 {default=1.0;size=400;class=company;SYS:X=0.5305323947297861;SYS:Y=0.43033574293533433;}
+74 {default=1.0;size=400;class=company;SYS:X=0.796241582167593;SYS:Y=0.5125152123310815;}
+17 {default=1.0;class=program;budget=17.9;SYS:X=0.3620109452302242;SYS:Y=0.6763501039159036;}
+70 {default=1.0;size=400;class=company;SYS:X=0.1168171074700844;SYS:Y=0.2646862282235531;}
+91 {default=1.0;size=400;class=company;SYS:X=0.18028802474326663;SYS:Y=0.9739606672371653;}
+27 {default=1.0;size=400;class=company;SYS:X=0.9871972636814375;SYS:Y=0.0;}
+11 {default=1.0;class=program;budget=2.22;SYS:X=0.7898047363532036;SYS:Y=0.4721337758615644;}
+46 {default=1.0;size=400;class=company;SYS:X=0.5035813103942439;SYS:Y=0.7717939048645956;}
+84 {default=1.0;size=400;class=company;SYS:X=0.0;SYS:Y=0.08976854308970339;}
+83 {default=1.0;size=400;class=company;SYS:X=0.13724847460348638;SYS:Y=0.15055990148706724;}
+5 {default=1.0;type=agriculture;class=sector;SYS:X=1.0;SYS:Y=0.9580838107452314;}
+45 {default=1.0;size=400;class=company;SYS:X=0.006245501699303279;SYS:Y=0.27673254526792757;}
+59 {default=1.0;size=400;class=company;SYS:X=0.19153791589521774;SYS:Y=0.7794585462418852;}
+20 {default=1.0;class=program;budget=6.6;SYS:X=0.02470179623645419;SYS:Y=0.646218685938166;}
+58 {default=1.0;size=400;class=company;SYS:X=0.98819975458601;SYS:Y=0.24274266482641274;}
+96 {default=1.0;size=400;class=company;SYS:X=0.7489929826588928;SYS:Y=0.9403793327440864;}
+22 {default=1.0;class=program;budget=0.77;SYS:X=0.6154423138639031;SYS:Y=0.6816876826152448;}
+49 {default=1.0;size=400;class=company;SYS:X=0.2647941230082756;SYS:Y=0.8559591752178879;}
+48 {default=1.0;size=400;class=company;SYS:X=0.08418817473469102;SYS:Y=0.8466897576612719;}
+86 {default=1.0;size=400;class=company;SYS:X=0.12106793376929256;SYS:Y=0.5210332224895872;}
+100 {default=1.0;size=400;class=company;SYS:X=0.4239309836871734;SYS:Y=0.11515344175450128;}
+57 {default=1.0;size=400;class=company;SYS:X=0.007831819034784408;SYS:Y=0.4802647928189037;}
+41 {default=1.0;size=400;class=company;SYS:X=0.9175479304409212;SYS:Y=0.4634611216294342;}
+53 {default=1.0;size=400;class=company;SYS:X=0.9570274085640165;SYS:Y=0.37274055523659455;}
+33 {default=1.0;size=400;class=company;SYS:X=0.10784083948476529;SYS:Y=0.5734952301348166;}
+105 {default=1.0;size=400;class=company;SYS:X=0.23259905424584776;SYS:Y=0.8330099512990952;}
+39 {default=1.0;size=400;class=company;SYS:X=0.5700830177432621;SYS:Y=0.2326550573986787;}
+73 {default=1.0;size=400;class=company;SYS:X=0.05861964031605875;SYS:Y=0.4842205049180692;}
+75 {default=1.0;size=400;class=company;SYS:X=0.6967434053246018;SYS:Y=0.3016545841019846;}
+67 {default=1.0;size=400;class=company;SYS:X=0.05051635715315232;SYS:Y=0.3181799154660318;}
+60 {default=1.0;size=400;class=company;SYS:X=0.8713220668548046;SYS:Y=0.041624183741424216;}
+64 {default=1.0;size=400;class=company;SYS:X=0.6444334155255229;SYS:Y=0.9002610000354457;}
+43 {default=1.0;size=400;class=company;SYS:X=0.529759991761254;SYS:Y=0.043618988872202176;}
+85 {default=1.0;size=400;class=company;SYS:X=0.4330259981092058;SYS:Y=0.3418974688307442;}
+42 {default=1.0;size=400;class=company;SYS:X=0.24078329945246998;SYS:Y=0.003772942062611792;}
+66 {default=1.0;size=400;class=company;SYS:X=0.6936257878478752;SYS:Y=0.8513860372457119;}
+28 {default=1.0;size=400;class=company;SYS:X=0.7715616937006423;SYS:Y=0.11528801756110521;}
+35 {default=1.0;size=400;class=company;SYS:X=0.6338496969961671;SYS:Y=0.12744403809262883;}
+88 {default=1.0;size=400;class=company;SYS:X=0.6279888755244359;SYS:Y=0.33076825120878506;}
+13 {default=1.0;class=program;budget=4.11;SYS:X=0.5989179377092484;SYS:Y=0.6312292978713285;}
+95 {default=1.0;size=400;class=company;SYS:X=0.9245630586704077;SYS:Y=0.1138550074354319;}
+81 {default=1.0;size=400;class=company;SYS:X=0.3864923276043144;SYS:Y=0.3169940535639641;}
+76 {default=1.0;size=400;class=company;SYS:X=0.7982268235753265;SYS:Y=0.21950983607218205;}
+78 {default=1.0;size=400;class=company;SYS:X=0.8464570868584789;SYS:Y=0.9810282068264982;}
+14 {default=1.0;class=program;budget=8.08;SYS:X=0.8687198234489653;SYS:Y=0.16858850044455756;}
+23 {default=1.0;class=program;budget=5.01;SYS:X=0.09707564650339005;SYS:Y=0.37860105078870987;}
+93 {default=1.0;size=400;class=company;SYS:X=0.5385264973703535;SYS:Y=0.8655778427999964;}
+99 {default=1.0;size=400;class=company;SYS:X=0.9061510133983415;SYS:Y=0.9311190155997492;}
+40 {default=1.0;size=400;class=company;SYS:X=0.31260496935730825;SYS:Y=0.677220380982394;}
+62 {default=1.0;size=400;class=company;SYS:X=0.37041924229544065;SYS:Y=0.9944801075912554;}
+3 {default=1.0;type=culture;class=sector;SYS:X=0.3969691409631748;SYS:Y=0.5619393060491731;}
+97 {default=1.0;size=400;class=company;SYS:X=0.48916106605682724;SYS:Y=0.95423295994363;}
+34 {default=1.0;size=400;class=company;SYS:X=0.44211850706649186;SYS:Y=0.9712521407588516;}
+56 {default=1.0;size=400;class=company;SYS:X=0.7701726753106417;SYS:Y=0.7051813425435522;}
+69 {default=1.0;size=400;class=company;SYS:X=0.8654688690786383;SYS:Y=0.574398721173986;}
+2 {default=1.0;type=infrastructure;class=sector;SYS:X=0.35494151365197923;SYS:Y=0.8860353446394615;}
+18 {default=1.0;class=program;budget=2.05;SYS:X=0.8552610026839594;SYS:Y=0.6164577038933988;}
+72 {default=1.0;size=400;class=company;SYS:X=0.30738763969417315;SYS:Y=0.45022284968663523;}
+79 {default=1.0;size=400;class=company;SYS:X=0.7004242569445126;SYS:Y=0.7048265634369659;}
+10 {default=1.0;class=program;budget=4.3;SYS:X=0.8498970650014569;SYS:Y=0.6204760540344758;}
+9 {default=1.0;class=program;budget=10.7;SYS:X=0.5672803428861505;SYS:Y=0.5511470716308359;}
+19 {default=1.0;class=program;budget=0.41;SYS:X=0.4903574908558329;SYS:Y=0.7390902234599822;}
+98 {default=1.0;size=400;class=company;SYS:X=0.4604640543090662;SYS:Y=0.21988035228637917;}
+87 {default=1.0;size=400;class=company;SYS:X=0.5071293401941528;SYS:Y=0.8015568482856723;}
+44 {default=1.0;size=400;class=company;SYS:X=0.6878720784210443;SYS:Y=0.09585628407013723;}
+36 {default=1.0;size=400;class=company;SYS:X=0.43008232818285363;SYS:Y=0.7273583122669254;}
+1 {default=1.0;type=education;class=sector;SYS:X=0.5612566323303032;SYS:Y=0.9399317458461589;}
+15 {default=1.0;class=program;budget=11.2;SYS:X=0.22006404532232698;SYS:Y=1.0;}
+71 {default=1.0;size=400;class=company;SYS:X=0.4684978144927753;SYS:Y=0.8901564865444989;}
+47 {default=1.0;size=400;class=company;SYS:X=0.3495143576170863;SYS:Y=0.44306476947203166;}
+*Edges
+23	96
+7	44
+25	103
+15	78
+14	72
+14	74
+10	58
+5	23
+2	11
+18	85
+18	86
+18	88
+7	45
+14	71
+22	19
+88	14
+9	57
+13	70
+3	18
+1	9
+7	46
+2	3
+73	72
+18	84
+2	13
+1	10
+17	81
+5	25
+7	49
+25	98
+3	15
+7	48
+14	73
+5	1
+3	14
+1	7
+25	100
+9	56
+17	83
+1	2
+14	18
+9	53
+11	60
+13	69
+7	41
+7	39
+7	47
+18	87
+7	42
+22	93
+3	17
+10	59
+22	95
+25	99
+7	43
+9	54
+15	75
+25	105
+22	94
+7	40
+15	76
+*Arcs
+*End

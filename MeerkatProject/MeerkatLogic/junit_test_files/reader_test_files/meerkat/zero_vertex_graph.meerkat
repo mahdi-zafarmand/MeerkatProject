@@ -1,0 +1,14 @@
+*Timeframe
+year one
+*Edges
+1	2 {weight=1000;type=transfer;}
+2	3 {weight=1000;type=transfer;}
+3	4 {weight=1000;type=transfer;}
+4	5 {weight=1000;type=transfer;}
+5	1 {weight=1000;type=transfer;}
+1	6 {weight=1000;type=transfer;}
+1	7 {weight=1000;type=transfer;}
+1	8 {weight=1000;type=transfer;}
+1	9 {weight=1000;type=transfer;}
+*Arcs
+*End
