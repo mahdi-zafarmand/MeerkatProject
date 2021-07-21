@@ -11,18 +11,19 @@ import datastructure.core.graph.classinterface.IEdge;
 import datastructure.core.graph.classinterface.IVertex;
 import main.meerkat.MeerkatBIZ;
 
+
 /**
  *
- * @author talat
- * @since 2018-01-17
+ * @author mahdi
  */
 public class VertexAPI {
     public static void updateIconURL(int pintProjectID, int pintGraphID, 
-            int pintTimeFrameIndex, String pstrIconURL){
+            int pintTimeFrameIndex, String pstrIconURL) {
+        
         MeerkatBIZ mktappBusiness = MeerkatBIZ.getMeerkatApplication();
         IDynamicGraph<IVertex, IEdge<IVertex>> dynaGraph
                 = mktappBusiness.getProject(pintProjectID).getGraph(pintGraphID);
-        TimeFrame tf = dynaGraph.getAllTimeFrames().get(pintTimeFrameIndex);
         
+        TimeFrame tf = dynaGraph.getAllTimeFrames().get(pintTimeFrameIndex);
     }
 }

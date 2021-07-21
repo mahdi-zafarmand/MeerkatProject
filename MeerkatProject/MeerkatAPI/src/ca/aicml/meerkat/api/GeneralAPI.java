@@ -8,20 +8,10 @@ package ca.aicml.meerkat.api;
 import config.MeerkatSystem;
 
 /**
- *  Class Name      : GeneralAPI
- *  Created Date    : 2016-05-27
- *  Description     : Set of General APIs
- *  Version         : 1.0
- *  @author         : Talat
- * 
- *  EDIT HISTORY (most recent at the top)
- *  Date            Author          Description
- *  
- * 
-*/
-
+ *
+ * @author mahdi
+ */
 public class GeneralAPI {
-    
     public static String getSystemAttributeToken() {
         return MeerkatSystem.SYSTEMATTRIBUTE ;
     }
