@@ -17,7 +17,10 @@ You need to compile (build) the MeerkatLogic, MeerkatAPI, and MeerkatUI in this 
 
 1. For all 3 projects, you need to add the Junit library. You can right click on project -> Properties -> libraries -> Compile Test tab -> add Library -> Add Junit 4.xx (Do the same thing for <Run test> tab too).
  
+![alt text](https://github.com/mahdi-zafarmand/MeerkatProject/meerkat_image_1.png)
+ 
 2. For the MeerkatUI project, you need to add the Hamcrest library. You can right click on project -> Properties -> libraries -> Compile Test tab -> add Library -> Add Hamcrest.
  
 3. Instead of adding projects as dependencies for MeerkatUI (MeerkatLogic & MeerkatAPI) and MeerkatLogic (MeerkatAPI), you may remove the projects as dependencies and instead add the jar files of projects (you can find jar files in <dist> folder under each project). Make sure you compile the MeerkatLogic first, then MeerkatAPI before adding the corresponding jar files to the dependent projects.
  
+![alt text](https://github.com/mahdi-zafarmand/MeerkatProject/meerkat_image_2.png)
