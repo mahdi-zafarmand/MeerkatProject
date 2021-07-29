@@ -3,7 +3,7 @@
 
 Predominantly, the development of the application Meerkat is done using Netbeans IDE on Linux. The application is run on Java version 1.8.0 build 45 and above. 
 
-The project from the developer’s perspective is divided into 3 projects:
+The application from the developer’s perspective is divided into 3 projects:
 * MeerkatUI
 * MeerkatAPI
 * MeerkatLogic
