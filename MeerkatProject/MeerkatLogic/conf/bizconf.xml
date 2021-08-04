@@ -6,29 +6,17 @@
     </meerkat>
 
     <layouts>
-
         <class id="LayoutCircle">CircleLayout</class>
-<!--        <class id="LayoutHarel"></class>
-        <class id="LayoutISOM"></class>
-        <class id="LayoutKamada"></class>
-        <class id="LayoutReingold"></class>
-        <class id="LayoutMFR"></class>
--->
         <class id="LayoutRandom">RandomLayout</class>
-<!--        <class id="LayoutSpring"></class>
--->
         <class id="ForceAtlas">ForceAtlas2</class>
         <class id="LayoutBullseye">Bullseye</class>
-<!--
-        <class id="LayoutCOMB"></class>
-        <class id="LayoutCOMC"></class>
--->
     </layouts>
 
     <communityminings>
         <class id="sameattribute">AttributeValueMiner</class>
         <class id="fastmodularity">FastModularity</class>
         <class id="louvain">LouvainMiner</class>
+        <class id="siwoplus">SiwoPlusMiner</class>
         <class id="kmeans">KMeansMiner</class>
         <class id="localcommunity">LocalCommunityMiner</class>
         <class id="localt">LocalT</class>
