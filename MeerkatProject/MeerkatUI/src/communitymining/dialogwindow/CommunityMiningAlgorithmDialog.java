@@ -30,6 +30,8 @@ public class CommunityMiningAlgorithmDialog {
     private Task<Void> runMiningAndUpdateTask;
     
     public void runAlgorithm(int pintProjectID, int pintGraphID, int pintTimeFrameIndex, String pstrMappingID, String[] arrstrParameters, AnalysisController pController){
+        System.out.println("*** MAHDI : test -> runAlgorithm : " + pstrMappingID);
+        
         ProgressIndicator progressIndicator = new ProgressIndicator();
         
         MeerkatUI UIInstance = MeerkatUI.getUIInstance() ;
@@ -45,8 +47,11 @@ public class CommunityMiningAlgorithmDialog {
         
         });
         
-        currentGraph.addProgressIndicatorAndDisableSlider(progressIndicator, stopAlgoButton);
+        System.out.println("####MAHDI");
         
+        currentGraph.addProgressIndicatorAndDisableSlider(progressIndicator, stopAlgoButton);
+        System.out.println("####MAHDI2");
+
         //CommunityMiningAPI.runCMAlgorithm(pintProjectID, pintGraphID, pintTimeFrameIndex, pstrMappingID, arrstrParameters) ;
         
         runMiningAndUpdateTask = new Task<Void>() {
@@ -54,6 +59,8 @@ public class CommunityMiningAlgorithmDialog {
             @Override
             public Void call() throws Exception {
                 // Call the Community corresponding Mining API                
+                System.out.println("####MAHDI3 " + pstrMappingID);
+                
                 CommunityMiningAPI.runCommunityMiningAlgorithm(pintProjectID, pintGraphID, pintTimeFrameIndex, pstrMappingID, arrstrParameters) ;
                 System.out.println("\t\t\t\t $$$$$$$$$$ Community Mining Completed");
 

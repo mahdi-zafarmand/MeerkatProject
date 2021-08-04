@@ -172,6 +172,7 @@ public class Louvain {
                 });
 
                 //stgLocalT.initModality(Modality.WINDOW_MODAL);
+                System.out.println("&& MAHDI -> " + LouvainMiningParam.getTitle());
                 stgLouvain.setTitle(LouvainMiningParam.getTitle());
                 //stgLouvain.setTitle(DynamicCommunityMiningParam.getTitle());
                 stgLouvain.setResizable(false);
