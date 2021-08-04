@@ -7,7 +7,6 @@ package analysismenubar;
 
 
 import analysisscreen.AnalysisController;
-import communitymining.dialogwindow.FastModularity;
 import communitymining.dialogwindow.Louvain;
 import javafx.scene.control.MenuItem;
 
