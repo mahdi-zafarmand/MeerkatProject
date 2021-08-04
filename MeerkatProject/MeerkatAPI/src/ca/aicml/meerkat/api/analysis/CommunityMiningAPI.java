@@ -41,8 +41,7 @@ public class CommunityMiningAPI {
         
         try {
             MeerkatBIZ meerkatApp = MeerkatBIZ.getMeerkatApplication();
-            System.out.println("prj id =  " + pintProjectID +
-                    " , graph id = " + pintGraphID);
+            System.out.println("prj id =  " + pintProjectID + " , graph id = " + pintGraphID);
             IDynamicGraph<IVertex, IEdge<IVertex>> igraph
                     = meerkatApp.getProject(pintProjectID).getGraph(pintGraphID);
 
@@ -52,14 +51,12 @@ public class CommunityMiningAPI {
                 
                 TimeFrame tf = igraph.getAllTimeFrames().get(pintTimeFrameIndex);
                  
-                miner = CommunityMiningHandler
-                        .getCMAlgorithm(igraph, tf, pstrCMAlgName, parameters);
+                miner = CommunityMiningHandler.getCMAlgorithm(igraph, tf, pstrCMAlgName, parameters);
                  
                 CommunityMiningHandler.runAlgorithm(igraph, tf, miner);
                  
             } else {
-                miner = CommunityMiningHandler
-                    .getCMAlgorithm(igraph, pstrCMAlgName, parameters);
+                miner = CommunityMiningHandler.getCMAlgorithm(igraph, pstrCMAlgName, parameters);
             
                 CommunityMiningHandler.runAlgorithm(igraph, miner);
             }
