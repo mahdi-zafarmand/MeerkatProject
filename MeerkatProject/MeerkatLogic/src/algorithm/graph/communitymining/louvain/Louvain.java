@@ -8,9 +8,7 @@ import datastructure.core.graph.classinterface.IEdge;
 import datastructure.core.graph.classinterface.IGraph;
 import java.io.BufferedReader;
 import java.io.FileReader;
-import static java.lang.System.exit;
 import java.util.ArrayList;
-import static java.util.Arrays.sort;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -19,16 +17,7 @@ import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.beans.property.BooleanProperty;
-import static java.util.Arrays.sort;
-import static java.util.Arrays.sort;
-import static java.util.Arrays.sort;
-import static java.util.Arrays.sort;
-import static java.util.Arrays.sort;
-import static java.util.Arrays.sort;
-import static java.util.Arrays.sort;
-
-
-
+import static java.lang.System.exit;
 
 /**
  *
@@ -151,7 +140,6 @@ public class Louvain {
     
     
     public static void __one_level(Graph graph, Status status, BooleanProperty isThreadRunningProperty) {
-        //System.out.println("one levelllll --------------------------");
         boolean modified = true;
         int nb_pass_done = 0;
         double cur_mod,new_mod, degc_totw, best_increase, dnc, incr, gdeg, com_w;
@@ -181,11 +169,8 @@ public class Louvain {
                 
                 degc_totw = gdeg / (status.total_weight * 2);
                 /*
-                System.out.println("status.total_weight "+status.total_weight);
-                System.out.println("gdeg "+gdeg);
                 */
                 neigh_communities = __neighcom(node, graph, status);
-                //System.out.println(neigh_communities);
                 com_w = 0;
                 if(neigh_communities.containsKey(com_node)){
                     com_w = neigh_communities.get(com_node);
@@ -207,12 +192,6 @@ public class Louvain {
                 for(int com: NeighComs){
                     dnc = neigh_communities.get(com);
                     incr = dnc - status.degrees.get(com) * degc_totw;
-                    /*
-                    System.out.println("dnc "+ dnc);
-                    System.out.println("status.degrees.get(com) "+status.degrees.get(com));
-                    System.out.println("degc_totw "+degc_totw);
-                    System.out.println("com "+com+"  inc "+incr);
-                    */
                     if(incr > best_increase){
                         best_increase = incr;
                         best_com = com;
@@ -223,7 +202,6 @@ public class Louvain {
                 if(neigh_communities.containsKey(best_com)){
                     com_w = neigh_communities.get(best_com);
                 }
-                //System.out.println("best com for "+ node.id+" is "+best_com+"  with best inc "+best_increase);
                 __insert(node.id, best_com, com_w, status); 
                 if(best_com != com_node){
                     modified = true;
@@ -233,9 +211,7 @@ public class Louvain {
             if(new_mod - cur_mod < __MIN){
                 break;
             }
-        } 
-        //System.out.println("end one levelllll --------------------------");
-        
+        }        
     }
     
         
@@ -252,7 +228,6 @@ public class Louvain {
     }
     
     public static ArrayList<HashMap<Integer, Integer>> generate_dendrogram(Graph net, BooleanProperty isThreadRunningProperty) {
-        //System.out.println("generate_dendrogram");
         ArrayList<HashMap<Integer, Integer>> status_list = new ArrayList<>();
         
         //special case, when there is no link, the best partition is everyone in its community
@@ -282,15 +257,7 @@ public class Louvain {
         status_list.add(partition);
         mod = new_mod;
         current_graph = induced_graph(partition, current_graph);
-        //System.out.println("priiiiiiiiiiiiiiiiiiiinting edges");
-        //current_graph.print_Edges();
-        /*
-        for(Node n:current_graph.nodes){
-            for(Edge e:n.connections){
-                System.out.println(e.start.id+" "+e.end.id+" "+e.weight);
-            }
-        }
-        */
+        
         status.init(current_graph);
         //TODO put thread flag in while loop condition
         if(isThreadRunningProperty.getValue()==false){
@@ -405,12 +372,10 @@ public class Louvain {
         // add all edges
         for( Object vid : meerkatIGraph.getAllVertexIds()){
             //get all edges of a vertex
-            //System.out.println(vid);
              List<IEdge> listEdges = dynaGraph.getEdges(meerkatIGraph.getVertex((Integer)vid), tf);
              for(IEdge edge : listEdges){
                  int vertexFrom = edge.getSource().getId();
                  int vertexTo = edge.getDestination().getId();
-                 //System.out.println((vertexFrom+1) + "  " + (vertexTo+1) );
                  Node sourceNode = mapNodes.get(vertexFrom);
                  Node destinationNode = mapNodes.get(vertexTo);
                  if(sourceNode!=null && destinationNode!=null){
@@ -429,15 +394,5 @@ public class Louvain {
 
                
         return best_partition(louvainGraph, isThreadRunningProperty);
-        
-        
     }
-
-    
-
-    
-
-    
-
-    
 }

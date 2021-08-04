@@ -56,6 +56,7 @@ public class LouvainMiner<V extends IVertex, E extends IEdge<V>>
      */
     @Override
     public void run() {
+        System.out.println("********* LOUVAIN ++++++++");
         mineGraph();
         if(!running){
             return;
@@ -96,8 +97,8 @@ public class LouvainMiner<V extends IVertex, E extends IEdge<V>>
                 hmpCommunities.get(communityId+"").add(vertexId);
             }else{
                 List<Integer> listOfVertices = new ArrayList<>();
-                hmpCommunities.put(communityId+"", listOfVertices);
                 listOfVertices.add(vertexId);
+                hmpCommunities.put(communityId+"", listOfVertices);
             }
             
         }
