@@ -90,20 +90,23 @@ public class ConfigParser {
                                       
                     for (String strTag : lstTags) {
                         
-                        // System.out.println("ConfigParser.Parse(): Current Tag is "+strTag);
+//                        System.out.println("ConfigParser.Parse(): Current Tag is "+strTag);
                         HashMap<String, String> hmapIDClassMapping = new HashMap<>();
                         NodeList nMeerkat = doc.getElementsByTagName(strTag);
+//                        System.out.println("nMeerkat.getLength() = " + nMeerkat.getLength());
                         for (int intSameTagCounter = 0; intSameTagCounter < nMeerkat.getLength(); intSameTagCounter++) {
                             Node nodeTag = nMeerkat.item(intSameTagCounter);                                                
                             NodeList childMenuItems = nodeTag.getChildNodes();                                    
+//                            System.out.println("childMenuItems.getLength() = " + childMenuItems.getLength());
                             for (int intClassItemCounter = 0; intClassItemCounter < childMenuItems.getLength(); intClassItemCounter++) {
+//                                System.out.println(intClassItemCounter + "-->> " + childMenuItems.item(intClassItemCounter).toString());
                                 Node nodeClass = childMenuItems.item(intClassItemCounter);
                                 if (nodeClass instanceof Element) {
                                     String strClassName = nodeClass.getLastChild().getTextContent().trim();
                                     String strID = nodeClass.getAttributes().getNamedItem(MeerkatSystem.ID_ATTRIBUTE_TAG).getNodeValue();
                                     // System.out.println("ConfigParser.Parse(): ID: "+strID+"\tClass: "+strClassName);
                                     hmapIDClassMapping.put(strID, strClassName);
-                                    //System.out.println("ConfigParser: Parse : classID --> className: " + strID + "," + strClassName );
+//                                    System.out.println("ConfigParser: Parse : classID --> className: " + strID + "," + strClassName );
                                 }
                             }
                         }

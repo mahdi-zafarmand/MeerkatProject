@@ -71,13 +71,13 @@ public class MeerkatClassConfig {
      * @return
      */
     public String getClassName(String pstrCategory, String pstrId) {
-        // Debug(MeerkatClassConfig.getClassName(): ); // #Debug
+//        Debug("MeerkatClassConfig.getClassName()"); // #Debug
         System.out.println("MeerkatClassConfig.getClassName(): Category passed is "+pstrCategory+" with ID "+pstrId);
         if (hmpCatId2ClassMapping.containsKey(pstrCategory)) {
-//            System.out.println("--------------------------------    MeerkatClassConfig.getClassName(): Found the Category: "+pstrCategory);
+            System.out.println("--------------------------------    MeerkatClassConfig.getClassName(): Found the Category: "+pstrCategory);
             if (hmpCatId2ClassMapping.get(pstrCategory).containsKey(pstrId)) {
-//                System.out.println("-----------------------------   MeerkatClassConfig.getClassName(): Found the Key: "+pstrId);
-//                System.out.println("MeerkatClassConfig.getClassName(): Value: "+hmpCatId2ClassMapping.get(pstrCategory).get(pstrId));
+                System.out.println("-----------------------------   MeerkatClassConfig.getClassName(): Found the Key: "+pstrId);
+                System.out.println("MeerkatClassConfig.getClassName(): Value: "+hmpCatId2ClassMapping.get(pstrCategory).get(pstrId));
                 return hmpCatId2ClassMapping.get(pstrCategory).get(pstrId);
             } else {
                 // TODO: throw function Id does not exist.
